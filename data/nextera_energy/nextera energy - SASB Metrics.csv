@@ -1,0 +1,24 @@
+Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units,SASB Topic
+Scope 1 Emissions (MT),not reported,not reported,not reported,not reported,45645691,43247571,42353376,41354723,41323533,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions (MT),not reported,not reported,not reported,not reported,not reported,29653,35073,28415,32179,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions (MT),not reported,not reported,not reported,not reported,not reported,6017,2392318,3106396,2671312,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+GHG Emissions,not reported,not reported,not reported,not reported,47710888,2172160,1736579,2441289,2008215,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",not reported,not reported,not reported,not reported,10951.24,8453,10525,8285,7423,metric tons,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),not reported,not reported,not reported,not reported,2347.07,1183,840,1017,454,metric tons,Renewable portfolio goals and air quality
+Particulate matter (PM 10),not reported,not reported,not reported,not reported,760.04,959,964,671,667,metric tons,Renewable portfolio goals and air quality
+Lead (Pb),not reported,not reported,not reported,not reported,0.57,0.36,0.61,0.26,0.03,metric tons,Renewable portfolio goals and air quality
+Mercury (Hg),not reported,not reported,not reported,not reported,0.03,0.03,0.05,0.03,0.01,metric tons,Renewable portfolio goals and air quality
+Water withdrawn,not reported,not reported,not reported,not reported,7757443,7681333,7339262,7941878,7900212,thousand cubic metres,Water Management
+Water consumed,not reported,not reported,not reported,not reported,140857,118814,117079,126319,114373,thousand cubic metres,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,not reported,not reported,not reported,not reported,346008,169771,144706,140524,58642.18,number of CCR,Coal Ash Management
+Average retail electric rate for residential,not reported,not reported,not reported,not reported,0.1102,0.1044,0.1122,0.1345,0.1492,kilowatt-hour,Energy Affordability
+Average retail electric rate for commercial,not reported,not reported,not reported,not reported,0.0863,0.0805,0.088,0.1075,0.1138,kilowatt-hour,Energy Affordability
+Average retail electric rate for industrial customers,not reported,not reported,not reported,not reported,0.0684,0.0569,0.0636,0.0857,0.0867,kilowatt-hour,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,not reported,not reported,not reported,not reported,54.21,52.5,55.79,64.97,72.57,dollars,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,not reported,not reported,not reported,not reported,99.9,94.38,101.7,120.67,135.4,dollars,Energy Affordability
+Total recordable Incident Rate,2.4,0.7,0.53,0.56,0.62,0.39,0.33,0.31,0.24,incident rate,Workforce health and safety
+Workforce Fatality Frequency,0,0,0,0,0,0,0,0,0,fatality rate,Workforce health and safety
+Percentage of electric load served by smart grid technology,not reported,not reported,not reported,not reported,0.99,0.99,0.99,0.99,0.99,percentage,End-use efficiency and demand
+System Average interruption duration Index,not reported,not reported,not reported,not reported,51.4,48.5,45.6,47.1,44.5,index score,Grid resiliency
+System Average interruption frequency Index,not reported,not reported,not reported,not reported,0.95,0.87,0.82,0.85,0.71,index score,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",not reported,not reported,not reported,not reported,54.35,56.26,55.29,55.48,0.62,index score,Grid resiliency
