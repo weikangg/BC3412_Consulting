@@ -1,5 +1,4 @@
 import json
-import os
 
 def save_model_results(results, selected_predictors, weight_dict, vif_df, save_path):
     """
