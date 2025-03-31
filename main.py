@@ -1,4 +1,3 @@
-# main.py
 import os
 from groundwork.data_import import load_all_csvs
 from groundwork.data_cleaning import (
@@ -12,17 +11,17 @@ from groundwork.important_metrics_analyzer import (
     extract_importance_weights,
     check_residuals
 )
-from utils.results_saver import save_model_results  # <-- Import our new module
-from collections import Counter
+from utils.results_saver import save_model_results, setup_company_logger  # Updated import
 
 def main():
+    # Top-level logging for overall progress can go to the console.
     print("\n========== LOADING CSV FILES ==========")
     data_frames = load_all_csvs()
 
     print("\n========== LOADED DATAFRAMES ==========")
     for key in data_frames:
         print(f"✔ Loaded: {key} ({len(data_frames[key])} rows)")
-   
+
     print("\n========== CLEANING & PIVOTING DATAFRAMES ==========")
     cleaned_data_long = {}
     for key, df in data_frames.items():
@@ -39,55 +38,58 @@ def main():
 
     companies = combined_long["Company"].unique()
     print("\nFound companies:", companies)
-    
+
     for comp in companies:
-        print(f"\n========== PROCESSING COMPANY: {comp} ==========")
+        # Set up a logger for this company.
+        logger = setup_company_logger(comp)
+        logger.info("========== PROCESSING COMPANY: %s ==========", comp)
+
         comp_data = combined_long[combined_long["Company"] == comp]
         df_wide = pivot_combined_data(comp_data, index_cols=["Company", "Year"])
-        print(f"Wide-format data for {comp} has {df_wide.shape[0]} rows and {df_wide.shape[1]} columns.")
+        logger.info("Wide-format data for %s has %d rows and %d columns.", comp, df_wide.shape[0], df_wide.shape[1])
 
-        aspect_counts = Counter([col.split('_')[0] for col in df_wide.columns if col not in ["Company", "Year"]])
-        print("Metric counts by aspect:")
-        for aspect, count in aspect_counts.items():
-            print(f"  {aspect}: {count} metrics")
-        print()
-        
+        # List and log available columns (excluding 'Company' and 'Year').
+        columns = [col for col in df_wide.columns if col not in ["Company", "Year"]]
+        logger.info("Columns for company %s: %s", comp, columns)
+
         df_wide.interpolate(method='linear', limit_direction='both', inplace=True)
 
         response_variable = f"{comp}_SASB_Metrics_GHG Emissions"  # Adjust if needed.
         if response_variable not in df_wide.columns:
-            print(f"❌ Response variable '{response_variable}' not found for {comp}. Skipping modeling.")
+            logger.error("❌ Response variable '%s' not found for %s. Skipping modeling.", response_variable, comp)
             continue
 
         predictor_vars = [col for col in df_wide.columns if col not in ["Company", "Year", response_variable]]
         missing_cols = [col for col in [response_variable] + predictor_vars if col not in df_wide.columns]
         if missing_cols:
-            print(f"❌ Missing columns for modeling for {comp}: {missing_cols}")
+            logger.error("❌ Missing columns for modeling for %s: %s", comp, missing_cols)
             continue
 
-        print("\n========== MODELING (IMPORTANT METRICS ANALYZER) ==========")
-        results, selected_predictors, scaler = fit_mle_model(df_wide, response_variable, predictor_vars)
-        
+        logger.info("========== MODELING (IMPORTANT METRICS ANALYZER) ==========")
+        results, selected_predictors, scaler = fit_mle_model(df_wide, response_variable, predictor_vars, logger=logger)
+
         vif_df = calculate_vif(df_wide, selected_predictors)
-        print("\nVIF for Selected Predictors:")
-        print(vif_df)
-        
-        weight_dict = extract_importance_weights(results, selected_predictors)
-        
+        logger.info("VIF for Selected Predictors:\n%s", vif_df)
+
+        weight_dict = extract_importance_weights(results, selected_predictors, logger=logger)
+
         fig_folder = os.path.join("fig", comp)
         os.makedirs(fig_folder, exist_ok=True)
         resid_fig_path = os.path.join(fig_folder, f"{comp}_residual_plot.png")
-        
+
         results_folder = os.path.join("results", comp)
         os.makedirs(results_folder, exist_ok=True)
-        results_file = os.path.join(results_folder, f"{comp}_model_results.json")  # Using .json extension
-        
-        check_residuals(results, save_path=resid_fig_path)
-        
+        results_file = os.path.join(results_folder, f"{comp}_model_results.json")
+
+        check_residuals(results, save_path=resid_fig_path, logger=logger)
+
         # Save the model results using our structured JSON format.
-        save_model_results(results, selected_predictors, weight_dict, vif_df, results_file)
-   
+        save_model_results(results, selected_predictors, weight_dict, vif_df, results_file, logger=logger)
+        logger.info("Model results saved to: %s", results_file)
+        logger.info("Residual plot saved to: %s", resid_fig_path)
+
     print("\n========== DONE ==========")
+
 
 if __name__ == "__main__":
     main()

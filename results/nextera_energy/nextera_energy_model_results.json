@@ -1,62 +1,48 @@
 {
-    "model_summary": "                             Generalized Linear Model Regression Results                             \n=====================================================================================================\nDep. Variable:     nextera_energy_SASB_Metrics_GHG Emissions   No. Observations:                    9\nModel:                                                   GLM   Df Residuals:                        3\nModel Family:                                          Gamma   Df Model:                            5\nLink Function:                                           Log   Scale:                        0.010544\nMethod:                                                 IRLS   Log-Likelihood:                -135.89\nDate:                                       Sun, 30 Mar 2025   Deviance:                     0.031946\nTime:                                               20:56:19   Pearson chi2:                   0.0316\nNo. Iterations:                                           11   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                   nonrobust                                         \n=========================================================================================================================================================\n                                                                                            coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                    16.2888      0.034    475.883      0.000      16.222      16.356\nnextera_energy_Environment_Hg Emissions Intensity                                         0.1347      0.051      2.620      0.009       0.034       0.236\nnextera_energy_Environment_Water withdrawals - consumptive rate                           0.7974      0.163      4.905      0.000       0.479       1.116\nnextera_energy_Environment_Water withdrawals - non-consumptive rate                       0.4670      0.155      3.017      0.003       0.164       0.770\nnextera_energy_Financial_Issuances of long-term debt, including premiums and discount    -0.1363      0.056     -2.451      0.014      -0.245      -0.027\nnextera_energy_SASB_Metrics_Water consumed                                                0.1393      0.139      1.002      0.316      -0.133       0.412\n=========================================================================================================================================================",
+    "model_summary": "                             Generalized Linear Model Regression Results                             \n=====================================================================================================\nDep. Variable:     nextera_energy_SASB_Metrics_GHG Emissions   No. Observations:                    9\nModel:                                                   GLM   Df Residuals:                        5\nModel Family:                                          Gamma   Df Model:                            3\nLink Function:                                           Log   Scale:                        0.082808\nMethod:                                                 IRLS   Log-Likelihood:                -146.39\nDate:                                       Mon, 31 Mar 2025   Deviance:                      0.44425\nTime:                                               15:43:28   Pearson chi2:                    0.414\nNo. Iterations:                                           14   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                   nonrobust                                         \n=========================================================================================================================================================\n                                                                                            coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                    16.3117      0.096    170.052      0.000      16.124      16.500\nnextera_energy_Environment_Hg Emissions Intensity                                         0.0267      0.128      0.208      0.835      -0.225       0.278\nnextera_energy_Environment_Water withdrawals - non-consumptive rate                       1.4023      0.136     10.313      0.000       1.136       1.669\nnextera_energy_Financial_Issuances of long-term debt, including premiums and discount    -0.1970      0.151     -1.304      0.192      -0.493       0.099\n=========================================================================================================================================================",
     "selected_predictors": [
         "nextera_energy_Environment_Hg Emissions Intensity",
-        "nextera_energy_Environment_Water withdrawals - consumptive rate",
         "nextera_energy_Environment_Water withdrawals - non-consumptive rate",
-        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",
-        "nextera_energy_SASB_Metrics_Water consumed"
+        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount"
     ],
     "variable_importance_weights": {
-        "nextera_energy_Environment_Hg Emissions Intensity": 8.04481529450269,
-        "nextera_energy_Environment_Water withdrawals - consumptive rate": 47.61244177493531,
-        "nextera_energy_Environment_Water withdrawals - non-consumptive rate": 27.886429945800938,
-        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": 8.136561719273287,
-        "nextera_energy_SASB_Metrics_Water consumed": 8.319751265487762
+        "nextera_energy_Environment_Hg Emissions Intensity": 1.643466237761972,
+        "nextera_energy_Environment_Water withdrawals - non-consumptive rate": 86.24134287775843,
+        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": 12.115190884479613
     },
     "vif": [
         {
             "Variable": "const",
-            "VIF": 1819.7541452778262
+            "VIF": 29.743807262653416
         },
         {
             "Variable": "nextera_energy_Environment_Hg Emissions Intensity",
-            "VIF": 2.256384569448048
-        },
-        {
-            "Variable": "nextera_energy_Environment_Water withdrawals - consumptive rate",
-            "VIF": 22.556756809136072
+            "VIF": 1.7873346616863794
         },
         {
             "Variable": "nextera_energy_Environment_Water withdrawals - non-consumptive rate",
-            "VIF": 20.45077988154684
+            "VIF": 2.0092844814578887
         },
         {
             "Variable": "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",
-            "VIF": 2.6374192033162664
-        },
-        {
-            "Variable": "nextera_energy_SASB_Metrics_Water consumed",
-            "VIF": 16.49553617043971
+            "VIF": 2.4813362176924305
         }
     ],
     "residuals": [
-        -2502756.5229779556,
-        2763634.2353633493,
-        -2843177.2035441473,
-        767388.4299857318,
-        1509259.3377163783,
-        -34315.55485550733,
-        -203304.3289630618,
-        47229.53589076735,
-        176251.7328381075
+        -30987985.582141325,
+        3289011.296069719,
+        12901369.874812305,
+        8443238.349116907,
+        -7753313.257829919,
+        -305578.6936990204,
+        -286803.6239160646,
+        264591.5781079368,
+        34297.93585641822
     ],
-    "parameters": {
-        "const": 16.288753066142913,
-        "nextera_energy_Environment_Hg Emissions Intensity": 0.13473303623345853,
-        "nextera_energy_Environment_Water withdrawals - consumptive rate": 0.7974041178060821,
-        "nextera_energy_Environment_Water withdrawals - non-consumptive rate": 0.4670366240573411,
-        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": -0.13626958790312257,
-        "nextera_energy_SASB_Metrics_Water consumed": 0.13933761157603047
+    "coefficients": {
+        "const": 16.311659034445096,
+        "nextera_energy_Environment_Hg Emissions Intensity": 0.02672278444432349,
+        "nextera_energy_Environment_Water withdrawals - non-consumptive rate": 1.4022854640748115,
+        "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": -0.1969931764151467
     }
 }

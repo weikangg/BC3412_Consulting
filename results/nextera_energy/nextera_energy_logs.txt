@@ -1,0 +1,44 @@
+2025-03-31 15:43:28,503 - INFO - ========== PROCESSING COMPANY: nextera_energy ==========
+2025-03-31 15:43:28,509 - INFO - Wide-format data for nextera_energy has 9 rows and 56 columns.
+2025-03-31 15:43:28,510 - INFO - Columns for company nextera_energy: ['nextera_energy_Environment_Amount of hazardous waste manifested for disposal', 'nextera_energy_Environment_CO2 Owned Generation Emissions', 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity', 'nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_NOx Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation (Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_SO2 Emissions Intensity', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Capital Expenditure', 'nextera_energy_Financial_Cash Flow from Operating Activities', 'nextera_energy_Financial_Issuances of common stock', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Net Income', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Financial_Operating Revenue', 'nextera_energy_Governance_Environmental Fines', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential', 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_SASB_Metrics_Lead (Pb)', 'nextera_energy_SASB_Metrics_Mercury (Hg)', 'nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)', 'nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology', 'nextera_energy_SASB_Metrics_Scope 1 Emissions (MT)', 'nextera_energy_SASB_Metrics_Scope 2 Emissions (MT)', 'nextera_energy_SASB_Metrics_Scope 3 Emissions (MT)', 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_SASB_Metrics_System Average interruption frequency Index', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Water consumed', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_SASB_Metrics_Workforce Fatality Frequency', 'nextera_energy_Social_Percentage of minorities in total workforce', 'nextera_energy_Social_Percentage of women in total workforce', 'nextera_energy_Social_Support of SDGs (Number of Goals)', 'nextera_energy_Social_Total number of employees']
+2025-03-31 15:43:28,513 - INFO - ========== MODELING (IMPORTANT METRICS ANALYZER) ==========
+2025-03-31 15:43:28,514 - INFO - Modeling on 9 rows after filtering missing, infinite, and non-positive responses.
+2025-03-31 15:43:28,552 - INFO - LASSO selected features: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_SASB_Metrics_Water consumed']
+2025-03-31 15:43:28,557 - INFO - Removing predictor 'nextera_energy_Environment_Water withdrawals - consumptive rate' due to high VIF: 22.56
+2025-03-31 15:43:28,560 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Water consumed' due to high VIF: 12.25
+2025-03-31 15:43:28,563 - INFO - Final predictors after VIF filtering: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount']
+2025-03-31 15:43:28,567 - INFO - Model fitted. Summary:
+                             Generalized Linear Model Regression Results                             
+=====================================================================================================
+Dep. Variable:     nextera_energy_SASB_Metrics_GHG Emissions   No. Observations:                    9
+Model:                                                   GLM   Df Residuals:                        5
+Model Family:                                          Gamma   Df Model:                            3
+Link Function:                                           Log   Scale:                        0.082808
+Method:                                                 IRLS   Log-Likelihood:                -146.39
+Date:                                       Mon, 31 Mar 2025   Deviance:                      0.44425
+Time:                                               15:43:28   Pearson chi2:                    0.414
+No. Iterations:                                           14   Pseudo R-squ. (CS):              1.000
+Covariance Type:                                   nonrobust                                         
+=========================================================================================================================================================
+                                                                                            coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                    16.3117      0.096    170.052      0.000      16.124      16.500
+nextera_energy_Environment_Hg Emissions Intensity                                         0.0267      0.128      0.208      0.835      -0.225       0.278
+nextera_energy_Environment_Water withdrawals - non-consumptive rate                       1.4023      0.136     10.313      0.000       1.136       1.669
+nextera_energy_Financial_Issuances of long-term debt, including premiums and discount    -0.1970      0.151     -1.304      0.192      -0.493       0.099
+=========================================================================================================================================================
+2025-03-31 15:43:28,576 - INFO - VIF for Selected Predictors:
+                                            Variable        VIF
+0                                              const  29.743807
+1  nextera_energy_Environment_Hg Emissions Intensity   1.787335
+2  nextera_energy_Environment_Water withdrawals -...   2.009284
+3  nextera_energy_Financial_Issuances of long-ter...   2.481336
+2025-03-31 15:43:28,582 - INFO - 
+Variable Importance Weights (out of 100):
+2025-03-31 15:43:28,582 - INFO -   nextera_energy_Environment_Hg Emissions Intensity: 1.64
+2025-03-31 15:43:28,582 - INFO -   nextera_energy_Environment_Water withdrawals - non-consumptive rate: 86.24
+2025-03-31 15:43:28,582 - INFO -   nextera_energy_Financial_Issuances of long-term debt, including premiums and discount: 12.12
+2025-03-31 15:43:28,922 - INFO - Figure saved to fig\nextera_energy\nextera_energy_residual_plot.png
+2025-03-31 15:43:28,928 - INFO - Model results saved in structured format to: results\nextera_energy\nextera_energy_model_results.json
+2025-03-31 15:43:28,928 - INFO - Model results saved to: results\nextera_energy\nextera_energy_model_results.json
+2025-03-31 15:43:28,928 - INFO - Residual plot saved to: fig\nextera_energy\nextera_energy_residual_plot.png
