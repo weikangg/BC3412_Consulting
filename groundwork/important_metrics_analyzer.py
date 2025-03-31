@@ -169,25 +169,3 @@ def check_residuals(results, save_path=None, logger:logging.Logger = None):
     if save_path:
         plt.savefig(save_path)
         logger.info(f"Figure saved to {save_path}")
-
-# Example usage for testing the modeling functions:
-if __name__ == "__main__":
-    # Placeholder: load your cleaned DataFrame (numeric part) here
-    sample_df = pd.read_csv("data/nextera_energy/nextera energy - SASB Metrics.csv")  # Replace with actual path
-    # For demonstration, assume the response and predictors are defined as follows:
-    response_variable = "GHG Emissions"  # Replace with your actual response column name
-    predictor_vars = ["Sulfur Oxides (SOx)", "Mercury (Hg)", "Water consumed"]  # Replace with actual predictors
-    
-    # Fit the model
-    results, predictors, scaler = fit_mle_model(sample_df, response_variable, predictor_vars)
-    
-    # Check for multicollinearity
-    vif_df = calculate_vif(sample_df, predictor_vars)
-    print("\nVIF for Predictors:")
-    print(vif_df)
-    
-    # Extract variable importance weights
-    extract_importance_weights(results, predictor_vars)
-    
-    # Optionally check residuals to see if distributional assumptions seem acceptable
-    check_residuals(results)

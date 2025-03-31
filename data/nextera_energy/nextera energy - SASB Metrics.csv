@@ -1,7 +1,7 @@
 Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units,SASB Topic
-Scope 1 Emissions (MT),not reported,not reported,not reported,not reported,45645691,43247571,42353376,41354723,41323533,metric tons Co2e,Greenhouse gas emissions and energy resource planning
-Scope 2 Emissions (MT),not reported,not reported,not reported,not reported,not reported,29653,35073,28415,32179,metric tons Co2e,Greenhouse gas emissions and energy resource planning
-Scope 3 Emissions (MT),not reported,not reported,not reported,not reported,not reported,6017,2392318,3106396,2671312,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 1 Emissions,not reported,not reported,not reported,not reported,45645691,43247571,42353376,41354723,41323533,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,not reported,not reported,not reported,not reported,not reported,29653,35073,28415,32179,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,not reported,not reported,not reported,not reported,not reported,6017,2392318,3106396,2671312,metric tons Co2e,Greenhouse gas emissions and energy resource planning
 GHG Emissions,not reported,not reported,not reported,not reported,47710888,2172160,1736579,2441289,2008215,metric tons Co2e,Greenhouse gas emissions and energy resource planning
 "Nitrogen Oxides, excluding nitrous oxide",not reported,not reported,not reported,not reported,10951.24,8453,10525,8285,7423,metric tons,Renewable portfolio goals and air quality
 Sulfur Oxides (SOx),not reported,not reported,not reported,not reported,2347.07,1183,840,1017,454,metric tons,Renewable portfolio goals and air quality

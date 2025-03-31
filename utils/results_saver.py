@@ -23,12 +23,41 @@ def save_model_results(results, selected_predictors, weight_dict, vif_df, save_p
         "residuals": results.resid_response.tolist(),
         "coefficients": results.params.to_dict()
     }
-    
+
     # Write the JSON output to file with pretty-printing (indentation)
     with open(save_path, "w") as f:
         json.dump(output, f, indent=4)
-    
+
     logger.info(f"Model results saved in structured format to: {save_path}")
+
+
+def save_duration_results(duration_results, save_path, forecast_tag, logger: logging.Logger = None):
+    """
+    Save duration analysis results to a JSON file.
+    If the file already exists, update it with a new key given by forecast_tag.
+
+    Parameters:
+      duration_results: dict with duration analysis results (e.g., net_zero_year, forecast data)
+      save_path       : Full path to the JSON file.
+      forecast_tag    : A tag (e.g., "initial" or "after_scenario_analysis") to use as the key.
+      logger          : Optional logger for logging messages.
+    """
+    # If the file exists, load existing data; otherwise, start with an empty dict.
+    if os.path.exists(save_path):
+        with open(save_path, "r") as f:
+            existing_data = json.load(f)
+    else:
+        existing_data = {}
+
+    # Update the data using the forecast tag as the key.
+    existing_data[forecast_tag] = duration_results
+
+    # Save the updated dictionary.
+    with open(save_path, "w") as f:
+        json.dump(existing_data, f, indent=4)
+
+    if logger:
+        logger.info("Duration results saved to: %s under key: %s", save_path, forecast_tag)
 
 def setup_company_logger(company, results_dir="results"):
     """

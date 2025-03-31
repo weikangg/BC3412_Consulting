@@ -56,9 +56,3 @@ def load_all_csvs() -> dict:
                     print(f"    ❌ Failed to load {file}: {e}")
     
     return data_frames
-
-if __name__ == "__main__":
-    sample1 = os.path.join(DATA_DIR, "nextera_energy", "nextera energy - SASB Metrics.csv")
-    sample2 = os.path.join(DATA_DIR, "nextera_energy", "nextera energy - Social.csv")
-    print("Generated key 1:", clean_key(sample1))
-    print("Generated key 2:", clean_key(sample2))

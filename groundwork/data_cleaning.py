@@ -16,7 +16,7 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
       A cleaned wide-format DataFrame.
     """
     # Define meta columns (only keep those that exist)
-    meta_columns = ['Metric', 'Units', "Unit", "Financial statement", 'SASB Topic']
+    meta_columns = ['Metric', 'Units', "Financial statement", 'SASB Topic']
     meta_columns = [col for col in meta_columns if col in df.columns]
     
     # Identify year columns: headers that are all digits
@@ -54,7 +54,7 @@ def pivot_to_long(df: pd.DataFrame) -> pd.DataFrame:
          - 'Value' (the corresponding numeric values)
     """
     # Define meta columns (only keep those that exist)
-    meta_columns = ['Metric', 'Units', "Unit", "Financial statement", 'SASB Topic']
+    meta_columns = ['Metric', 'Units', "Financial statement", 'SASB Topic']
     meta_columns = [col for col in meta_columns if col in df.columns]
     
     # Identify year columns: headers that are digits
@@ -144,25 +144,3 @@ def pivot_combined_data(combined_df: pd.DataFrame, index_cols: list = ["Year"]) 
     df_wide.columns.name = None
     return df_wide
 
-# For testing the cleaning, pivoting, and combining process independently:
-if __name__ == "__main__":
-    sample_file = "data/nextera_energy/nextera energy - Financial.csv"  # Adjust as needed
-    try:
-        df = pd.read_csv(sample_file)
-        print("Original DataFrame (tail):")
-        print(df.tail(), "\n")
-        
-        df_long = clean_and_pivot_dataframe(df)
-        print("Cleaned & Pivoted (Long Format) DataFrame (tail):")
-        print(df_long.tail(), "\n")
-        
-        # Simulate combining multiple files by using the same df_long twice.
-        combined_df = combine_cleaned_data({"Financial": df_long, "Environment": df_long})
-        print("Combined Long Format DataFrame (tail):")
-        print(combined_df.tail(), "\n")
-        
-        df_wide = pivot_combined_data(combined_df, index_cols=["Year"])
-        print("Prepared Model Data (Wide Format) DataFrame (tail):")
-        print(df_wide.tail())
-    except Exception as e:
-        print(f"Error loading or cleaning file: {e}")
