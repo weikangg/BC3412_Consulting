@@ -1,0 +1,155 @@
+{
+    "2005": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 38.326269059624465,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 53.80635748038801,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 36.44491296029324,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 43
+    },
+    "2016": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 38.326269059624465,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 53.80635748038801,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 36.44491296029324,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 43
+    },
+    "2017": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 38.326269059624465,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 53.80635748038801,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 36.44491296029324,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 43
+    },
+    "2018": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 38.326269059624465,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 53.80635748038801,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 36.44491296029324,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 43
+    },
+    "2019": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 38.326269059624465,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 53.80635748038801,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 36.44491296029324,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 43
+    },
+    "2020": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 67.1095989854443,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 22.943216932108847,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 67.41059876739692,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 54
+    },
+    "2021": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 43.2371689521814,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 22.167605237590372,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 69.84790153359594,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 40
+    },
+    "2022": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 69.0452014205737,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 67.618450536373,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 56.86768391994816,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 67
+    },
+    "2023": {
+        "metrics": {
+            "nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide": {
+                "score": 78.97668534367824,
+                "weight": 58.527437336610966
+            },
+            "nextera_energy_SASB_Metrics_Particulate matter (PM 10)": {
+                "score": 68.23893989198778,
+                "weight": 29.907589125144796
+            },
+            "nextera_energy_SASB_Metrics_Water consumed": {
+                "score": 73.6492509775928,
+                "weight": 11.564973538244233
+            }
+        },
+        "overall_score": 75
+    }
+}

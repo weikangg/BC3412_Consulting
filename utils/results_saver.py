@@ -2,6 +2,12 @@ import json
 import logging
 import os
 
+def save_json(data, file_path):
+    """Helper to save a dictionary as a JSON file."""
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w") as f:
+        json.dump(data, f, indent=4)
+
 def save_model_results(results, selected_predictors, weight_dict, vif_df, save_path, logger:logging.Logger = None):
     """
     Save initial important model variables outputs to a JSON file.
@@ -21,7 +27,7 @@ def save_model_results(results, selected_predictors, weight_dict, vif_df, save_p
         "variable_importance_weights": weight_dict,
         "vif": vif_df.to_dict(orient="records"),
         "residuals": results.resid_response.tolist(),
-        "coefficients": results.params.to_dict()
+        "coefficients": results.params.to_dict(),
     }
 
     # Write the JSON output to file with pretty-printing (indentation)
@@ -58,6 +64,23 @@ def save_duration_results(duration_results, save_path, forecast_tag, logger: log
 
     if logger:
         logger.info("Duration results saved to: %s under key: %s", save_path, forecast_tag)
+
+def save_company_score_details(company_name, detailed_scores, logger: logging.Logger = None):
+    """
+    Given a dictionary of per-year detailed scores (including each metric's score & weight,
+    plus the overall score), save it as JSON to the company's results folder.
+    """
+    # Build path
+    results_folder = os.path.join("results", company_name)
+    os.makedirs(results_folder, exist_ok=True)
+
+    detailed_scores_file = os.path.join(results_folder, f"{company_name}_score_details.json")
+
+    with open(detailed_scores_file, "w") as f:
+        json.dump(detailed_scores, f, indent=4)
+
+    if logger:
+        logger.info("Detailed scores saved to: %s", detailed_scores_file)
 
 def setup_company_logger(company, results_dir="results"):
     """

@@ -1,0 +1,505 @@
+Metric,Units,Year,Value,Aspect,Company,UniqueMetric,Financial statement,SASB Topic
+Owned Net Generation (Renewable),MWh,2005,9385224.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2005,119391210.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2005,4069.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2005,28761.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2005,473207.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2005,20392.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2005,3859377.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2005,54270781.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2005,843.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2005,49233638.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2005,0.26,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2005,0.86,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2005,1.89,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2005,2.2e-06,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2005,0.0004,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2005,0.0084,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2005,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2005,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2016,42807705.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2016,150868347.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2016,16294.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2016,29681.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2016,540356.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2016,11770.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2016,4284159.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2016,46159388.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2016,477.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2016,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2016,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2016,0.13,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2016,0.03,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2016,3.55e-06,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2016,0.0004,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2016,0.0075,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2016,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2016,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2017,46502765.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2017,142657235.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2017,15468.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2017,30244.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2017,547908.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2017,11654.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2017,4338224.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2017,43004601.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2017,455.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2017,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2017,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2017,0.13,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2017,0.03,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2017,1.7e-06,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2017,0.0005,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2017,0.0073,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2017,0.47,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2017,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2018,47282101.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2018,145804125.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2018,,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2018,28800.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2018,553562.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2018,11601.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2018,4391832.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2018,42097424.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2018,436.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2018,38190152.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2018,0.197788,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2018,0.1,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2018,0.02,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2018,6e-08,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2018,0.0005,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2018,0.0073,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2018,0.26,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2018,0.77,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2019,49890065.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2019,157494616.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2019,18007.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2019,33673.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2019,571381.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2019,12084.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2019,4501472.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2019,49953427.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2019,482.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2019,45317000.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2019,0.219,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2019,0.12,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2019,0.02,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2019,1e-07,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2019,0.0005,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2019,0.0088,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2019,1.1,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2019,69.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2020,58688356.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2020,157518797.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2020,21581.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2020,33151.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2020,576672.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2020,11990.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2020,4567743.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2020,47328818.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2020,438.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2020,42935994.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2020,0.199,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2020,0.086,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2020,0.011,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2020,1e-07,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2020,9.17e-05,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2020,0.0022104,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2020,0.8,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2020,93.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2021,69932925.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2021,151355755.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2021,23068.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2021,33506.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2021,636044.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2021,12769.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2021,5036950.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2021,46614994.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2021,427.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2021,42288462.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2021,0.191,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2021,0.11,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2021,0.008,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2021,2e-07,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2021,9.42e-05,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2021,0.0021371,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2021,1.3,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2021,91.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2022,75053662.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2022,156070732.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2022,26429.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2022,33050.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2022,641613.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2022,14094.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2022,5113455.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2022,45459525.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2022,390.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2022,41251837.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2022,0.18,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2022,0.08,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2022,0.01,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2022,1.2e-07,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2022,0.0001033,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2022,0.0020597,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2022,6.18,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2022,130.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Owned Net Generation (Renewable),MWh,2023,82651231.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MWh,2023,155635506.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Owned Net Generation (Renewable),MW,2023,30683.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Renewable),,
+Owned Net Generation (Non-Renewable),MW,2023,33068.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Owned Net Generation (Non-Renewable),,
+Retail Electric Customers (Commercial),Number of customers,2023,642772.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Commercial),,
+Retail Electric Customers (Industrial),Number of customers,2023,15625.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Industrial),,
+Retail Electric Customers (Residential),Number of customers,2023,5179816.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Retail Electric Customers (Residential),,
+CO2 Owned Generation Emissions,tons,2023,45503388.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions,,
+CO2 Owned Generation Emissions Intensity,lbs/Net MWh,2023,381.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_CO2 Owned Generation Emissions Intensity,,
+Total Owned Generation CO2 Emissions,MT,2023,41280028.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions,,
+Total Owned Generation CO2 Emissions Intensity,MT/Net MWh,2023,0.17,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity,,
+NOx Emissions Intensity,lbs/Net MWh,2023,0.07,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_NOx Emissions Intensity,,
+SO2 Emissions Intensity,lbs/Net MWh,2023,0.0,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_SO2 Emissions Intensity,,
+Hg Emissions Intensity,kg/Net MWh,2023,3e-08,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Hg Emissions Intensity,,
+Water withdrawals - consumptive rate,millions of gallons/net MWh,2023,8.54e-05,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - consumptive rate,,
+Water withdrawals - non-consumptive rate,millions of gallons/net MWh,2023,0.0018605,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Water withdrawals - non-consumptive rate,,
+Amount of hazardous waste manifested for disposal,tons,2023,11.6,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Amount of hazardous waste manifested for disposal,,
+Percent of coal combustion products beneficially used,%,2023,199.6,nextera_energy_Environment,nextera_energy,nextera_energy_Environment_Percent of coal combustion products beneficially used,,
+Operating Revenue,millions,2005,11846.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2005,10382.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2005,885.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2005,1391.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2005,639.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2005,1547.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2005,2546.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2016,16138.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2016,11679.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2016,2999.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2016,5657.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2016,537.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2016,6336.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2016,9636.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2017,17173.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2017,12000.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2017,5323.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2017,8354.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2017,55.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2017,6458.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2017,10740.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2018,16727.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2018,12447.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2018,5776.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2018,4399.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2018,718.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2018,6593.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2018,13004.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2019,19204.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2019,14257.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2019,3388.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2019,13905.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2019,1494.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2019,8155.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2019,17462.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2020,17997.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2020,13234.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2020,2369.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2020,12404.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2020,0.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2020,7983.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2020,14610.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2021,17069.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2021,14233.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2021,2827.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2021,16683.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2021,14.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2021,7553.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2021,16077.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2022,20956.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2022,17397.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2022,3246.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2022,13856.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2022,1460.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2022,8262.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2022,19283.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Operating Revenue,millions,2023,28114.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Revenue,Income Statement,
+Operating Expenses,millions,2023,18282.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Operating Expenses,Income Statement,
+Net Income,millions,2023,6282.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Net Income,Income Statement,
+"Issuances of long-term debt, including premiums and discount",millions,2023,13857.0,nextera_energy_Financial,nextera_energy,"nextera_energy_Financial_Issuances of long-term debt, including premiums and discount",Cash Flows,
+Issuances of common stock,millions,2023,4514.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Issuances of common stock,Cash Flows,
+Cash Flow from Operating Activities,millions,2023,11301.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Cash Flow from Operating Activities,Cash Flows,
+Capital Expenditure,millions,2023,25113.0,nextera_energy_Financial,nextera_energy,nextera_energy_Financial_Capital Expenditure,Cash Flows,
+Percentage of women on board of directors,% of women,2005,0.09,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2005,0.18,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2005,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2005,11.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2016,0.25,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2016,0.17,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2016,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2016,12.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2017,0.25,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2017,0.17,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2017,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2017,12.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2018,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2018,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2018,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2018,13.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2019,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2019,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2019,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2019,13.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2020,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2020,0.15,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2020,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2020,13.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2021,0.15,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2021,0.15,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2021,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2021,13.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2022,0.23,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2022,0.17,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2022,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2022,12.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Percentage of women on board of directors,% of women,2023,0.38,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of women on board of directors,,
+Percentage of minorities on board of directors,% of minorities,2023,0.15,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Percentage of minorities on board of directors,,
+Environmental Fines,number of fines,2023,0.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Environmental Fines,,
+Total number on board of directors,number of people,2023,13.0,nextera_energy_Governance,nextera_energy,nextera_energy_Governance_Total number on board of directors,,
+Scope 1 Emissions,metric tons Co2e,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2005,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2005,2.4,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2005,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2005,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2005,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2016,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2016,0.7,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2016,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2016,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2016,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2017,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2017,0.53,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2017,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2017,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2017,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2018,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2018,0.56,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2018,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2018,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2018,,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2019,45645691.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2019,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2019,,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2019,47710888.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2019,10951.24,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2019,2347.07,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2019,760.04,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2019,0.57,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2019,0.03,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2019,7757443.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2019,140857.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2019,346008.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2019,0.1102,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2019,0.0863,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2019,0.0684,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2019,54.21,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2019,99.9,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2019,0.62,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2019,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2019,0.99,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2019,51.4,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2019,0.95,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2019,54.35,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2020,43247571.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2020,29653.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2020,6017.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2020,2172160.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2020,8453.0,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2020,1183.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2020,959.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2020,0.36,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2020,0.03,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2020,7681333.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2020,118814.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2020,169771.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2020,0.1044,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2020,0.0805,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2020,0.0569,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2020,52.5,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2020,94.38,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2020,0.39,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2020,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2020,0.99,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2020,48.5,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2020,0.87,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2020,56.26,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2021,42353376.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2021,35073.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2021,2392318.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2021,1736579.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2021,10525.0,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2021,840.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2021,964.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2021,0.61,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2021,0.05,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2021,7339262.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2021,117079.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2021,144706.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2021,0.1122,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2021,0.088,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2021,0.0636,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2021,55.79,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2021,101.7,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2021,0.33,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2021,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2021,0.99,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2021,45.6,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2021,0.82,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2021,55.29,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2022,41354723.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2022,28415.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2022,3106396.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2022,2441289.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2022,8285.0,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2022,1017.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2022,671.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2022,0.26,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2022,0.03,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2022,7941878.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2022,126319.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2022,140524.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2022,0.1345,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2022,0.1075,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2022,0.0857,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2022,64.97,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2022,120.67,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2022,0.31,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2022,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2022,0.99,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2022,47.1,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2022,0.85,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2022,55.48,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Scope 1 Emissions,metric tons Co2e,2023,41323533.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 1 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,metric tons Co2e,2023,32179.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 2 Emissions,,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,metric tons Co2e,2023,2671312.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Scope 3 Emissions,,Greenhouse gas emissions and energy resource planning
+GHG Emissions,metric tons Co2e,2023,2008215.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_GHG Emissions,,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",metric tons,2023,7423.0,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide",,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),metric tons,2023,454.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Sulfur Oxides (SOx),,Renewable portfolio goals and air quality
+Particulate matter (PM 10),metric tons,2023,667.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Particulate matter (PM 10),,Renewable portfolio goals and air quality
+Lead (Pb),metric tons,2023,0.03,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Lead (Pb),,Renewable portfolio goals and air quality
+Mercury (Hg),metric tons,2023,0.01,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Mercury (Hg),,Renewable portfolio goals and air quality
+Water withdrawn,thousand cubic metres,2023,7900212.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water withdrawn,,Water Management
+Water consumed,thousand cubic metres,2023,114373.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Water consumed,,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,number of CCR,2023,58642.18,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated,,Coal Ash Management
+Average retail electric rate for residential,kilowatt-hour,2023,0.1492,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for residential,,Energy Affordability
+Average retail electric rate for commercial,kilowatt-hour,2023,0.1138,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for commercial,,Energy Affordability
+Average retail electric rate for industrial customers,kilowatt-hour,2023,0.0867,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers,,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,dollars,2023,72.57,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,dollars,2023,135.4,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,,Energy Affordability
+Total recordable Incident Rate,incident rate,2023,0.24,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Total recordable Incident Rate,,Workforce health and safety
+Workforce Fatality Frequency,fatality rate,2023,0.0,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Workforce Fatality Frequency,,Workforce health and safety
+Percentage of electric load served by smart grid technology,percentage,2023,0.99,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology,,End-use efficiency and demand
+System Average interruption duration Index,index score,2023,44.5,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption duration Index,,Grid resiliency
+System Average interruption frequency Index,index score,2023,0.71,nextera_energy_SASB_Metrics,nextera_energy,nextera_energy_SASB_Metrics_System Average interruption frequency Index,,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",index score,2023,0.62,nextera_energy_SASB_Metrics,nextera_energy,"nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",,Grid resiliency
+Percentage of women in total workforce,% of women,2005,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2005,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2005,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2005,12400.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2016,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2016,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2016,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2016,14700.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2017,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2017,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2017,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2017,13900.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2018,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2018,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2018,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2018,14800.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2019,0.23,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2019,0.36,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2019,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2019,14300.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2020,0.24,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2020,0.37,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2020,,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2020,14900.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2021,0.24,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2021,0.39,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2021,0.1764705882,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2021,15017.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2022,0.25,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2022,0.41,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2022,0.2941176471,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2022,15300.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
+Percentage of women in total workforce,% of women,2023,0.25,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of women in total workforce,,
+Percentage of minorities in total workforce,% of minorities,2023,0.41,nextera_energy_Social,nextera_energy,nextera_energy_Social_Percentage of minorities in total workforce,,
+Support of SDGs (Number of Goals),% of goals supported,2023,0.2941176471,nextera_energy_Social,nextera_energy,nextera_energy_Social_Support of SDGs (Number of Goals),,
+Total number of employees,number of employees,2023,16800.0,nextera_energy_Social,nextera_energy,nextera_energy_Social_Total number of employees,,
