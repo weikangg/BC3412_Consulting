@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from consts.consts import get_invert_flag
+from utils.utils import extract_metric_name
 
 def zscore_to_100_scale(series, clip_range=(-3, 3), invert=False, logger=None):
     """
@@ -45,23 +46,6 @@ def zscore_to_100_scale(series, clip_range=(-3, 3), invert=False, logger=None):
               f"Scaled to 0–100 with invert={invert}.")
 
     return scaled
-
-def extract_metric_name(full_metric_key):
-    """
-    Given a full metric key in the format:
-      {comp_name}_{metric_type}_{metric_name}
-    where metric_type is one of: SASB_Metrics, Environment, Social, Governance, or Financial,
-    return the metric_name portion.
-    """
-    parts = full_metric_key.split('_')
-    metric_types = {"SASB", "Environment", "Social", "Governance", "Financial"}
-    for i, part in enumerate(parts):
-        if part in metric_types:
-            # If using SASB_Metrics, skip the next token as well.
-            if part == "SASB" and i+1 < len(parts) and parts[i+1] == "Metrics":
-                return " ".join(parts[i+2:])
-            return " ".join(parts[i+1:])
-    return full_metric_key
 
 def compute_score_timeseries(combined_wide_df, weight_dict, logger=None):
     """

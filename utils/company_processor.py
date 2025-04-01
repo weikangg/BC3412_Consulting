@@ -1,11 +1,7 @@
 import os
-import json
 import pandas as pd
 
-from groundwork.data_import import load_all_csvs
 from groundwork.data_cleaning import (
-    clean_and_pivot_dataframe,
-    combine_cleaned_data,
     pivot_combined_data
 )
 from groundwork.important_metrics_analyzer import (
@@ -22,6 +18,7 @@ from utils.results_saver import (
     save_duration_results,
     save_company_score_details
 )
+from utils.utils import extract_metric_unit
 
 def process_company(
     comp,
@@ -86,9 +83,7 @@ def process_company(
         return
 
     # Extract the unit from the comp_data DataFrame
-    mask = comp_data["Metric"] == "Scope 1 Emissions"
-    unit = comp_data.loc[mask, "Units"].iloc[0] if mask.any() else "error"
-    logger.info("Using unit: %s", unit)
+    unit = extract_metric_unit("Scope 1 Emissions", comp_data, logger)
 
     # --- Use Targets Data ---
     target_key = f"{comp}_Targets"
@@ -168,3 +163,4 @@ def process_company(
 
     # Save the per-year scores for the company:
     save_company_score_details(comp, detailed_scores, logger=logger)
+
