@@ -7,8 +7,8 @@ from groundwork.data_cleaning import (
     combine_cleaned_data,
 )
 from groundwork.score_timeseries import plot_industry_average
-from utils.company_processor import process_company
-from utils.results_saver import save_json,setup_company_logger
+from groundwork.company_processor import process_company
+from utils.results_saver import save_json
 
 
 def main():

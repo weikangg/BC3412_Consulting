@@ -7,3 +7,5 @@ __pycache__/
 .venv
 tempCodeRunnerFile.py
 .idea/
+.env
+tests_long_and_wide_csvs/

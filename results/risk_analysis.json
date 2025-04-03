@@ -1,0 +1,75 @@
+{
+    "nextera_energy": {
+        "2024": {
+            "Percentage of women on board of directors": {
+                "potential_transition_risks": "Reducing the percentage of women on the board could lead to reputational risk, diminished diversity of thought, and potential backlash from stakeholders advocating for gender diversity.",
+                "mitigation_strategies": "Implement transparent communication about the rationale, enhance diversity programs in other leadership areas, and engage stakeholders to maintain trust and align with diversity goals.",
+                "risk_score": 65
+            },
+            "Water withdrawals - consumptive rate": {
+                "potential_transition_risks": "The main risks associated with adjusting the 'Water withdrawals - consumptive rate' include technological challenges in implementing more efficient water management systems, regulatory compliance pressures, potential increased operational costs, and market impacts from changing production processes.",
+                "mitigation_strategies": "To mitigate these risks, Nextera Energy can invest in advanced water-saving technologies, engage with regulatory bodies to ensure compliance, allocate budget for potential increased costs, and communicate transparently with stakeholders about sustainable practices and benefits.",
+                "risk_score": 75
+            }
+        },
+        "2035": {
+            "Percentage of women on board of directors": {
+                "potential_transition_risks": "Reducing the percentage of women on the board could lead to reputational risks and decreased stakeholder trust, potential regulatory scrutiny regarding diversity mandates, and a loss of diverse perspectives in decision-making, affecting innovation and competitiveness.",
+                "mitigation_strategies": "Implement a comprehensive diversity and inclusion policy to maintain gender balance, enhance board diversity through targeted recruitment, and engage with stakeholders to ensure transparency and build trust. Monitor compliance with diversity regulations to avoid penalties.",
+                "risk_score": 65
+            },
+            "Water withdrawals - consumptive rate": {
+                "potential_transition_risks": "The main risks include technological challenges in achieving water efficiency, regulatory compliance with environmental standards, potential market pressure due to increased sustainability demands, and financial implications of implementing new technologies.",
+                "mitigation_strategies": "Invest in R&D for advanced water-saving technologies, engage with regulators early to ensure compliance, adopt a phased financial approach to manage costs, and enhance stakeholder communication to align market expectations.",
+                "risk_score": 65
+            },
+            "Total number on board of directors": {
+                "potential_transition_risks": "Key risks include potential loss of diverse perspectives, regulatory scrutiny over governance changes, and reduced board effectiveness impacting strategic decision-making.",
+                "mitigation_strategies": "Implement a comprehensive succession plan ensuring diverse and skilled candidates, regularly evaluate board effectiveness, and enhance stakeholder communication to manage regulatory concerns.",
+                "risk_score": 65
+            },
+            "Total recordable Incident Rate": {
+                "potential_transition_risks": "The primary risks include technological challenges in upgrading safety systems, regulatory compliance with evolving safety standards, potential market perceptions affecting company reputation, and financial implications of investing in advanced safety technologies.",
+                "mitigation_strategies": "Implement advanced predictive analytics for proactive safety monitoring, establish strong partnerships with tech providers for safety solutions, continuously train employees on new safety protocols, and allocate a dedicated budget for safety enhancements.",
+                "risk_score": 75
+            },
+            "Percentage of minorities in total workforce": {
+                "potential_transition_risks": "Reducing the percentage of minorities in the workforce may lead to reputational risks, potential discrimination claims, and difficulties in meeting diversity objectives.",
+                "mitigation_strategies": "Implement robust diversity and inclusion training, ensure transparent recruitment processes, and set clear diversity goals that align with regulatory standards and internal values.",
+                "risk_score": 75
+            }
+        },
+        "2045": {
+            "Percentage of women on board of directors": {
+                "potential_transition_risks": "Reducing the percentage of women on the board may lead to decreased diversity, impacting decision-making quality, regulatory compliance issues related to gender diversity mandates, and reputational risks affecting stakeholder relationships.",
+                "mitigation_strategies": "Implement a gradual transition plan that maintains gender diversity through strategic recruitment and leadership programs, establish diversity goals aligned with regulatory requirements, and enhance transparency in reporting diversity metrics to mitigate reputational risks.",
+                "risk_score": 65
+            },
+            "Water withdrawals - consumptive rate": {
+                "potential_transition_risks": "Regulatory challenges in achieving water withdrawal reductions, potential technological limitations in implementing new systems, and financial burdens of investments in efficient technology.",
+                "mitigation_strategies": "Invest in R&D for new water-efficient technologies, engage in policy advocacy to shape favorable regulations, and allocate budget for gradual technology upgrades.",
+                "risk_score": 70
+            },
+            "Total number on board of directors": {
+                "potential_transition_risks": "Reducing the number of board members could lead to governance challenges, loss of diverse perspectives, and potential regulatory compliance issues.",
+                "mitigation_strategies": "Implement clear succession planning, ensure a diverse skillset remains on the board, and establish a robust governance framework to maintain effective oversight.",
+                "risk_score": 70
+            },
+            "Total recordable Incident Rate": {
+                "potential_transition_risks": "Technological risks of implementing new safety technologies, regulatory compliance with stricter safety standards, financial investments required for advancements, and potential market pressures from competitors achieving similar safety improvements.",
+                "mitigation_strategies": "Invest in research and development for cutting-edge safety technologies, engage with regulatory bodies to ensure compliance and anticipate changes, allocate budget for necessary upgrades, and monitor competitor strategies to stay ahead in safety innovations.",
+                "risk_score": 75
+            },
+            "Percentage of minorities in total workforce": {
+                "potential_transition_risks": "Reducing the percentage of minorities in the workforce could lead to reputational damage, regulatory scrutiny, and decreased employee morale. It may also result in challenges related to diversity and inclusion, affecting innovation and market competitiveness.",
+                "mitigation_strategies": "Implement comprehensive diversity and inclusion programs and ensure transparent communication regarding the changes. Engage in community outreach and strengthen partnerships with minority-focused organizations to maintain diversity. Regularly review recruitment, promotion, and retention strategies to counterbalance any negative perceptions.",
+                "risk_score": 85
+            },
+            "Support of SDGs (Number of Goals)": {
+                "potential_transition_risks": "Reducing support for SDGs could lead to regulatory penalties, loss of investor confidence, negative public perception, and potential operational hurdles.",
+                "mitigation_strategies": "Introduce transparent reporting measures, engage stakeholders in dialogue, diversify investments in sustainable projects, and reinforce corporate sustainability commitments.",
+                "risk_score": 85
+            }
+        }
+    }
+}

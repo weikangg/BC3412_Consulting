@@ -2,6 +2,10 @@ import json
 import logging
 import os
 import numpy as np
+import pandas as pd
+
+from groundwork.important_metrics_analyzer import check_residuals
+from utils.utils import extract_metric_name
 
 
 def save_json(data, file_path):
@@ -61,63 +65,43 @@ def convert_numpy_types(obj):
     # Add other types if necessary
     return obj
 
-# --- New Function to Save Scenario Rules ---
-def save_scenario_rules(scenario_rules, save_path, logger: logging.Logger = None):
+def save_phased_scenario_rules(phased_rules, save_path, logger: logging.Logger = None):
     """
-    Saves the calculated scenario rules to a JSON file in a readable format.
-    Transforms {metric: {year: pct_change}} to {year: {metric: pct_change}}.
-
-    Parameters:
-      scenario_rules: dict in the format {metric: {year: pct_change}}
-      save_path     : Full path to the JSON file.
-      logger        : Optional logger.
+    Saves the combined phased scenario rules to a JSON file.
+    Optionally reformat to {year: {metric: pct_change%}}.
     """
-    # Reformat the dictionary: Year -> Metric -> Change
+    # Optional: Reformat the dictionary: Year -> Metric -> Change%
     rules_by_year = {}
-    if scenario_rules: # Check if not None or empty
-        for metric, year_map in scenario_rules.items():
-            # Extract base metric name for readability
-            try:
-                 # Assumes utils.utils is accessible or import it here
-                 from utils.utils import extract_metric_name
-                 readable_metric = extract_metric_name(metric)
-            except ImportError:
-                 readable_metric = metric # Fallback if import fails
-            except Exception:
-                 readable_metric = metric # General fallback
+    if phased_rules:
+        all_years = set()
+        for metric, year_map in phased_rules.items():
+             all_years.update(year_map.keys())
 
-            for year, pct_change in year_map.items():
-                year_str = str(year) # Use string for year key in JSON
-                if year_str not in rules_by_year:
-                    rules_by_year[year_str] = {}
-                # Store as percentage for readability
-                rules_by_year[year_str][readable_metric] = f"{pct_change * 100:.2f}%" # Store change as formatted percentage string
-
-        # Sort outer dictionary by year
-        rules_by_year_sorted = dict(sorted(rules_by_year.items(), key=lambda item: int(item[0])))
+        for year in sorted(list(all_years)):
+            year_str = str(year)
+            rules_by_year[year_str] = {}
+            for metric, year_map in phased_rules.items():
+                 if year in year_map:
+                     try:
+                         readable_metric = extract_metric_name(metric)
+                     except ImportError: readable_metric = metric
+                     except Exception: readable_metric = metric
+                     pct_change = year_map[year]
+                     # Save only if change is non-zero, or save all? Let's save non-zero for clarity.
+                     if pct_change != 0.0:
+                          rules_by_year[year_str][readable_metric] = f"{pct_change * 100:.2f}%"
     else:
-        rules_by_year_sorted = {} # Save empty dict if rules are None/empty
+        rules_by_year = {}
 
-
-    # Ensure directory exists
+    # Ensure directory exists and save
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
-
-    # Convert numpy types before saving
-    rules_serializable = convert_numpy_types(rules_by_year_sorted)
-
+    rules_serializable = convert_numpy_types(rules_by_year) # Use helper
     try:
         with open(save_path, "w") as f:
             json.dump(rules_serializable, f, indent=4)
-        if logger:
-            logger.info("Formatted scenario rules saved to: %s", save_path)
-    except TypeError as e:
-        if logger:
-             logger.error(f"JSON serialization error saving rules: {e}. Data: {rules_serializable}")
-        # Optionally save raw data if serialization fails
+        if logger: logger.info("Phased scenario rules saved to: %s", save_path)
     except Exception as e:
-         if logger:
-              logger.error(f"Error saving scenario rules to {save_path}: {e}", exc_info=True)
-
+        if logger: logger.error(f"Error saving phased scenario rules to {save_path}: {e}", exc_info=True)
 
 # --- Modified Function to Save Duration Results ---
 def save_duration_results(duration_results, save_path, forecast_tag, logger: logging.Logger = None):
@@ -179,7 +163,7 @@ def save_company_score_details(company_name, detailed_scores, tag="historical", 
     # Build path
     results_folder = os.path.join("results", company_name)
     os.makedirs(results_folder, exist_ok=True)
-    detailed_scores_file = os.path.join(results_folder, f"{company_name}_score_details.json")
+    detailed_scores_file = os.path.join(results_folder, f"{company_name}_{tag}_score_details.json")
 
     # Load existing data if file exists
     if os.path.exists(detailed_scores_file):
@@ -215,6 +199,76 @@ def save_company_score_details(company_name, detailed_scores, tag="historical", 
     except Exception as e:
          if logger:
               logger.error(f"Error saving score details to {detailed_scores_file}: {e}", exc_info=True)
+
+def save_individual_model_outputs(
+    comp: str,
+    model_tag: str, # e.g., "total", "scope1", "scope2", "scope3"
+    results, # The statsmodels results object
+    selected_predictors: list,
+    weight_dict: dict,
+    vif_df: pd.DataFrame,
+    logger: logging.Logger
+):
+    """
+    Saves the VIF, weights, coefficients, and residual plot for a single fitted model.
+
+    Parameters:
+      comp: Company name.
+      model_tag: Identifier for the model (e.g., "scope1").
+      results: Fitted statsmodels GLM results object.
+      selected_predictors: List of predictors used in the final model.
+      weight_dict: Dictionary of importance weights for predictors.
+      vif_df: DataFrame with VIF values for selected predictors.
+      logger: Logger instance.
+    """
+    # Check if essential inputs are valid
+    if results is None or not selected_predictors or vif_df is None:
+        logger.warning(f"[{comp}] Skipping saving results for model '{model_tag}': Missing model results, predictors, or VIF data.")
+        return
+
+    logger.info(f"--- Saving results for {model_tag} model ---")
+
+    # --- Define File Paths ---
+    fig_folder = os.path.join("fig", comp)
+    results_folder = os.path.join("results", comp)
+    os.makedirs(fig_folder, exist_ok=True)
+    os.makedirs(results_folder, exist_ok=True)
+
+    # Use model_tag in filenames for uniqueness
+    resid_fig_path = os.path.join(fig_folder, f"{comp}_{model_tag}_residual_plot.png")
+    results_file = os.path.join(results_folder, f"{comp}_{model_tag}_model_results.json")
+
+    # --- Check Residuals and Save Plot ---
+    try:
+        # Ensure check_residuals can handle potential missing attributes if model failed partially
+        if hasattr(results, 'resid_response'):
+             check_residuals(results, save_path=resid_fig_path, logger=logger)
+             logger.info(f"[{comp}] {model_tag} residual plot saved to: {resid_fig_path}")
+        else:
+             logger.warning(f"[{comp}] Cannot generate residual plot for {model_tag}: `resid_response` not found.")
+    except Exception as e:
+        logger.error(f"[{comp}] Error generating/saving residual plot for {model_tag}: {e}", exc_info=True)
+    output = {
+             "model_summary": results.summary().as_text() if hasattr(results, 'summary') else "Summary unavailable",
+             "selected_predictors": selected_predictors if selected_predictors is not None else [],
+             "variable_importance_weights": weight_dict if weight_dict is not None else {},
+             "vif": vif_df.to_dict(orient="records") if vif_df is not None else [],
+             "residuals": results.resid_response.tolist() if hasattr(results, 'resid_response') else [],
+             "coefficients": results.params.to_dict() if hasattr(results, 'params') else {},
+             "log_likelihood": results.llf if hasattr(results, 'llf') else None, # Example: Add other stats
+             "aic": results.aic if hasattr(results, 'aic') else None,
+             "bic": results.bic if hasattr(results, 'bic') else None,
+         }
+    # Use the helper to handle numpy types
+    output_serializable = convert_numpy_types(output)
+
+    # --- Save JSON Results ---
+    try:
+        with open(results_file, "w") as f:
+            json.dump(output_serializable, f, indent=4)
+        logger.info(f"[{comp}] {model_tag} model results saved to: {results_file}")
+    except Exception as e:
+        logger.error(f"[{comp}] Error saving model results JSON for {model_tag}: {e}", exc_info=True)
 
 def setup_company_logger(company, results_dir="results"):
     """

@@ -292,7 +292,7 @@ def analyze_duration(company, df_wide, targets_df, unit="tons", forecast_tag="in
     fig_folder = os.path.join("fig", company)
     os.makedirs(fig_folder, exist_ok=True)
     fig_path = os.path.join(fig_folder, f"{company}_ensemble_forecast_{forecast_tag}.png")
-    plt.savefig(fig_path);
+    plt.savefig(fig_path)
     plt.close()
     logger.info("Ensemble forecast figure saved to: %s", fig_path)
 

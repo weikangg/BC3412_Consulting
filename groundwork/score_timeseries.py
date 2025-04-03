@@ -47,6 +47,25 @@ def zscore_to_100_scale(series, clip_range=(-3, 3), invert=False, logger=None):
 
     return scaled
 
+def combine_scope_weights(*weight_dicts):
+    """
+    Combines multiple weight dictionaries. Prioritizes first dict (total),
+    adds unique keys from others, then renormalizes to 100.
+    """
+    combined = {}
+    metrics_seen = set()
+    # Process dicts in order (total, s1, s2, s3 assumed)
+    for w_dict in weight_dicts:
+        if not w_dict: continue
+        for metric, weight in w_dict.items():
+            if metric not in metrics_seen:
+                combined[metric] = weight
+                metrics_seen.add(metric)
+    total_weight = sum(combined.values())
+    if total_weight == 0: return {}
+    renormalized_weights = {m: (w / total_weight) * 100.0 for m, w in combined.items()}
+    return renormalized_weights
+
 def compute_score_timeseries(combined_wide_df, weight_dict, logger=None):
     """
     1. Normalize each metric across all years (within this DataFrame),
