@@ -165,22 +165,56 @@ def save_duration_results(duration_results, save_path, forecast_tag, logger: log
          if logger:
               logger.error(f"Error saving duration results to {save_path}: {e}", exc_info=True)
 
-def save_company_score_details(company_name, detailed_scores, logger: logging.Logger = None):
+def save_company_score_details(company_name, detailed_scores, tag="historical", logger: logging.Logger = None):
     """
-    Given a dictionary of per-year detailed scores (including each metric's score & weight,
-    plus the overall score), save it as JSON to the company's results folder.
+    Saves detailed score information (per year) to a JSON file.
+    Organizes scores by tags (e.g., "historical", "target_seeking_scenario").
+
+    Parameters:
+      company_name   : Name of the company.
+      detailed_scores: Dict of scores {year_str: {"metrics": ..., "overall_score": ...}}
+      tag            : String identifier for this set of scores (e.g., "historical").
+      logger         : Optional logger.
     """
     # Build path
     results_folder = os.path.join("results", company_name)
     os.makedirs(results_folder, exist_ok=True)
-
     detailed_scores_file = os.path.join(results_folder, f"{company_name}_score_details.json")
 
-    with open(detailed_scores_file, "w") as f:
-        json.dump(detailed_scores, f, indent=4)
+    # Load existing data if file exists
+    if os.path.exists(detailed_scores_file):
+        try:
+            with open(detailed_scores_file, "r") as f:
+                existing_data = json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"Could not decode existing score details file: {detailed_scores_file}. Overwriting.")
+            existing_data = {}
+        except Exception as e:
+             logger.error(f"Error loading existing score details from {detailed_scores_file}: {e}. Overwriting.")
+             existing_data = {}
+    else:
+        existing_data = {}
 
+    # Ensure scores are serializable
+    scores_serializable = convert_numpy_types(detailed_scores)
+
+    # Add/Update the scores under the specified tag
+    existing_data[tag] = scores_serializable
     if logger:
-        logger.info("Detailed scores saved to: %s", detailed_scores_file)
+        logger.info(f"Updating score details file with tag: '{tag}'")
+
+    # Save the updated dictionary
+    try:
+        with open(detailed_scores_file, "w") as f:
+            json.dump(existing_data, f, indent=4)
+        if logger:
+            logger.info(f"Detailed scores saved/updated in: {detailed_scores_file}")
+    except TypeError as e:
+         if logger:
+              logger.error(f"JSON serialization error saving score details: {e}. Tag: {tag}")
+    except Exception as e:
+         if logger:
+              logger.error(f"Error saving score details to {detailed_scores_file}: {e}", exc_info=True)
 
 def setup_company_logger(company, results_dir="results"):
     """

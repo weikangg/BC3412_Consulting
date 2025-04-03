@@ -122,9 +122,10 @@ def process_company(
     scenario_rules = None  # Initialize
     scenario_net_zero = None  # Initialize
     scenario_final_emission = None  # Initialize
+    scenario_detailed_scores = None
+
     if df_targets is None:
         logger.warning(f"[{comp}] Skipping target-seeking scenario analysis because targets data is missing.")
-        combined_scenario_df = None
         scenario_net_zero = None
     else:
         logger.info("\n========== RUNNING TARGET-SEEKING SCENARIO ==========")
@@ -133,13 +134,12 @@ def process_company(
         target_years = sorted([int(col.strip()) for col in df_targets.columns if col.strip().isdigit()])
         if not target_years:
             logger.error(f"[{comp}] No valid target years found in Targets data. Cannot run target-seeking scenario.")
-            combined_scenario_df = None
             scenario_net_zero = None
         else:
             end_year = target_years[-1]  # Simulate up to the final target year
             logger.info(f"Target-seeking scenario range: {start_year} to {end_year}")
 
-            scenario_rules, scenario_net_zero, scenario_final_emission = run_dynamic_scenario(
+            scenario_rules, scenario_net_zero, scenario_final_emission,scenario_detailed_scores  = run_dynamic_scenario(
                 glm_results=results,
                 glm_features=selected_predictors,
                 glm_scaler=scaler,
@@ -175,6 +175,11 @@ def process_company(
             forecast_tag="target_seeking_scenario",  # Use specific tag
             logger=logger
         )
+
+        if scenario_detailed_scores is not None:
+            save_company_score_details(comp, scenario_detailed_scores, tag="target_seeking_scenario", logger=logger)
+        else:
+            logger.warning(f"[{comp}] No scenario scores were calculated or returned. Skipping save.")
     else:
         logger.warning(f"[{comp}] Scenario analysis was skipped or failed. No scenario results saved.")
 

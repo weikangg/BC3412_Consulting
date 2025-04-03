@@ -115,7 +115,36 @@ def run_dynamic_scenario(
 
     logger.info(f"[{comp}] Combined historical and target-seeking scenario data created. Shape: {combined_df.shape}")
 
-    # --- 5. Re-run Duration Analysis ---
+    # --- 5. Calculate Scores for the Combined Scenario Timeline ---
+    logger.info(f"[{comp}] Calculating scores for the combined historical + scenario timeline...")
+    scenario_scores_df = compute_score_timeseries(combined_df, weight_dict, logger=logger)
+
+    # --- Extract detailed scores dictionary from the scenario_scores_df ---
+    scenario_detailed_scores = {}
+    if scenario_scores_df is not None and not scenario_scores_df.empty:
+        logger.info(f"[{comp}] Extracting detailed scores from scenario results...")
+        for _, row in scenario_scores_df.iterrows():
+            year = int(row["Year"])  # Ensure year is int
+            year_str = str(year)
+            metrics_detail = {}
+            for metric, w in weight_dict.items():
+                score_col = f"{metric}_score"
+                # Use .get with default 50 for safety if score column missing
+                metrics_detail[metric] = {
+                    "score": row.get(score_col, 50.0),  # Ensure float
+                    "weight": w
+                }
+            scenario_detailed_scores[year_str] = {
+                "metrics": metrics_detail,
+                "overall_score": row.get("overall_score", 50.0)  # Ensure float and default
+            }
+        logger.info(f"[{comp}] Extracted scenario scores for {len(scenario_detailed_scores)} years.")
+    else:
+        logger.warning(
+            f"[{comp}] compute_score_timeseries did not return valid results for scenario. Cannot extract scores.")
+        scenario_detailed_scores = None  # Indicate failure
+
+    # --- 6. Re-run Duration Analysis ---
     # Add baseline forecast to combined_df for plotting comparison
     if baseline_forecast_df is not None:
         emission_col = f"{comp}_SASB_Metrics_Total Emissions"
@@ -165,8 +194,8 @@ def run_dynamic_scenario(
 
     logger.info(f"[{comp}] Target-Seeking Scenario analysis complete. Projected Net Zero Year: {scenario_net_zero}")
 
-    # --- Return the rules and the key results ---
-    return scenario_rules, scenario_net_zero, scenario_final_emission
+    # --- Return the rules, results, AND the calculated scenario scores ---
+    return scenario_rules, scenario_net_zero, scenario_final_emission, scenario_detailed_scores
 
 
 # --- Core Rule Building Logic ---
