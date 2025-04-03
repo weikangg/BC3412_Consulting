@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 
+from ans_burning_qn1_and_2.scenario_analyzer import run_dynamic_scenario
 from groundwork.data_cleaning import (
     pivot_combined_data
 )
@@ -11,14 +12,17 @@ from groundwork.important_metrics_analyzer import (
     check_residuals
 )
 from groundwork.score_timeseries import compute_score_timeseries, plot_company_scores
+
 from ans_burning_qn1_and_2.duration_analyzer import analyze_duration
+
 from utils.results_saver import (
     save_model_results,
     setup_company_logger,
     save_duration_results,
-    save_company_score_details
+    save_company_score_details, save_scenario_rules
 )
-from utils.utils import extract_metric_unit
+from utils.utils import extract_metric_unit, get_max_year_from_df
+
 
 def process_company(
     comp,
@@ -45,11 +49,6 @@ def process_company(
         Dictionary of target DataFrames keyed by {company}_Targets
     industry_yearly_scores : dict
         Global dictionary mapping Year -> list of overall scores across companies
-
-    Returns
-    -------
-    None
-        (All results are saved to disk and global structures updated in place.)
     """
     logger = setup_company_logger(comp)
     logger.info("========== PROCESSING COMPANY: %s ==========", comp)
@@ -78,6 +77,7 @@ def process_company(
             df_wide[scope1].fillna(0) + df_wide[scope2].fillna(0) + df_wide[scope3].fillna(0)
         )
         total_emissions = f"{comp}_SASB_Metrics_Total Emissions"
+
     else:
         logger.error("One or more of Scope 1, 2, 3 emissions columns not found for %s. Skipping.", comp)
         return
@@ -94,7 +94,7 @@ def process_company(
 
     logger.info("========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========")
     initial_forecast_tag = "initial"
-    _, initial_net_zero_year = analyze_duration(
+    _, initial_net_zero_year, final_year_emission = analyze_duration(
         comp, df_wide, df_targets,
         unit=unit,
         forecast_tag=initial_forecast_tag,
@@ -103,6 +103,8 @@ def process_company(
     duration_results = {
         "net_zero_year": initial_net_zero_year,
         "is_hit_targets": initial_net_zero_year is not None,
+        "final_year_emission": final_year_emission,
+        "emission_unit": unit
     }
     duration_results_file = os.path.join("results", comp, f"{comp}_duration_results.json")
     save_duration_results(duration_results, duration_results_file, forecast_tag=initial_forecast_tag, logger=logger)
@@ -115,6 +117,66 @@ def process_company(
     logger.info("VIF for Selected Predictors:\n%s", vif_df)
 
     weight_dict = extract_importance_weights(results, selected_predictors, logger=logger)
+
+    # --- Run Target-Seeking Scenario ---
+    scenario_rules = None  # Initialize
+    scenario_net_zero = None  # Initialize
+    scenario_final_emission = None  # Initialize
+    if df_targets is None:
+        logger.warning(f"[{comp}] Skipping target-seeking scenario analysis because targets data is missing.")
+        combined_scenario_df = None
+        scenario_net_zero = None
+    else:
+        logger.info("\n========== RUNNING TARGET-SEEKING SCENARIO ==========")
+        start_year = df_wide["Year"].max() + 1
+        # Determine end_year based on target years
+        target_years = sorted([int(col.strip()) for col in df_targets.columns if col.strip().isdigit()])
+        if not target_years:
+            logger.error(f"[{comp}] No valid target years found in Targets data. Cannot run target-seeking scenario.")
+            combined_scenario_df = None
+            scenario_net_zero = None
+        else:
+            end_year = target_years[-1]  # Simulate up to the final target year
+            logger.info(f"Target-seeking scenario range: {start_year} to {end_year}")
+
+            scenario_rules, scenario_net_zero, scenario_final_emission = run_dynamic_scenario(
+                glm_results=results,
+                glm_features=selected_predictors,
+                glm_scaler=scaler,
+                comp=comp,
+                base_df_wide=df_wide,
+                df_targets=df_targets,  # Pass the targets dataframe
+                weight_dict=weight_dict,
+                start_year=start_year,
+                end_year=end_year,
+                unit=unit,
+                logger=logger
+            )
+
+    # --- Save Scenario Results ---
+    if scenario_rules  is not None:
+        logger.info(
+            f"[{comp}] Scenario analysis completed. Net Zero: {scenario_net_zero}, Final Emission: {scenario_final_emission}")
+
+        # Save the scenario rules
+        rules_file = os.path.join("results", comp, f"{comp}_scenario_rules.json")
+        save_scenario_rules(scenario_rules, rules_file, logger=logger)  # Call new save function
+
+        # Save scenario duration results including final emission
+        scenario_duration_results = {
+            "net_zero_year": scenario_net_zero,
+            "is_hit_targets": scenario_net_zero is not None,
+            "final_year_emission": scenario_final_emission,
+            "emission_unit": unit  # Good to store the unit too
+        }
+        save_duration_results(
+            scenario_duration_results,
+            duration_results_file,  # Append to the same duration file
+            forecast_tag="target_seeking_scenario",  # Use specific tag
+            logger=logger
+        )
+    else:
+        logger.warning(f"[{comp}] Scenario analysis was skipped or failed. No scenario results saved.")
 
     # Plot residuals and save model results.
     fig_folder = os.path.join("fig", comp)
@@ -163,4 +225,7 @@ def process_company(
 
     # Save the per-year scores for the company:
     save_company_score_details(comp, detailed_scores, logger=logger)
+
+    return df_wide, company_scores_df, weight_dict
+
 

@@ -8,7 +8,8 @@ from groundwork.data_cleaning import (
 )
 from groundwork.score_timeseries import plot_industry_average
 from utils.company_processor import process_company
-from utils.results_saver import save_json
+from utils.results_saver import save_json,setup_company_logger
+
 
 def main():
     print("\n========== LOADING CSV FILES ==========")
@@ -44,10 +45,18 @@ def main():
     industry_yearly_scores = {}
 
     # --- Process each company ---
+    base_wide_map = {}
+    base_scores_map = {}
+    weight_map = {}
+
     for comp in companies:
-        process_company(comp, combined_long, targets_data_frames, industry_yearly_scores)
+        df_wide, base_scores_df, weight_dict = process_company(comp, combined_long, targets_data_frames, industry_yearly_scores)
+        base_wide_map[comp] = df_wide
+        base_scores_map[comp] = base_scores_df
+        weight_map[comp] = weight_dict
 
     # --- Compute & Save Industry Average ---
+    print("\n========== COMPUTING AND SAVING INDUSTRY AVERAGE ==========")
     industry_avg_scores = {}
     for year, scores in industry_yearly_scores.items():
         industry_avg_scores[year] = sum(scores) / len(scores)
@@ -63,6 +72,9 @@ def main():
     print(f"Industry average score saved to: {industry_avg_file}")
 
     plot_industry_average(industry_avg_df, save_path=os.path.join("fig", "industry_average.png"))
+
+
+
     print("\n========== DONE ==========")
 
 if __name__ == "__main__":

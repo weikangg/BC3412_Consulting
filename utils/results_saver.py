@@ -1,6 +1,8 @@
 import json
 import logging
 import os
+import numpy as np
+
 
 def save_json(data, file_path):
     """Helper to save a dictionary as a JSON file."""
@@ -37,33 +39,131 @@ def save_model_results(results, selected_predictors, weight_dict, vif_df, save_p
     logger.info(f"Model results saved in structured format to: {save_path}")
 
 
+def convert_numpy_types(obj):
+    if isinstance(obj, np.integer):
+        return int(obj)
+    elif isinstance(obj, np.floating):
+        # Handle potential NaN/Inf before converting
+        if np.isnan(obj):
+            return None # Represent NaN as null in JSON
+        elif np.isinf(obj):
+            # Decide representation for Inf, e.g., a large number string or null
+            return str(obj) # Or None
+        return float(obj)
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, np.bool_):
+        return bool(obj)
+    elif isinstance(obj, dict):
+        return {k: convert_numpy_types(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_numpy_types(i) for i in obj]
+    # Add other types if necessary
+    return obj
+
+# --- New Function to Save Scenario Rules ---
+def save_scenario_rules(scenario_rules, save_path, logger: logging.Logger = None):
+    """
+    Saves the calculated scenario rules to a JSON file in a readable format.
+    Transforms {metric: {year: pct_change}} to {year: {metric: pct_change}}.
+
+    Parameters:
+      scenario_rules: dict in the format {metric: {year: pct_change}}
+      save_path     : Full path to the JSON file.
+      logger        : Optional logger.
+    """
+    # Reformat the dictionary: Year -> Metric -> Change
+    rules_by_year = {}
+    if scenario_rules: # Check if not None or empty
+        for metric, year_map in scenario_rules.items():
+            # Extract base metric name for readability
+            try:
+                 # Assumes utils.utils is accessible or import it here
+                 from utils.utils import extract_metric_name
+                 readable_metric = extract_metric_name(metric)
+            except ImportError:
+                 readable_metric = metric # Fallback if import fails
+            except Exception:
+                 readable_metric = metric # General fallback
+
+            for year, pct_change in year_map.items():
+                year_str = str(year) # Use string for year key in JSON
+                if year_str not in rules_by_year:
+                    rules_by_year[year_str] = {}
+                # Store as percentage for readability
+                rules_by_year[year_str][readable_metric] = f"{pct_change * 100:.2f}%" # Store change as formatted percentage string
+
+        # Sort outer dictionary by year
+        rules_by_year_sorted = dict(sorted(rules_by_year.items(), key=lambda item: int(item[0])))
+    else:
+        rules_by_year_sorted = {} # Save empty dict if rules are None/empty
+
+
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+
+    # Convert numpy types before saving
+    rules_serializable = convert_numpy_types(rules_by_year_sorted)
+
+    try:
+        with open(save_path, "w") as f:
+            json.dump(rules_serializable, f, indent=4)
+        if logger:
+            logger.info("Formatted scenario rules saved to: %s", save_path)
+    except TypeError as e:
+        if logger:
+             logger.error(f"JSON serialization error saving rules: {e}. Data: {rules_serializable}")
+        # Optionally save raw data if serialization fails
+    except Exception as e:
+         if logger:
+              logger.error(f"Error saving scenario rules to {save_path}: {e}", exc_info=True)
+
+
+# --- Modified Function to Save Duration Results ---
 def save_duration_results(duration_results, save_path, forecast_tag, logger: logging.Logger = None):
     """
-    Save duration analysis results to a JSON file.
+    Save duration analysis results (including final emission) to a JSON file.
     If the file already exists, update it with a new key given by forecast_tag.
 
     Parameters:
-      duration_results: dict with duration analysis results (e.g., net_zero_year, forecast data)
+      duration_results: dict with duration analysis results (e.g., net_zero_year, final_year_emission)
       save_path       : Full path to the JSON file.
-      forecast_tag    : A tag (e.g., "initial" or "after_scenario_analysis") to use as the key.
+      forecast_tag    : A tag (e.g., "initial" or "target_seeking_scenario") to use as the key.
       logger          : Optional logger for logging messages.
     """
     # If the file exists, load existing data; otherwise, start with an empty dict.
     if os.path.exists(save_path):
-        with open(save_path, "r") as f:
-            existing_data = json.load(f)
+        try:
+            with open(save_path, "r") as f:
+                existing_data = json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"Could not decode existing JSON file at {save_path}. Starting fresh.")
+            existing_data = {}
+        except Exception as e:
+             logger.error(f"Error loading existing duration results from {save_path}: {e}. Starting fresh.")
+             existing_data = {}
     else:
         existing_data = {}
 
     # Update the data using the forecast tag as the key.
-    existing_data[forecast_tag] = duration_results
+    # Ensure data being added is serializable
+    existing_data[forecast_tag] = convert_numpy_types(duration_results)
+
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
     # Save the updated dictionary.
-    with open(save_path, "w") as f:
-        json.dump(existing_data, f, indent=4)
-
-    if logger:
-        logger.info("Duration results saved to: %s under key: %s", save_path, forecast_tag)
+    try:
+        with open(save_path, "w") as f:
+            json.dump(existing_data, f, indent=4)
+        if logger:
+            logger.info("Duration results saved/updated in: %s (Tag: %s)", save_path, forecast_tag)
+    except TypeError as e:
+         if logger:
+              logger.error(f"JSON serialization error saving duration results: {e}. Data: {existing_data[forecast_tag]}")
+    except Exception as e:
+         if logger:
+              logger.error(f"Error saving duration results to {save_path}: {e}", exc_info=True)
 
 def save_company_score_details(company_name, detailed_scores, logger: logging.Logger = None):
     """

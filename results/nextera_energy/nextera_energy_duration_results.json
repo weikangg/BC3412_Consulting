@@ -1,6 +1,14 @@
 {
     "initial": {
         "net_zero_year": null,
-        "is_hit_targets": false
+        "is_hit_targets": false,
+        "final_year_emission": 40827881.65532143,
+        "emission_unit": "metric tons Co2e"
+    },
+    "target_seeking_scenario": {
+        "net_zero_year": null,
+        "is_hit_targets": false,
+        "final_year_emission": 39080932.497032955,
+        "emission_unit": "metric tons Co2e"
     }
 }

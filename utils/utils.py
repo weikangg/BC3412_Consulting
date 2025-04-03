@@ -27,3 +27,8 @@ def extract_metric_unit(full_metric_key, comp_data, logger=None):
     unit = comp_data.loc[mask, "Units"].iloc[0] if mask.any() else "error"
     logger.info("Using unit: %s", unit)
     return unit
+
+def get_max_year_from_df(df):
+    year_cols = [int(col) for col in df.columns if col.isdigit()]
+    final_year = max(year_cols) if year_cols else None
+    return final_year
