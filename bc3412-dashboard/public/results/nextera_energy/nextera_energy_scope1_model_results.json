@@ -1,0 +1,58 @@
+{
+    "model_summary": "                               Generalized Linear Model Regression Results                               \n=========================================================================================================\nDep. Variable:     nextera_energy_SASB_Metrics_Scope 1 Emissions   No. Observations:                    9\nModel:                                                       GLM   Df Residuals:                        4\nModel Family:                                              Gamma   Df Model:                            4\nLink Function:                                               Log   Scale:                      6.0021e-05\nMethod:                                                     IRLS   Log-Likelihood:                -124.93\nDate:                                           Fri, 04 Apr 2025   Deviance:                   0.00024093\nTime:                                                   15:17:12   Pearson chi2:                 0.000240\nNo. Iterations:                                                5   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                       nonrobust                                         \n=====================================================================================================================================================\n                                                                                        coef    std err          z      P>|z|      [0.025      0.975]\n-----------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                17.6001      0.003   6815.303      0.000      17.595      17.605\nnextera_energy_Environment_Water withdrawals - consumptive rate                       0.0340      0.003     11.820      0.000       0.028       0.040\nnextera_energy_Governance_Percentage of women on board of directors                   0.0047      0.004      1.144      0.253      -0.003       0.013\nnextera_energy_Governance_Total number on board of directors                         -0.0084      0.004     -2.270      0.023      -0.016      -0.001\nnextera_energy_SASB_Metrics_Average retail electric rate for industrial customers    -0.0173      0.004     -4.601      0.000      -0.025      -0.010\n=====================================================================================================================================================",
+    "selected_predictors": [
+        "nextera_energy_Environment_Water withdrawals - consumptive rate",
+        "nextera_energy_Governance_Percentage of women on board of directors",
+        "nextera_energy_Governance_Total number on board of directors",
+        "nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers"
+    ],
+    "variable_importance_weights": {
+        "nextera_energy_Environment_Water withdrawals - consumptive rate": 52.83280205330664,
+        "nextera_energy_Governance_Percentage of women on board of directors": 7.273791920850037,
+        "nextera_energy_Governance_Total number on board of directors": 13.012972762120937,
+        "nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers": 26.880433263722402
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 958.7534456478293
+        },
+        {
+            "Variable": "nextera_energy_Environment_Water withdrawals - consumptive rate",
+            "VIF": 1.2376359617885435
+        },
+        {
+            "Variable": "nextera_energy_Governance_Percentage of women on board of directors",
+            "VIF": 2.505812787938308
+        },
+        {
+            "Variable": "nextera_energy_Governance_Total number on board of directors",
+            "VIF": 2.0358185170447864
+        },
+        {
+            "Variable": "nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers",
+            "VIF": 2.114146542977966
+        }
+    ],
+    "residuals": [
+        203187.50997947901,
+        298256.63151213527,
+        -538545.1187653318,
+        79662.80741088092,
+        79662.80741088092,
+        27791.727624058723,
+        -125201.55381532758,
+        -160204.6354231313,
+        135060.8722454086
+    ],
+    "coefficients": {
+        "const": 17.60009661342457,
+        "nextera_energy_Environment_Water withdrawals - consumptive rate": 0.03395809420716094,
+        "nextera_energy_Governance_Percentage of women on board of directors": 0.004675203693385263,
+        "nextera_energy_Governance_Total number on board of directors": -0.008364041614250615,
+        "nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers": -0.017277302161217818
+    },
+    "log_likelihood": -124.93458197606378,
+    "aic": 259.86916395212756,
+    "bic": -8.78865738282392
+}

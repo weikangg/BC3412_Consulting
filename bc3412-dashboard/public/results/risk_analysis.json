@@ -1,0 +1,82 @@
+{
+    "nextera_energy": {
+        "2024": {
+            "Water withdrawals - consumptive rate": {
+                "potential_transition_risks": "Key risks include technological challenges in implementing water-saving technologies, regulatory compliance barriers, market volatility affecting resources and finances, and potential financial strain from capital investments.",
+                "mitigation_strategies": "Invest in research and development for efficient water-use technologies, engage with regulatory bodies for compliance and support, develop a diversified supply chain to stabilize market impact, and allocate capital for phased implementation to ease financial pressure.",
+                "risk_score": 86
+            },
+            "Percentage of women on board of directors": {
+                "potential_transition_risks": "The main risks include negative market perception and potential investor backlash due to reduced gender diversity, which could affect the company\u2019s reputation and overall market position.",
+                "mitigation_strategies": "Implement a comprehensive communication strategy to clearly explain the rationale behind the change and demonstrate ongoing commitment to diversity. Enhance diversity initiatives across other areas of the company to show a balanced approach.",
+                "risk_score": 75
+            }
+        },
+        "2025": {},
+        "2026": {},
+        "2027": {},
+        "2028": {},
+        "2029": {},
+        "2030": {},
+        "2031": {},
+        "2032": {},
+        "2033": {},
+        "2034": {},
+        "2035": {},
+        "2036": {},
+        "2037": {},
+        "2038": {},
+        "2039": {},
+        "2040": {},
+        "2041": {},
+        "2042": {},
+        "2043": {},
+        "2044": {},
+        "2045": {}
+    },
+    "chubu": {
+        "2024": {
+            "Operating Revenue": {
+                "potential_transition_risks": "The main risks include potential market volatility affecting revenue, regulatory changes impacting operations, and financial challenges due to reduced operational efficiency.",
+                "mitigation_strategies": "To mitigate these risks, Chubu should diversify its market presence, strengthen compliance frameworks, and implement cost optimization programs to improve financial resilience.",
+                "risk_score": 70
+            },
+            "Percentage of women in total workforce": {
+                "potential_transition_risks": "The main risks include regulatory backlash due to decreased diversity, potential morale issues among existing employees, and negative public perception impacting the brand.",
+                "mitigation_strategies": "Implement inclusive diversity programs, communicate the rationale transparently within the company, and engage in public relation efforts to emphasize balanced workforce goals.",
+                "risk_score": 75
+            },
+            "Water consumed (Fresh water)": {
+                "potential_transition_risks": "Reduction in water consumption may face technological challenges in process optimization, regulatory compliance issues, and financial risks due to initial costs.",
+                "mitigation_strategies": "Invest in water-efficient technologies, engage with regulatory bodies for smooth compliance, and plan budget allocations for gradual technological upgrades.",
+                "risk_score": 70
+            }
+        },
+        "2025": {},
+        "2026": {},
+        "2027": {},
+        "2028": {},
+        "2029": {},
+        "2030": {},
+        "2031": {},
+        "2032": {},
+        "2033": {},
+        "2034": {},
+        "2035": {},
+        "2036": {},
+        "2037": {},
+        "2038": {},
+        "2039": {},
+        "2040": {},
+        "2041": {},
+        "2042": {},
+        "2043": {},
+        "2044": {},
+        "2045": {},
+        "2046": {},
+        "2047": {},
+        "2048": {},
+        "2049": {},
+        "2050": {}
+    }
+}

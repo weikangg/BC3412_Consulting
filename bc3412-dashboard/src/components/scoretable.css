@@ -1,0 +1,80 @@
+.score-table-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    /* background-color: #f9f9f9; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score-table-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+  }
+  
+  .score-table-filters input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .score-table th,
+  .score-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .score-table th {
+    /* background-color: #f0f0f0; */
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .score-table th.sortable:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .score-table th.company { width: 15%; }
+  .score-table th.year { width: 10%; }
+  .score-table th.score { width: 10%; }
+  .score-table th.rank { width: 10%; }
+  .score-table th.mitigation { width: 55%; }
+  
+  .pagination {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,655 @@
+{
+    "phased_scenario": {
+        "2005": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 8.872694366829876,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 100.0,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 67.64141483691752,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 79.38116188301471,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 36
+        },
+        "2016": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 15.54775631903993,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 86.51624642870509,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 59.59900513185218,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 79.38116188301471,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 39
+        },
+        "2017": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 17.03110341953105,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 72.63846933959432,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 59.59900513185218,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 79.38116188301471,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 38
+        },
+        "2018": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 17.03110341953105,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 92.989455022736,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 100.0,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 79.38116188301471,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 41
+        },
+        "2019": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 5.9060001658476216,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.07505049582201,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 100.0,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 79.38116188301471,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 28
+        },
+        "2020": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 54.779320432829174,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 51.79864834927225,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 85.13890892014393,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 61
+        },
+        "2021": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 55.32296714515916,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 29.780476986904798,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 77.39573187021156,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 57
+        },
+        "2022": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 55.897022473049226,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32718660163085,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 59.59900513185218,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 55.25818722745613,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 54
+        },
+        "2023": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2024": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2025": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2026": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2027": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2028": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2029": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2030": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2031": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2032": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2033": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2034": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2035": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2036": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2037": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2038": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2039": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2040": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2041": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2042": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2043": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2044": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        },
+        "2045": {
+            "metrics": {
+                "nextera_energy_Environment_Water withdrawals - non-consumptive rate": {
+                    "score": 57.374436185138386,
+                    "weight": 64.4854230523257
+                },
+                "nextera_energy_Financial_Issuances of long-term debt, including premiums and discount": {
+                    "score": 44.32204096681842,
+                    "weight": 11.68068135366124
+                },
+                "nextera_energy_Governance_Percentage of minorities on board of directors": {
+                    "score": 43.51418572172145,
+                    "weight": 1.3058418706478367
+                },
+                "nextera_energy_SASB_Metrics_Average retail electric rate for residential": {
+                    "score": 40.66527663335282,
+                    "weight": 22.528053723365232
+                }
+            },
+            "overall_score": 52
+        }
+    }
+}

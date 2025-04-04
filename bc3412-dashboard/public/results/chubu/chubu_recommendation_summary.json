@@ -1,0 +1,187 @@
+{
+    "most_important_metric": "chubu_Social_Percentage of women in total workforce",
+    "importance_weight": 39.78837850442717,
+    "recommended_action": {},
+    "expected_emissions_2045": 2014.2037939202835,
+    "emission_unit": "10,000 t-CO2",
+    "historical_score_trend": {
+        "2018": 40,
+        "2019": 40,
+        "2020": 58,
+        "2021": 56,
+        "2022": 50,
+        "2023": 56
+    },
+    "phased_score_trend": {
+        "2018": 58,
+        "2019": 58,
+        "2020": 81,
+        "2021": 72,
+        "2022": 56,
+        "2023": 59,
+        "2024": 59,
+        "2025": 59,
+        "2026": 59,
+        "2027": 58,
+        "2028": 58,
+        "2029": 57,
+        "2030": 57,
+        "2031": 56,
+        "2032": 55,
+        "2033": 54,
+        "2034": 53,
+        "2035": 52,
+        "2036": 51,
+        "2037": 50,
+        "2038": 49,
+        "2039": 48,
+        "2040": 47,
+        "2041": 46,
+        "2042": 44,
+        "2043": 42,
+        "2044": 39,
+        "2045": 37,
+        "2046": 35,
+        "2047": 33,
+        "2048": 30,
+        "2049": 28,
+        "2050": 20
+    },
+    "phased_scenario_rules": {
+        "2024": {
+            "Operating Revenue": "-0.01%",
+            "Percentage of women in total workforce": "-0.11%",
+            "Water consumed (Fresh water)": "-0.30%"
+        },
+        "2025": {
+            "Operating Revenue": "-0.01%",
+            "Percentage of women in total workforce": "-0.23%",
+            "Water consumed (Fresh water)": "-0.59%"
+        },
+        "2026": {
+            "Operating Revenue": "-0.01%",
+            "Percentage of women in total workforce": "-0.28%",
+            "Water consumed (Fresh water)": "-0.72%"
+        },
+        "2027": {
+            "Operating Revenue": "-0.02%",
+            "Percentage of women in total workforce": "-0.33%",
+            "Water consumed (Fresh water)": "-0.85%"
+        },
+        "2028": {
+            "Operating Revenue": "-0.02%",
+            "Percentage of women in total workforce": "-0.38%",
+            "Water consumed (Fresh water)": "-0.98%"
+        },
+        "2029": {
+            "Operating Revenue": "-0.02%",
+            "Percentage of women in total workforce": "-0.43%",
+            "Water consumed (Fresh water)": "-1.11%"
+        },
+        "2030": {
+            "Operating Revenue": "-0.02%",
+            "Percentage of women in total workforce": "-0.48%",
+            "Water consumed (Fresh water)": "-1.25%"
+        },
+        "2031": {
+            "Operating Revenue": "-0.04%",
+            "Percentage of women in total workforce": "-0.71%",
+            "Water consumed (Fresh water)": "-1.83%"
+        },
+        "2032": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2033": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2034": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2035": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2036": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2037": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2038": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2039": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2040": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2041": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-0.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2042": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-4.85%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2043": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-5.35%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2044": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-5.96%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2045": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-6.72%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2046": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-7.37%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2047": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-8.21%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2048": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-9.39%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2049": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-11.42%",
+            "Water consumed (Fresh water)": "-2.48%"
+        },
+        "2050": {
+            "Operating Revenue": "-0.05%",
+            "Percentage of women in total workforce": "-85.92%",
+            "Water consumed (Fresh water)": "-2.48%"
+        }
+    }
+}

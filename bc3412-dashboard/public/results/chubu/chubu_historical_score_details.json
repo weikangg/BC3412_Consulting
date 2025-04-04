@@ -1,0 +1,106 @@
+{
+    "historical": {
+        "2018": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 58.77446912060547,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 32.18258387250504,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 34.89811618042389,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 40
+        },
+        "2019": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 57.96860698014139,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 32.18258387250504,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 34.89811618042389,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 40
+        },
+        "2020": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 62.48170189072761,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 76.72612419124243,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 39.422610974169324,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 58
+        },
+        "2021": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 63.46630998970857,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 54.45435403187374,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 52.93136272251301,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 56
+        },
+        "2022": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 28.654456009408495,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 50.0,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 61.997501994386774,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 50
+        },
+        "2023": {
+            "metrics": {
+                "chubu_Financial_Operating Expenses": {
+                    "score": 28.654456009408495,
+                    "weight": 25.288703453350635
+                },
+                "chubu_SASB_Metrics_Water consumed (Fresh water)": {
+                    "score": 54.45435403187374,
+                    "weight": 34.92291804222219
+                },
+                "chubu_Social_Percentage of women in total workforce": {
+                    "score": 75.85229194808312,
+                    "weight": 39.78837850442717
+                }
+            },
+            "overall_score": 56
+        }
+    }
+}

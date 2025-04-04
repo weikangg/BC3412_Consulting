@@ -1,0 +1,65 @@
+{
+    "model_summary": "                               Generalized Linear Model Regression Results                               \n=========================================================================================================\nDep. Variable:     nextera_energy_SASB_Metrics_Scope 2 Emissions   No. Observations:                    9\nModel:                                                       GLM   Df Residuals:                        3\nModel Family:                                              Gamma   Df Model:                            5\nLink Function:                                               Log   Scale:                       0.0019393\nMethod:                                                     IRLS   Log-Likelihood:                -74.565\nDate:                                           Fri, 04 Apr 2025   Deviance:                    0.0058735\nTime:                                                   15:17:13   Pearson chi2:                  0.00582\nNo. Iterations:                                                7   Pseudo R-squ. (CS):             0.7874\nCovariance Type:                                       nonrobust                                         \n============================================================================================================================================\n                                                                               coef    std err          z      P>|z|      [0.025      0.975]\n--------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                       10.3206      0.015    703.074      0.000      10.292      10.349\nnextera_energy_Governance_Percentage of minorities on board of directors    -0.0088      0.021     -0.409      0.683      -0.051       0.033\nnextera_energy_Governance_Total number on board of directors                 0.0257      0.029      0.892      0.373      -0.031       0.082\nnextera_energy_SASB_Metrics_Total recordable Incident Rate                   0.0216      0.028      0.785      0.433      -0.032       0.076\nnextera_energy_SASB_Metrics_Water withdrawn                                 -0.0404      0.019     -2.120      0.034      -0.078      -0.003\nnextera_energy_Social_Percentage of minorities in total workforce            0.0279      0.021      1.316      0.188      -0.014       0.069\n============================================================================================================================================",
+    "selected_predictors": [
+        "nextera_energy_Governance_Percentage of minorities on board of directors",
+        "nextera_energy_Governance_Total number on board of directors",
+        "nextera_energy_SASB_Metrics_Total recordable Incident Rate",
+        "nextera_energy_SASB_Metrics_Water withdrawn",
+        "nextera_energy_Social_Percentage of minorities in total workforce"
+    ],
+    "variable_importance_weights": {
+        "nextera_energy_Governance_Percentage of minorities on board of directors": 7.0362722768671295,
+        "nextera_energy_Governance_Total number on board of directors": 20.681947850972232,
+        "nextera_energy_SASB_Metrics_Total recordable Incident Rate": 17.383477679050717,
+        "nextera_energy_SASB_Metrics_Water withdrawn": 32.488016968482704,
+        "nextera_energy_Social_Percentage of minorities in total workforce": 22.410285224627216
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 6168.308774965418
+        },
+        {
+            "Variable": "nextera_energy_Governance_Percentage of minorities on board of directors",
+            "VIF": 2.1273195622271626
+        },
+        {
+            "Variable": "nextera_energy_Governance_Total number on board of directors",
+            "VIF": 3.8668933624921573
+        },
+        {
+            "Variable": "nextera_energy_SASB_Metrics_Total recordable Incident Rate",
+            "VIF": 3.5299517386943084
+        },
+        {
+            "Variable": "nextera_energy_SASB_Metrics_Water withdrawn",
+            "VIF": 1.6886704463773727
+        },
+        {
+            "Variable": "nextera_energy_Social_Percentage of minorities in total workforce",
+            "VIF": 2.0863135426464416
+        }
+    ],
+    "residuals": [
+        -64.56142042419378,
+        469.97065119783656,
+        640.7132315599592,
+        26.651717672903033,
+        -34.76905856433223,
+        -1504.8483792674706,
+        251.90206249212497,
+        -995.3475289954185,
+        1212.7156635834472
+    ],
+    "coefficients": {
+        "const": 10.320641879913044,
+        "nextera_energy_Governance_Percentage of minorities on board of directors": -0.008757711238577295,
+        "nextera_energy_Governance_Total number on board of directors": 0.02574183033331605,
+        "nextera_energy_SASB_Metrics_Total recordable Incident Rate": 0.021636382425946146,
+        "nextera_energy_SASB_Metrics_Water withdrawn": -0.0404362793434498,
+        "nextera_energy_Social_Percentage of minorities in total workforce": 0.027893009117439336
+    },
+    "log_likelihood": -74.56471851461538,
+    "aic": 161.12943702923076,
+    "bic": -6.585800213060312
+}

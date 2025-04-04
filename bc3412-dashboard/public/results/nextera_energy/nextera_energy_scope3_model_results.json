@@ -1,0 +1,37 @@
+{
+    "model_summary": "                               Generalized Linear Model Regression Results                               \n=========================================================================================================\nDep. Variable:     nextera_energy_SASB_Metrics_Scope 3 Emissions   No. Observations:                    9\nModel:                                                       GLM   Df Residuals:                        7\nModel Family:                                              Gamma   Df Model:                            1\nLink Function:                                               Log   Scale:                       0.0016202\nMethod:                                                     IRLS   Log-Likelihood:                -115.43\nDate:                                           Fri, 04 Apr 2025   Deviance:                     0.011374\nTime:                                                   15:17:13   Pearson chi2:                   0.0113\nNo. Iterations:                                                5   Pseudo R-squ. (CS):             0.9803\nCovariance Type:                                       nonrobust                                         \n===========================================================================================================================\n                                                              coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------\nconst                                                      14.7297      0.013   1097.820      0.000      14.703      14.756\nnextera_energy_Social_Support of SDGs (Number of Goals)     0.0784      0.013      5.844      0.000       0.052       0.105\n===========================================================================================================================",
+    "selected_predictors": [
+        "nextera_energy_Social_Support of SDGs (Number of Goals)"
+    ],
+    "variable_importance_weights": {
+        "nextera_energy_Social_Support of SDGs (Number of Goals)": 100.0
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 18.160714260305358
+        },
+        {
+            "Variable": "nextera_energy_Social_Support of SDGs (Number of Goals)",
+            "VIF": 1.0
+        }
+    ],
+    "residuals": [
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        1.3969838619232178e-09,
+        217541.9999999958,
+        -217542.0000000042
+    ],
+    "coefficients": {
+        "const": 14.72968379798103,
+        "nextera_energy_Social_Support of SDGs (Number of Goals)": 0.07840730911975727
+    },
+    "log_likelihood": -115.42964826781508,
+    "aic": 234.85929653563016,
+    "bic": -15.369198405116125
+}

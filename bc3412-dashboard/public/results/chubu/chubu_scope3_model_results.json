@@ -1,0 +1,48 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                           \n================================================================================================\nDep. Variable:     chubu_SASB_Metrics_Scope 3 Emissions   No. Observations:                    6\nModel:                                              GLM   Df Residuals:                        2\nModel Family:                                     Gamma   Df Model:                            3\nLink Function:                                      Log   Scale:                      1.0873e-05\nMethod:                                            IRLS   Log-Likelihood:                -24.218\nDate:                                  Fri, 04 Apr 2025   Deviance:                   2.1739e-05\nTime:                                          15:20:11   Pearson chi2:                 2.17e-05\nNo. Iterations:                                       5   Pseudo R-squ. (CS):              1.000\nCovariance Type:                              nonrobust                                         \n=======================================================================================================================\n                                                          coef    std err          z      P>|z|      [0.025      0.975]\n-----------------------------------------------------------------------------------------------------------------------\nconst                                                   8.6653      0.001   6437.136      0.000       8.663       8.668\nchubu_Financial_Operating Expenses                     -0.0242      0.003     -9.036      0.000      -0.029      -0.019\nchubu_SASB_Metrics_Water consumed (Fresh water)        -0.0397      0.002    -25.580      0.000      -0.043      -0.037\nchubu_Social_Percentage of women in total workforce     0.0408      0.003     14.659      0.000       0.035       0.046\n=======================================================================================================================",
+    "selected_predictors": [
+        "chubu_Financial_Operating Expenses",
+        "chubu_SASB_Metrics_Water consumed (Fresh water)",
+        "chubu_Social_Percentage of women in total workforce"
+    ],
+    "variable_importance_weights": {
+        "chubu_Financial_Operating Expenses": 23.100171369312655,
+        "chubu_SASB_Metrics_Water consumed (Fresh water)": 37.90945742517765,
+        "chubu_Social_Percentage of women in total workforce": 38.990371205509696
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 2944.3907528456066
+        },
+        {
+            "Variable": "chubu_Financial_Operating Expenses",
+            "VIF": 3.9460887986715965
+        },
+        {
+            "Variable": "chubu_SASB_Metrics_Water consumed (Fresh water)",
+            "VIF": 1.3262515325724982
+        },
+        {
+            "Variable": "chubu_Social_Percentage of women in total workforce",
+            "VIF": 4.272097106058625
+        }
+    ],
+    "residuals": [
+        -7.8263315650729055,
+        -0.26085091039749386,
+        -4.230058285185805,
+        11.499501110169149,
+        16.7416036215036,
+        -15.94170982196647
+    ],
+    "coefficients": {
+        "const": 8.665326108813343,
+        "chubu_Financial_Operating Expenses": -0.024164053904143667,
+        "chubu_SASB_Metrics_Water consumed (Fresh water)": -0.03965538428497334,
+        "chubu_Social_Percentage of women in total workforce": 0.04078607974329246
+    },
+    "log_likelihood": -24.217518039047718,
+    "aic": 56.435036078095436,
+    "bic": -3.583497199362761
+}

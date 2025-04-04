@@ -1,0 +1,506 @@
+{
+    "2005": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "nextera_energy": {
+            "historical_score": 43,
+            "historical_rank": 1,
+            "phased_score": 36,
+            "phased_rank": 1
+        }
+    },
+    "2016": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "nextera_energy": {
+            "historical_score": 45,
+            "historical_rank": 1,
+            "phased_score": 39,
+            "phased_rank": 1
+        }
+    },
+    "2017": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "nextera_energy": {
+            "historical_score": 44,
+            "historical_rank": 1,
+            "phased_score": 38,
+            "phased_rank": 1
+        }
+    },
+    "2018": {
+        "chubu": {
+            "historical_score": 40,
+            "historical_rank": 2,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 44,
+            "historical_rank": 1,
+            "phased_score": 41,
+            "phased_rank": 2
+        }
+    },
+    "2019": {
+        "chubu": {
+            "historical_score": 40,
+            "historical_rank": 2,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 41,
+            "historical_rank": 1,
+            "phased_score": 28,
+            "phased_rank": 2
+        }
+    },
+    "2020": {
+        "chubu": {
+            "historical_score": 58,
+            "historical_rank": 1,
+            "phased_score": 81,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 55,
+            "historical_rank": 2,
+            "phased_score": 61,
+            "phased_rank": 2
+        }
+    },
+    "2021": {
+        "chubu": {
+            "historical_score": 56,
+            "historical_rank": 2,
+            "phased_score": 72,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 57,
+            "historical_rank": 1,
+            "phased_score": 57,
+            "phased_rank": 2
+        }
+    },
+    "2022": {
+        "chubu": {
+            "historical_score": 50,
+            "historical_rank": 2,
+            "phased_score": 56,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 60,
+            "historical_rank": 1,
+            "phased_score": 54,
+            "phased_rank": 2
+        }
+    },
+    "2023": {
+        "chubu": {
+            "historical_score": 56,
+            "historical_rank": 2,
+            "phased_score": 59,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": 60,
+            "historical_rank": 1,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2024": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 59,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2025": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 59,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2026": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 59,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2027": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2028": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2029": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 57,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2030": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 57,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2031": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 56,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2032": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2033": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 54,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2034": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2035": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 2
+        }
+    },
+    "2036": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2037": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2038": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 49,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2039": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 48,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2040": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 47,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2041": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 46,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2042": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 44,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2043": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 42,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2044": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 39,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2045": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 37,
+            "phased_rank": 2
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        }
+    },
+    "2046": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 35,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        }
+    },
+    "2047": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 33,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        }
+    },
+    "2048": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 30,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        }
+    },
+    "2049": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 28,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        }
+    },
+    "2050": {
+        "chubu": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 20,
+            "phased_rank": 1
+        },
+        "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        }
+    }
+}
