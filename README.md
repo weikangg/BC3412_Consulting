@@ -6,7 +6,7 @@
 
 ## Setup steps
 - Create .env file following .env.sample
-- Use the API key provided in Appendix G of the report OR get own api key from ChatGPT API Website
+- Use the API key provided in Appendix I of the report OR get own api key from ChatGPT API Website
 
 ## Commands to run
 - pip install -r requirements.txt
