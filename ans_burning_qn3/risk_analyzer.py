@@ -61,7 +61,6 @@ def get_structured_risk_assessment_response(prompt, schema, model=MODEL_NAME, te
     full_prompt = prompt + "\n\n" + instructions
 
     client = OpenAI(api_key=api_key )
-    print(model)
     response = client.responses.create(
         model=model,
         input=[
@@ -91,6 +90,8 @@ def get_structured_risk_assessment_response(prompt, schema, model=MODEL_NAME, te
         structured_output = {}
     return structured_output
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIG_DIR = os.path.join(SCRIPT_DIR, "..", "fig")  # adjust as needed
 
 def plot_risk_trend(company, risk_yearly_scores, output_folder="fig"):
     """
@@ -108,36 +109,29 @@ def plot_risk_trend(company, risk_yearly_scores, output_folder="fig"):
     plt.title(f"Risk Trend for {company}")
     plt.grid(True)
 
-    os.makedirs(output_folder, exist_ok=True)
-    output_path = os.path.join(output_folder, f"{company}_risk_trend.png")
+    output_path = os.path.join(f"{FIG_DIR}/{company}/risk_trend.png")
     plt.savefig(output_path)
     plt.close()
     print(f"Risk trend plot saved for {company} at {output_path}")
-
 
 # --------------------------
 # Core Functions
 # --------------------------
 
-def build_risk_analysis(compiled_data):
+def build_risk_analysis_sequential(compiled_data):
     """
-    For each company, and for each year in the phased recommendations,
-    use the recommended changes (phased scenario rules) to build a risk analysis.
-    For each (company, year, metric) use the OpenAI API with structured output
-    to get potential risks, mitigation strategies, and a risk score.
+    For each company, process the phased recommendations year-by-year.
+    For each (company, year, metric), if there is a previous risk score for that metric,
+    include it in the prompt so that the model can account for a decreasing trend.
 
-    Returns a dictionary in the following structure:
+    Returns a dictionary structured as:
     {
       "Company1": {
-          "2024": {
-              "Metric1": {
-                  "potential_transition_risks": "...",
-                  "mitigation_strategies": "...",
-                  "risk_score": 45
-              },
+          2024: {
+              "Metric1": { "potential_transition_risks": "...", "mitigation_strategies": "...", "risk_score": 45 },
               "Metric2": { ... }
           },
-          "2025": { ... },
+          2025: { ... },
           ...
       },
       "Company2": { ... }
@@ -146,33 +140,50 @@ def build_risk_analysis(compiled_data):
     risk_analysis = {}
     companies = compiled_data.get("companies", {})
 
-    # Iterate over companies
     for company, data in companies.items():
         risk_analysis[company] = {}
-        recommendation = data.get("results", {})
-        # The phased recommendations are assumed to be stored under "recommended_action"
-        # This structure is expected to be: { metric: { year: "change%" } }
-        phased_scenario_rules = recommendation.get("phased_scenario_rules", {})
-        for year, metric_actions in phased_scenario_rules.items():
-            year = int(year)
-            if year == 2024 or year == 2035 or year == 2045:
-                # For each metric, iterate through years
-                for metric, change_str in metric_actions.items():
-                    # Ensure we have a sub-dictionary for this year.
-                    if year not in risk_analysis[company]:
-                        risk_analysis[company][year] = {}
-                    # Build a prompt for the current (company, metric, year)
-                    prompt = (
-                        f"Company '{company}' is recommended to adjust the metric '{metric}' by {change_str} in year {year}. "
-                        "Based on this recommendation, provide a JSON response (strictly following the schema) that includes:\n"
+        # We assume the phased recommendations are stored under "phased_scenario_rules" in the "results" field.
+        phased_scenario_rules = data.get("phased_scenario_rules", {})
+        # Sort years numerically
+        sorted_years = sorted(phased_scenario_rules.keys(), key=lambda y: int(y))
+        # This dict will track the previous risk scores for each metric.
+        previous_risk = {}
+
+        for year in sorted_years:
+            year_int = int(year)
+            risk_analysis[company][year_int] = {}
+            for metric, change_str in phased_scenario_rules[year].items():
+                # Build prompt
+                prompt = f"Company '{company}' is recommended to adjust the metric '{metric}' by {change_str} in year {year_int}."
+                if metric in previous_risk:
+                    prompt += f" The previous risk score for this metric was {previous_risk[metric]}. "
+                prompt += (
+                        "Based on this recommendation, provide a JSON response (strictly following the schema below) that includes:\n"
                         "- potential_transition_risks: a brief description of the main risks (e.g., technological, regulatory, market, or financial risks)\n"
                         "- mitigation_strategies: a brief description of strategies to mitigate these risks\n"
-                        "- risk_score: a numeric risk score between 0 (no risk) and 100 (extreme risk), "
-                        "and indicate how with effective mitigation the risk would gradually decrease over time."
-                    )
-                    structured_response = get_structured_risk_assessment_response(prompt, risk_schema)
-                    risk_analysis[company][year][metric] = structured_response
-                    print(f"Processed {company} - {metric} - {year}")
+                        "- risk_score: a numeric risk score between 0 (no risk) and 100 (extreme risk).\n"
+                        "Ensure that if effective mitigation is applied, the risk score decreases over time.\n"
+                        f"For context, all the years that we will have to plan risks for this company is in this list {sorted_years}. We can start with a higher risk number and slowly decline to zero when getting the risk scores assuming mitigation strategies are followed."
+                        "JSON Schema:\n" +
+                        json.dumps({
+                            "type": "object",
+                            "properties": {
+                                "potential_transition_risks": {"type": "string"},
+                                "mitigation_strategies": {"type": "string"},
+                                "risk_score": {"type": "number"}
+                            },
+                            "required": ["potential_transition_risks", "mitigation_strategies", "risk_score"],
+                            "additionalProperties": False
+                        }, indent=2)
+                )
+                # Call your API helper to get the structured response
+                assessment = get_structured_risk_assessment_response(prompt, risk_schema)
+                risk_analysis[company][year_int][metric] = assessment
+                # If a risk score is returned, store it for future chaining.
+                if "risk_score" in assessment:
+                    print(f'Risk score for year {year}: {assessment["risk_score"]}')
+                    previous_risk[metric] = assessment["risk_score"]
+                print(f"Processed {company} - {metric} - {year_int}")
     return risk_analysis
 
 
@@ -205,6 +216,29 @@ def save_json(data, filepath):
         json.dump(data, f, indent=4)
 
 
+def append_json_data(new_data, filepath):
+    # Load existing data if the file exists
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                existing_data = {}
+    else:
+        existing_data = {}
+
+    # If both new_data and existing_data are dictionaries, update existing_data.
+    if isinstance(existing_data, dict) and isinstance(new_data, dict):
+        # You might want to merge recursively or simply update at the top level.
+        existing_data.update(new_data)
+    else:
+        # If they're not dictionaries, just use new_data.
+        existing_data = new_data
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(existing_data, f, indent=4)
+
+
 # --------------------------
 # Main Execution
 # --------------------------
@@ -216,35 +250,33 @@ def main():
         print("Please set OPENAI_API_KEY in your environment.")
         return
 
-    # Load compiled recommendations (adjust the path as needed)
     SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-    RESULTS_DIR = os.path.join(SCRIPT_DIR, "..", "results")  # adjust as needed
+    RESULTS_DIR = os.path.join(SCRIPT_DIR, "..", "results")
     compiled_file = f"{RESULTS_DIR}/compiled_recommendations.json"
     if not os.path.exists(compiled_file):
         print(f"Compiled recommendations file not found at: {compiled_file}")
         return
     compiled_data = load_compiled_recommendations(compiled_file)
 
-    # Build risk analysis using structured output via ChatGPT
     print("Building risk analysis...")
-    risk_analysis = build_risk_analysis(compiled_data)
-    save_json(risk_analysis, f"{RESULTS_DIR}/risk_analysis.json")
-    print("Risk analysis JSON saved to risk_analysis.json")
+    risk_analysis = build_risk_analysis_sequential(compiled_data)
+    risk_analysis_file = os.path.join(RESULTS_DIR, "risk_analysis.json")
+    append_json_data(risk_analysis, risk_analysis_file)
+    print("Risk analysis JSON appended to", risk_analysis_file)
 
-    # Aggregate risk scores for plotting (average risk score per company per year)
     aggregated_scores = aggregate_risk_scores(risk_analysis)
-    save_json(aggregated_scores, f"{RESULTS_DIR}/aggregated_risk_scores.json")
-    print("Aggregated risk scores saved to aggregated_risk_scores.json")
+    agg_scores_file = os.path.join(RESULTS_DIR, "aggregated_risk_scores.json")
+    append_json_data(aggregated_scores, agg_scores_file)
+    print("Aggregated risk scores appended to", agg_scores_file)
 
-    # Plot risk trend for each company and save figures
+    # Plot risk trend for each company
     for company, yearly_scores in aggregated_scores.items():
-        # Filter out years where score is None
         filtered = {str(year): score for year, score in yearly_scores.items() if score is not None}
         if filtered:
             plot_risk_trend(company, filtered, output_folder="fig")
         else:
             print(f"No risk scores to plot for {company}.")
 
-
 if __name__ == "__main__":
     main()
+

@@ -1,11 +1,13 @@
 import os
 import pandas as pd
 
+from groundwork import ranker
 from groundwork.data_import import load_all_csvs
 from groundwork.data_cleaning import (
     clean_and_pivot_dataframe,
     combine_cleaned_data,
 )
+from groundwork.recommendations_formatter import compile_recommendations
 from groundwork.score_timeseries import plot_industry_average
 from groundwork.company_processor import process_company
 from utils.results_saver import save_json
@@ -55,6 +57,17 @@ def main():
         base_scores_map[comp] = base_scores_df
         weight_map[comp] = weight_dict
 
+    try:
+        compile_recommendations()
+    except Exception as e:
+        print(f"ERROR running ranker: {e}")
+
+    print("\n========== PERFORMING RANKING ==========")
+    try:
+        ranker.main()
+    except Exception as e:
+        print(f"ERROR running ranker: {e}")
+
     # --- Compute & Save Industry Average ---
     print("\n========== COMPUTING AND SAVING INDUSTRY AVERAGE ==========")
     industry_avg_scores = {}
@@ -72,8 +85,6 @@ def main():
     print(f"Industry average score saved to: {industry_avg_file}")
 
     plot_industry_average(industry_avg_df, save_path=os.path.join("fig", "industry_average.png"))
-
-
 
     print("\n========== DONE ==========")
 

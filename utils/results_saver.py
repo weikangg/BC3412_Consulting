@@ -161,7 +161,9 @@ def save_company_score_details(company_name, detailed_scores, tag="historical", 
       logger         : Optional logger.
     """
     # Build path
-    results_folder = os.path.join("results", company_name)
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    RESULTS_DIR = os.path.join(SCRIPT_DIR, "..", "results")  # adjust as needed
+    results_folder = os.path.join(RESULTS_DIR, company_name)
     os.makedirs(results_folder, exist_ok=True)
     detailed_scores_file = os.path.join(results_folder, f"{company_name}_{tag}_score_details.json")
 
@@ -269,6 +271,25 @@ def save_individual_model_outputs(
         logger.info(f"[{comp}] {model_tag} model results saved to: {results_file}")
     except Exception as e:
         logger.error(f"[{comp}] Error saving model results JSON for {model_tag}: {e}", exc_info=True)
+
+def save_individual_recommendation(company_name, recommendation_data, logger: logging.Logger = None):
+    """Saves the generated recommendation summary for a single company."""
+    results_folder = os.path.join("results", company_name)
+    # No need to makedirs here, should exist from other saves
+    output_file = os.path.join(results_folder, f"{company_name}_recommendation_summary.json")
+
+    try:
+        # Ensure data is serializable
+        data_serializable = convert_numpy_types(recommendation_data)
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data_serializable, f, indent=4)
+        if logger:
+            logger.info(f"[{company_name}] Individual recommendation summary saved to: {output_file}")
+    except Exception as e:
+        if logger:
+            logger.error(f"[{company_name}] Error saving individual recommendation summary: {e}", exc_info=True)
+
+# ... (rest of the file) ...
 
 def setup_company_logger(company, results_dir="results"):
     """

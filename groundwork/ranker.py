@@ -4,26 +4,20 @@ import json
 
 def load_compiled_recommendations(filepath):
     """Load the compiled recommendations JSON file."""
+    print("Loading compiled recommendations at {}".format(filepath))
     with open(filepath, "r") as f:
         return json.load(f)
 
 
 def rank_companies_for_year(companies, year, trend_key):
-    """
-    Given all companies and a trend key ('historical_score_trend' or 'phased_score_trend'),
-    return a dictionary mapping each company (that has a score for that year) to its score and rank.
-    Higher overall score receives a higher rank (i.e. rank 1 is the best).
-    """
     scores = []
-    # Years in the JSON may be strings so convert year to string.
     year_str = str(year)
-    for company, data in companies.items():
-        rec = data.get("recommendation", {})
+    for company, rec in companies.items():
+        # Instead of getting rec from data["recommendation"], use rec directly.
         trend = rec.get(trend_key, {})
         score = trend.get(year_str)
         if score is not None:
             scores.append((company, score))
-    # Sort descending: highest score gets rank 1.
     scores_sorted = sorted(scores, key=lambda x: x[1], reverse=True)
     ranks = {}
     rank = 1
@@ -31,6 +25,7 @@ def rank_companies_for_year(companies, year, trend_key):
         ranks[company] = {"score": score, "rank": rank}
         rank += 1
     return ranks
+
 
 def compute_rankings(compiled_data):
     """
@@ -40,8 +35,7 @@ def compute_rankings(compiled_data):
     """
     companies = compiled_data.get("companies", {})
     all_years = set()
-    for company, data in companies.items():
-        rec = data.get("recommendation", {})
+    for company, rec in companies.items():
         hist_trend = rec.get("historical_score_trend", {})
         phased_trend = rec.get("phased_score_trend", {})
         all_years.update(hist_trend.keys())
@@ -71,6 +65,32 @@ def compute_rankings(compiled_data):
     return ranking_by_year
 
 
+def append_rankings(new_rankings, output_file):
+    # Load existing data if it exists
+    if os.path.exists(output_file):
+        with open(output_file, "r", encoding="utf-8") as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                existing_data = {}
+    else:
+        existing_data = {}
+
+    # new_rankings is structured as { year: { company: data } }
+    for year, new_company_data in new_rankings.items():
+        year_key = str(year)
+        if year_key not in existing_data:
+            existing_data[year_key] = {}
+        # For each company in new_company_data:
+        for company, company_data in new_company_data.items():
+            # If company already exists, overwrite; if not, add it.
+            existing_data[year_key][company] = company_data
+
+    # Write the updated data back to the file.
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(existing_data, f, indent=4)
+
+
 def main():
     # Set the path to your compiled recommendations JSON.
     # You can adjust this path as needed.
@@ -80,13 +100,12 @@ def main():
     if not os.path.exists(filepath):
         print(f"Compiled recommendations file not found at: {filepath}")
         return
+    output_file = f"{RESULTS_DIR}/rankings.json"
     compiled_data = load_compiled_recommendations(filepath)
     rankings = compute_rankings(compiled_data)
-    output_file = f"{RESULTS_DIR}/rankings.json"
-    with open(output_file, "w") as f:
-        json.dump(rankings, f, indent=4)
+    print(rankings)
+    append_rankings(rankings, output_file)
     print(f"Rankings written to {output_file}")
-
 
 if __name__ == "__main__":
     main()

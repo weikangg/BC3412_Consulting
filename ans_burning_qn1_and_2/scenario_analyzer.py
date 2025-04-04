@@ -48,10 +48,10 @@ def run_phased_scenario(
         rules_short, rules_medium, rules_long, baseline_emissions_forecast_df = build_phased_target_seeking_rules(comp, scope_model_data, base_df_wide, df_targets, phase_boundaries, logger)
         if rules_short is None:  # Check if rule building failed overall
             logger.error(f"[{comp}] Failed to build phased rules.")
-            return None, None, None, None
+            return None, None, None, None, None
     except Exception as e:
             logger.error(f"[{comp}] Exception during phased rule building: {e}", exc_info=True)
-            return None, None, None, None
+            return None, None, None, None, None
     # --- 1b. Combine Rules Cumulatively ---
     logger.info(f"[{comp}] Combining phase rules cumulatively...")
     cumulative_scenario_rules = {}
@@ -96,7 +96,7 @@ def run_phased_scenario(
     all_predictors_for_gen = list(all_scope_predictors)
     if not all_predictors_for_gen:
         logger.error(f"[{comp}] No predictors found across any relevant models. Cannot generate scenario.")
-        return None, None, None, None
+        return None, None, None, None,None
     all_predictors_for_gen = list(all_scope_predictors)  # Get list as before
     all_years_list = list(range(start_year, end_year + 1))
     for metric in all_predictors_for_gen:
@@ -115,7 +115,7 @@ def run_phased_scenario(
         )
     except Exception as e:
         logger.error(f"[{comp}] Error generating phased scenario predictors: {e}", exc_info=True)
-        return None, None, None, None
+        return None, None, None, None,None
 
     # --- 3. Predict S1, S2, S3 Emissions Separately ---
     predicted_s1 = pd.Series(0.0, index=scenario_predictors_df.index)  # Default to 0 if model fails
@@ -179,7 +179,7 @@ def run_phased_scenario(
     # Check if any prediction failed critically
     if not prediction_successful:
         logger.error(f"[{comp}] Scenario failed due to error during scope emission prediction.")
-        return None, None, None, None
+        return None, None, None, None,None
 
     # --- 3b. Apply Phased Locking Logic ---
     logger.info(f"[{comp}] Applying phased 'locking' to prevent emission increases...")
@@ -338,7 +338,7 @@ def run_phased_scenario(
     # --- Return the rules, results, AND the calculated scenario scores ---
     logger.info(
         f"[{comp}] Phased Scenario analysis complete. Net Zero: {scenario_net_zero}, Final Emission: {scenario_final_emission}")
-    return cumulative_scenario_rules, scenario_net_zero, scenario_final_emission, scenario_detailed_scores
+    return cumulative_scenario_rules, scenario_net_zero, scenario_final_emission, scenario_scores_df, scenario_detailed_scores
 
 # In scenario_analyzer.py
 

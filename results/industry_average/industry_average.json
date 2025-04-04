@@ -1,35 +1,35 @@
 [
     {
         "Year": 2005,
-        "industry_avg_overall_score": 45.0
+        "industry_avg_overall_score": 43.0
     },
     {
         "Year": 2016,
-        "industry_avg_overall_score": 46.0
-    },
-    {
-        "Year": 2017,
         "industry_avg_overall_score": 45.0
     },
     {
-        "Year": 2018,
+        "Year": 2017,
         "industry_avg_overall_score": 44.0
     },
     {
-        "Year": 2019,
+        "Year": 2018,
         "industry_avg_overall_score": 42.0
     },
     {
+        "Year": 2019,
+        "industry_avg_overall_score": 40.5
+    },
+    {
         "Year": 2020,
-        "industry_avg_overall_score": 54.0
+        "industry_avg_overall_score": 56.5
     },
     {
         "Year": 2021,
-        "industry_avg_overall_score": 56.0
+        "industry_avg_overall_score": 56.5
     },
     {
         "Year": 2022,
-        "industry_avg_overall_score": 60.0
+        "industry_avg_overall_score": 55.0
     },
     {
         "Year": 2023,

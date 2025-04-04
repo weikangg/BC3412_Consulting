@@ -1,7 +1,9 @@
 import os
 import pandas as pd
+from pandasgui import show
 
 from ans_burning_qn1_and_2.scenario_analyzer import run_phased_scenario
+from ans_burning_qn3 import risk_analyzer
 from groundwork.data_cleaning import (
     pivot_combined_data
 )
@@ -11,6 +13,7 @@ from groundwork.important_metrics_analyzer import (
     extract_importance_weights,
     check_residuals
 )
+from groundwork.recommendations_formatter import compile_company_results, build_recommendation_for_company
 from groundwork.score_timeseries import compute_score_timeseries, plot_company_scores, combine_scope_weights
 
 from ans_burning_qn1_and_2.duration_analyzer import analyze_duration
@@ -20,7 +23,7 @@ from utils.results_saver import (
     setup_company_logger,
     save_duration_results,
     save_company_score_details,
-    save_phased_scenario_rules, save_individual_model_outputs
+    save_phased_scenario_rules, save_individual_model_outputs, save_individual_recommendation
 )
 from utils.utils import extract_metric_unit, get_max_year_from_df
 
@@ -162,10 +165,10 @@ def process_company(
     phased_scenario_rules = None
     scenario_net_zero = None
     scenario_final_emission = None
+    scenario_scores_df = None
     scenario_detailed_scores = None
     scenario_weight_dict = combine_scope_weights(weights_total, weights_s1, weights_s2, weights_s3)
-    print(weights_total.keys())
-    print(scenario_weight_dict.keys())
+
     if df_targets is None:
         logger.warning(f"[{comp}] Skipping phased scenario: targets data missing.")
     elif results_total is None:  # Need the total model for prediction
@@ -204,7 +207,7 @@ def process_company(
             }
 
             # --- Call the new phased scenario function ---
-            phased_scenario_rules, scenario_net_zero, scenario_final_emission, scenario_detailed_scores = run_phased_scenario(
+            phased_scenario_rules, scenario_net_zero, scenario_final_emission, scenario_scores_df, scenario_detailed_scores = run_phased_scenario(
                 comp=comp,
                 # Pass Total Emission model for final prediction
                 total_glm_results=results_total,
@@ -242,8 +245,8 @@ def process_company(
         if scenario_detailed_scores is not None:
             fig_folder = os.path.join("fig", comp)
             comp_scores_fig_path = os.path.join(fig_folder, f"{comp}_scenario_rules_comp_scores_plot.png")
-            plot_company_scores(scenario_detailed_scores, comp, comp_scores_fig_path, logger=logger)
-            save_company_score_details(comp, scenario_detailed_scores, tag="phased_scenario",
+            plot_company_scores(scenario_scores_df, comp, comp_scores_fig_path, logger=logger)
+            save_company_score_details(str(comp), scenario_detailed_scores, tag="phased_scenario",
                                        logger=logger)  # Use new tag
         else:
             logger.warning(f"[{comp}] No phased scenario scores calculated.")
@@ -253,6 +256,27 @@ def process_company(
     fig_folder = os.path.join("fig", comp)
     os.makedirs(fig_folder, exist_ok=True)
 
+    logger.info(f"========== BUILDING RECOMMENDATION SUMMARY for {comp} ==========")
+    company_results_folder = os.path.join("results", comp)
+    try:
+        # 1. Load all necessary JSON results just saved for this company
+        comp_results_data = compile_company_results(company_results_folder)
+
+        # 2. Build the recommendation summary
+        recommendation_summary = build_recommendation_for_company(comp_results_data)
+
+        # 3. Save the individual summary
+        save_individual_recommendation(comp, recommendation_summary, logger)
+
+    except Exception as e:
+        logger.error(f"[{comp}] Failed to build or save individual recommendation summary: {e}", exc_info=True)
+
+    logger.info("\n========== PERFORMING RISK ANALYSIS (May take time due to API calls) ==========")
+    try:
+        risk_analyzer.main()
+    except Exception as e:
+        print(f"ERROR running risk analyzer: {e}")
+
     # --- Calculate Scores for Each Year ---
     logger.info("========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========")
 
@@ -260,6 +284,32 @@ def process_company(
 
     scenario_scores_df = compute_score_timeseries(df_wide, scenario_weight_dict, logger=logger)
     plot_company_scores(scenario_scores_df, comp, comp_scores_fig_path, logger=logger)
+    # --- Extract detailed scores dictionary from the scenario_scores_df ---
+    scenario_detailed_scores = {}
+    if scenario_scores_df is not None and not scenario_scores_df.empty:
+        logger.info(f"[{comp}] Extracting detailed scores from scenario results...")
+        for _, row in scenario_scores_df.iterrows():
+            year = int(row["Year"])  # Ensure year is int
+            year_str = str(year)
+            metrics_detail = {}
+            for metric, w in scenario_weight_dict.items():
+                score_col = f"{metric}_score"
+                # Use .get with default 50 for safety if score column missing
+                metrics_detail[metric] = {
+                    "score": row.get(score_col, 50.0),  # Ensure float
+                    "weight": w
+                }
+            scenario_detailed_scores[year_str] = {
+                "metrics": metrics_detail,
+                "overall_score": row.get("overall_score", 50.0)  # Ensure float and default
+            }
+        logger.info(f"[{comp}] Extracted scenario scores for {len(scenario_detailed_scores)} years.")
+    else:
+        logger.warning(
+            f"[{comp}] compute_score_timeseries did not return valid results for scenario. Cannot extract scores.")
+        scenario_detailed_scores = None  # Indicate failure
+    save_company_score_details(comp, scenario_detailed_scores, tag="historical",
+                               logger=logger)
 
     # Build a detailed score dictionary and update global industry scores
     detailed_scores = {}  # key: year -> {"metrics": {...}, "overall_score": ...}

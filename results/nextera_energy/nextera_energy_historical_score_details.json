@@ -19,7 +19,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 45
+            "overall_score": 43
         },
         "2016": {
             "metrics": {
@@ -40,7 +40,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 46
+            "overall_score": 45
         },
         "2017": {
             "metrics": {
@@ -61,7 +61,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 45
+            "overall_score": 44
         },
         "2018": {
             "metrics": {
@@ -103,7 +103,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 42
+            "overall_score": 41
         },
         "2020": {
             "metrics": {
@@ -124,7 +124,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 54
+            "overall_score": 55
         },
         "2021": {
             "metrics": {
@@ -145,7 +145,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 56
+            "overall_score": 57
         },
         "2022": {
             "metrics": {
@@ -187,7 +187,7 @@
                     "weight": 22.528053723365232
                 }
             },
-            "overall_score": 58
+            "overall_score": 60
         }
     }
 }

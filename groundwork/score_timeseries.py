@@ -134,7 +134,11 @@ def plot_company_scores(scores_df, company, save_path=None, logger=None):
     Uses a date axis by converting each Year -> YYYY-12-31 to avoid
     floating-year labels like 2007.5.
     """
-    comp_df = scores_df[scores_df["Company"] == company].copy()
+    try:
+        comp_df = scores_df[scores_df["Company"] == company].copy()
+    except KeyError:
+        comp_df = scores_df[scores_df["Company"] == company].copy()
+
     min_score = comp_df["overall_score"].min()
     max_score = comp_df["overall_score"].max()
 

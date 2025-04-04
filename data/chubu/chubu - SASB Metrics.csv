@@ -1,0 +1,24 @@
+Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units,SASB Topic
+Scope 1 Emissions,not reported,not reported,not reported,not reported,6,11,27,29,20,"10,000 t-CO2",Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,not reported,not reported,not reported,not reported,279,271,296,242,286,"10,000 t-CO2",Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,not reported,not reported,not reported,not reported,5907,5358,5913,5805,5922,"10,000 t-CO2",Greenhouse gas emissions and energy resource planning
+GHG Emissions associated with power deliveries,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,"10,000 t-CO2",Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",not reported,not reported,not reported,not reported,0,79,74,77,84,t,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),not reported,not reported,not reported,not reported,0,1,1,2,2,t,Renewable portfolio goals and air quality
+Particulate matter (PM 10),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t,Renewable portfolio goals and air quality
+Lead (Pb),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t,Renewable portfolio goals and air quality
+Mercury (Hg),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t,Renewable portfolio goals and air quality
+Water withdrawn (Fresh water),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,"1,000 m3",Water Management
+Water consumed (Fresh water),not reported,not reported,not reported,not reported,11,21,16,15,16,"10,000 m3",Water Management
+Amount of Coal Combustion Residuals (CCR) generated,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,kt,Coal Ash Management
+Average retail electric rate for residential customers,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,JPY/kWh,Energy Affordability
+Average retail electric rate for commercial customers,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,JPY/kWh (Total C&I),Energy Affordability
+Average retail electric rate for industrial customers,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,JPY/kWh (Total C&I),Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,JPY,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,JPY,Energy Affordability
+Total recordable Incident Rate,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,%,Workforce health and safety
+Workforce Fatality Frequency,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,incident rate,Workforce health and safety
+Percentage of electric load served by smart grid technology,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,%,End-use efficiency and demand
+System Average Interruption Duration Index (SAIDI),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,minutes,Grid resiliency
+System Average Interruption Frequency Index (SAIFI),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,number of times,Grid resiliency
+Customer Average Interruption Duration Index (CAIDI),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,minutes,Grid resiliency

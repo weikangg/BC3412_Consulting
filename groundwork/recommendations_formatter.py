@@ -1,6 +1,8 @@
 import os
 import json
 
+from utils.results_saver import setup_company_logger
+
 
 def load_json(filepath):
     """Helper function to load JSON data from a file."""
@@ -103,32 +105,61 @@ def build_recommendation_for_company(comp_results):
         recommendation["phased_score_trend"] = ph_trend_scores
     else:
         recommendation["phased_score_trend"] = {}
+    recommendation["phased_scenario_rules"] = comp_results.get("phased_scenario_rules", {})
 
     return recommendation
-
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "..", "results")  # adjust as needed
 
-def compile_recommendations(results_dir=RESULTS_DIR, output_file=f"{RESULTS_DIR}/compiled_recommendations.json"):
+def compile_recommendations(results_dir=RESULTS_DIR, output_file=None):
     """
-    Walk through all subfolders of the 'results' directory (except 'industry_average'),
-    compile each company’s JSON results and build a recommendation summary.
-    Write the combined output to a single JSON file.
+    Walks through company subfolders in results_dir, loads the pre-generated
+    '{comp}_recommendation_summary.json' for each, and aggregates them
+    into a single output file.
     """
+    if output_file is None:
+         output_file = os.path.join(results_dir, "compiled_recommendations.json")
+
+    print(f"\n========== COMPILING RECOMMENDATIONS from {results_dir} ==========")
+    company_folders = [f for f in os.listdir(results_dir) if os.path.isdir(os.path.join(results_dir, f)) and f.lower() != "industry_average"]
+
+    if not company_folders:
+        print("No company result folders found.")
+        return
+
     compiled = {"companies": {}}
-    for folder in os.listdir(results_dir):
-        folder_path = os.path.join(results_dir, folder)
-        if os.path.isdir(folder_path) and folder.lower() != "industry_average":
-            comp_results = compile_company_results(folder_path)
-            recommendation = build_recommendation_for_company(comp_results)
-            compiled["companies"][folder] = {
-                "results": comp_results,
-                "recommendation": recommendation
-            }
-    with open(output_file, "w") as f:
-        json.dump(compiled, f, indent=4)
-    print(f"Compiled recommendations written to {output_file}")
+    for company_name in company_folders:
+        folder_path = os.path.join(results_dir, company_name)
+        recommendation_file = os.path.join(folder_path, f"{company_name}_recommendation_summary.json")
+
+        if os.path.exists(recommendation_file):
+            print(f"Loading recommendation for: {company_name}")
+            recommendation_data = load_json(recommendation_file)
+            if recommendation_data is not None:
+                 # Store the loaded recommendation summary
+                 compiled["companies"][company_name] = recommendation_data
+                 # Optional: If you still want the raw results included:
+                 # comp_results = compile_company_results(folder_path) # Reload raw results
+                 # compiled["companies"][company_name] = {
+                 #     "results": comp_results, # uncomment if needed
+                 #     "recommendation": recommendation_data
+                 # }
+            else:
+                 print(f"Failed to load recommendation summary for {company_name}")
+        else:
+            print(f"Recommendation summary file not found for {company_name} at {recommendation_file}")
+
+    # Save the aggregated recommendations
+    try:
+        # Ensure output directory exists
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(compiled, f, indent=4)
+        print(f"Compiled recommendations written to {output_file}")
+    except Exception as e:
+         print(f"Error writing compiled recommendations to {output_file}: {e}")
 
 if __name__ == "__main__":
+    # Pass results dir if it's different from default
     compile_recommendations()
