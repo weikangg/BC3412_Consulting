@@ -1,0 +1,459 @@
+{
+    "phased_scenario": {
+        "2016": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 70.9163453315527,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 8.935538529013048,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 25
+        },
+        "2017": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 75.62983124616828,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 8.935538529013048,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 26
+        },
+        "2018": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 42.63542984386192,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 8.935538529013048,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 17
+        },
+        "2019": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 8.935538529013048,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 20
+        },
+        "2020": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 42.63542984386192,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 13.80796865523184,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 21
+        },
+        "2021": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 94.48377490462858,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 66
+        },
+        "2022": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 75.62983124616828,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 63.639640424620325,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 67
+        },
+        "2023": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2024": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2025": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2026": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2027": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2028": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2029": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2030": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2031": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2032": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2033": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2034": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2035": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2036": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2037": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2038": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2039": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2040": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2041": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 52.06240167309241,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2042": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 50.18903003841202,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 55
+        },
+        "2043": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 48.08771979672055,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 54
+        },
+        "2044": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 45.72271950531097,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 54
+        },
+        "2045": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 43.04689553297917,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 53
+        },
+        "2046": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 39.99098502529977,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 52
+        },
+        "2047": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 36.44549348554658,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 51
+        },
+        "2048": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 32.20826989681893,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 50
+        },
+        "2049": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 26.791512022477264,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 49
+        },
+        "2050": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 0.0,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 56.44173230358949,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 42
+        }
+    }
+}

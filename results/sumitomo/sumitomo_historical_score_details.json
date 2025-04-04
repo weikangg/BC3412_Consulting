@@ -1,0 +1,193 @@
+{
+    "historical": {
+        "2005": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 20.954838627114583,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 83.13782822574782,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 6.843768818583825,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 37.16999401800833,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 47
+        },
+        "2016": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 54.95892999049262,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 49.420469877192126,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 37.16999401800833,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 52
+        },
+        "2017": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 54.95892999049262,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 53.67813998305295,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 37.16999401800833,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 51
+        },
+        "2018": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 52.92678643495986,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 37.16999401800833,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 49
+        },
+        "2019": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 50.88646082999482,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 37.16999401800833,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 48
+        },
+        "2020": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 57.262998031714694,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 56.41500299099583,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 56
+        },
+        "2021": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 33.706372888381345,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 58.42819711409746,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 56.41500299099583,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 46
+        },
+        "2022": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 59.398169499567366,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 75.6600119639834,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 49
+        },
+        "2023": {
+            "metrics": {
+                "sumitomo_Governance_Percentage of women on board of directors": {
+                    "score": 82.58725422323728,
+                    "weight": 6.693329461711977
+                },
+                "sumitomo_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 40.03880861022828
+                },
+                "sumitomo_SASB_Metrics_Total recordable Incident Rate": {
+                    "score": 61.15500941083689,
+                    "weight": 22.14798618235802
+                },
+                "sumitomo_Social_Percentage of women in total workforce": {
+                    "score": 75.6600119639834,
+                    "weight": 31.11987574570172
+                }
+            },
+            "overall_score": 51
+        }
+    }
+}

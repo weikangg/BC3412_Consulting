@@ -1,0 +1,58 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                           \n=================================================================================================\nDep. Variable:     sumitomo_SASB_Metrics_Total Emissions   No. Observations:                    9\nModel:                                               GLM   Df Residuals:                        4\nModel Family:                                      Gamma   Df Model:                            4\nLink Function:                                       Log   Scale:                      0.00028547\nMethod:                                             IRLS   Log-Likelihood:                -132.13\nDate:                                   Fri, 04 Apr 2025   Deviance:                    0.0011396\nTime:                                           18:24:16   Pearson chi2:                  0.00114\nNo. Iterations:                                        5   Pseudo R-squ. (CS):             0.3815\nCovariance Type:                               nonrobust                                         \n=================================================================================================================================\n                                                                    coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------\nconst                                                            17.6215      0.006   3128.872      0.000      17.610      17.633\nsumitomo_Governance_Percentage of women on board of directors    -0.0018      0.008     -0.233      0.816      -0.017       0.013\nsumitomo_Governance_Total number on board of directors            0.0108      0.009      1.221      0.222      -0.007       0.028\nsumitomo_SASB_Metrics_Total recordable Incident Rate              0.0060      0.011      0.545      0.586      -0.016       0.028\nsumitomo_Social_Percentage of women in total workforce           -0.0084      0.007     -1.260      0.208      -0.022       0.005\n=================================================================================================================================",
+    "selected_predictors": [
+        "sumitomo_Governance_Percentage of women on board of directors",
+        "sumitomo_Governance_Total number on board of directors",
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate",
+        "sumitomo_Social_Percentage of women in total workforce"
+    ],
+    "variable_importance_weights": {
+        "sumitomo_Governance_Percentage of women on board of directors": 6.693329461711977,
+        "sumitomo_Governance_Total number on board of directors": 40.03880861022828,
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate": 22.14798618235802,
+        "sumitomo_Social_Percentage of women in total workforce": 31.11987574570172
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 2494.30971749451
+        },
+        {
+            "Variable": "sumitomo_Governance_Percentage of women on board of directors",
+            "VIF": 1.9122930931868733
+        },
+        {
+            "Variable": "sumitomo_Governance_Total number on board of directors",
+            "VIF": 2.4810338410112456
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Total recordable Incident Rate",
+            "VIF": 3.810676830816468
+        },
+        {
+            "Variable": "sumitomo_Social_Percentage of women in total workforce",
+            "VIF": 1.4075209798096147
+        }
+    ],
+    "residuals": [
+        58316.49276026338,
+        253805.62800026685,
+        326729.8613344729,
+        -424093.7056591138,
+        -459609.5407078713,
+        -456787.76513216645,
+        921754.6099397987,
+        -680701.307794258,
+        460328.4553506151
+    ],
+    "coefficients": {
+        "const": 17.6215069567282,
+        "sumitomo_Governance_Percentage of women on board of directors": -0.001811043948441385,
+        "sumitomo_Governance_Total number on board of directors": 0.01083347868219385,
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate": 0.0059926792152053395,
+        "sumitomo_Social_Percentage of women in total workforce": -0.008420243313569935
+    },
+    "log_likelihood": -132.1334344574243,
+    "aic": 274.2668689148486,
+    "bic": -8.787758710095325
+}

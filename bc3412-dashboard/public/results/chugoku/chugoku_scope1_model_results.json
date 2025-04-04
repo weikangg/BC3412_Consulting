@@ -1,0 +1,57 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                            \n==================================================================================================\nDep. Variable:     chugoku_SASB_Metrics_Scope 1 Emissions   No. Observations:                    8\nModel:                                                GLM   Df Residuals:                        3\nModel Family:                                       Gamma   Df Model:                            4\nLink Function:                                        Log   Scale:                      1.0928e-05\nMethod:                                              IRLS   Log-Likelihood:                 12.963\nDate:                                    Fri, 04 Apr 2025   Deviance:                   3.2765e-05\nTime:                                            18:24:05   Pearson chi2:                 3.28e-05\nNo. Iterations:                                         5   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                nonrobust                                         \n=============================================================================================================================================\n                                                                                coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                         2.9854      0.001   2554.258      0.000       2.983       2.988\nchugoku_Environment_Percent of coal combustion products beneficially used    -0.0043      0.001     -3.062      0.002      -0.007      -0.002\nchugoku_Environment_Total Owned Generation CO2 Emissions Intensity            0.0789      0.002     49.654      0.000       0.076       0.082\nchugoku_Financial_Cash Flow from Operating Activities                        -0.0074      0.003     -2.294      0.022      -0.014      -0.001\nchugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated      0.0205      0.003      6.528      0.000       0.014       0.027\n=============================================================================================================================================",
+    "selected_predictors": [
+        "chugoku_Environment_Percent of coal combustion products beneficially used",
+        "chugoku_Environment_Total Owned Generation CO2 Emissions Intensity",
+        "chugoku_Financial_Cash Flow from Operating Activities",
+        "chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated"
+    ],
+    "variable_importance_weights": {
+        "chugoku_Environment_Percent of coal combustion products beneficially used": 3.832987013898982,
+        "chugoku_Environment_Total Owned Generation CO2 Emissions Intensity": 71.02427051073292,
+        "chugoku_Financial_Cash Flow from Operating Activities": 6.66972366970044,
+        "chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated": 18.47301880566767
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 113508.19312241292
+        },
+        {
+            "Variable": "chugoku_Environment_Percent of coal combustion products beneficially used",
+            "VIF": 1.4154479215722189
+        },
+        {
+            "Variable": "chugoku_Environment_Total Owned Generation CO2 Emissions Intensity",
+            "VIF": 1.8478977381786552
+        },
+        {
+            "Variable": "chugoku_Financial_Cash Flow from Operating Activities",
+            "VIF": 7.637366822397152
+        },
+        {
+            "Variable": "chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated",
+            "VIF": 7.233254728987057
+        }
+    ],
+    "residuals": [
+        0.067412769544557,
+        -0.020872042937519097,
+        -0.04244113359397872,
+        -0.031164515631409984,
+        0.03847432355328806,
+        -0.03820200235023208,
+        0.04413867005382599,
+        -0.01756683897610145
+    ],
+    "coefficients": {
+        "const": 2.9853756688578317,
+        "chugoku_Environment_Percent of coal combustion products beneficially used": -0.004257570942993116,
+        "chugoku_Environment_Total Owned Generation CO2 Emissions Intensity": 0.07889170228786713,
+        "chugoku_Financial_Cash Flow from Operating Activities": -0.007408535847092335,
+        "chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated": 0.020519294172189673
+    },
+    "log_likelihood": 12.96298302244395,
+    "aic": -15.9259660448879,
+    "bic": -6.238291859859635
+}

@@ -1,0 +1,19 @@
+Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units
+Owned Net Generation Capacity (Renewable),9385224,42807705,46502765,47282101,49890065,58688356,69932925,75053662,82651231,MWh
+Owned Net Generation Capacity (Non-Renewable),119391210,150868347,142657235,145804125,157494616,157518797,151355755,156070732,155635506,MWh
+Owned Net Generation (Renewable),4069,16294,15468,"16,771",18007,21581,23068,26429,30683,MW
+Owned Net Generation (Non-Renewable),28761,29681,30244,28800,33673,33151,33506,33050,33068,MW
+Retail Electric Customers (Commercial),473207,540356,547908,553562,571381,576672,636044,641613,642772,Number of customers
+Retail Electric Customers (Industrial),20392,11770,11654,11601,12084,11990,12769,14094,15625,Number of customers
+Retail Electric Customers (Residential),3859377,4284159,4338224,4391832,4501472,4567743,5036950,5113455,5179816,Number of customers
+CO2 Owned Generation Emissions ,54270781,46159388,43004601,42097424,49953427,47328818,46614994,45459525,45503388,tons
+CO2 Owned Generation Emissions Intensity,843,477,455,436,482,438,427,390,381,lbs/Net MWh
+Total Owned Generation CO2 Emissions,49233638,not reported,not reported,38190152,45317000,42935994,42288462,41251837,41280028,MT
+Total Owned Generation CO2 Emissions Intensity,0.26,not reported,not reported,0.197788,0.219,0.199,0.191,0.18,0.17,MT/Net MWh
+NOx Emissions Intensity,0.86,0.13,0.13,0.1,0.12,0.086,0.11,0.08,0.07,lbs/Net MWh
+SO2 Emissions Intensity,1.89,0.03,0.03,0.02,0.02,0.011,0.008,0.01,0,lbs/Net MWh
+Hg Emissions Intensity ,2.20E-06,3.55E-06,1.70E-06,6.00E-08,1.00E-07,1.00E-07,2.00E-07,1.20E-07,3.00E-08,kg/Net MWh
+Water withdrawals - consumptive rate ,4.00E-04,4.00E-04,5.00E-04,5.00E-04,5.00E-04,9.17E-05,9.42E-05,0.0001033,8.54E-05,millions of gallons/net MWh
+Water withdrawals - non-consumptive rate,8.40E-03,7.50E-03,7.30E-03,7.30E-03,8.80E-03,0.0022104,0.0021371,0.0020597,0.0018605,millions of gallons/net MWh
+Amount of hazardous waste manifested for disposal ,not reported,not reported,0.47,0.26,1.1,0.8,1.3,6.18,11.6,tons
+Percent of coal combustion products beneficially used,not reported,not reported,not reported,0.77,69,93,91,130,199.6,%

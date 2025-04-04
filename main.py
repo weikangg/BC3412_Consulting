@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 
+from ans_burning_qn3 import risk_analyzer
 from groundwork import ranker
 from groundwork.data_import import load_all_csvs
 from groundwork.data_cleaning import (
@@ -67,6 +68,14 @@ def main():
         ranker.main()
     except Exception as e:
         print(f"ERROR running ranker: {e}")
+
+
+    print("\n========== PERFORMING RISK ANALYSIS (May take time due to API calls) ==========")
+
+    try:
+        risk_analyzer.main()
+    except Exception as e:
+        print(f"ERROR running risk analyzer: {e}")
 
     # --- Compute & Save Industry Average ---
     print("\n========== COMPUTING AND SAVING INDUSTRY AVERAGE ==========")

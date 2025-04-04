@@ -1,0 +1,65 @@
+{
+    "model_summary": "                         Generalized Linear Model Regression Results                          \n==============================================================================================\nDep. Variable:     ormat_SASB_Metrics_Total Emissions   No. Observations:                    9\nModel:                                            GLM   Df Residuals:                        3\nModel Family:                                   Gamma   Df Model:                            5\nLink Function:                                    Log   Scale:                         0.26239\nMethod:                                          IRLS   Log-Likelihood:                -137.20\nDate:                                Fri, 04 Apr 2025   Deviance:                       1.1247\nTime:                                        18:24:10   Pearson chi2:                    0.787\nNo. Iterations:                                    19   Pseudo R-squ. (CS):             0.9584\nCovariance Type:                            nonrobust                                         \n===================================================================================================================================\n                                                                      coef    std err          z      P>|z|      [0.025      0.975]\n-----------------------------------------------------------------------------------------------------------------------------------\nconst                                                              14.7975      0.171     86.664      0.000      14.463      15.132\normat_Governance_Percentage of minorities on board of directors    -0.3922      0.188     -2.087      0.037      -0.760      -0.024\normat_Governance_Percentage of women on board of directors         -0.6383      0.292     -2.186      0.029      -1.210      -0.066\normat_Governance_Total number on board of directors                 0.5635      0.209      2.701      0.007       0.155       0.972\normat_Social_Percentage of minorities in total workforce           -0.5504      0.199     -2.772      0.006      -0.940      -0.161\normat_Social_Percentage of women in total workforce                 0.4551      0.285      1.598      0.110      -0.103       1.013\n===================================================================================================================================",
+    "selected_predictors": [
+        "ormat_Governance_Percentage of minorities on board of directors",
+        "ormat_Governance_Percentage of women on board of directors",
+        "ormat_Governance_Total number on board of directors",
+        "ormat_Social_Percentage of minorities in total workforce",
+        "ormat_Social_Percentage of women in total workforce"
+    ],
+    "variable_importance_weights": {
+        "ormat_Governance_Percentage of minorities on board of directors": 15.087983023508228,
+        "ormat_Governance_Percentage of women on board of directors": 24.55317282360078,
+        "ormat_Governance_Total number on board of directors": 21.678878773727863,
+        "ormat_Social_Percentage of minorities in total workforce": 21.174086089869686,
+        "ormat_Social_Percentage of women in total workforce": 17.50587928929344
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 1394.1984434765327
+        },
+        {
+            "Variable": "ormat_Governance_Percentage of minorities on board of directors",
+            "VIF": 1.2109310361609977
+        },
+        {
+            "Variable": "ormat_Governance_Percentage of women on board of directors",
+            "VIF": 2.9227989487516437
+        },
+        {
+            "Variable": "ormat_Governance_Total number on board of directors",
+            "VIF": 1.4929430087117357
+        },
+        {
+            "Variable": "ormat_Social_Percentage of minorities in total workforce",
+            "VIF": 1.35222887634297
+        },
+        {
+            "Variable": "ormat_Social_Percentage of women in total workforce",
+            "VIF": 2.7806733252456355
+        }
+    ],
+    "residuals": [
+        -342380.39746127743,
+        223500.7176198722,
+        223500.7176198722,
+        -17128.236413662322,
+        -17128.236413662322,
+        -2460432.9014375196,
+        3533984.6894268366,
+        4.0978193283081055e-08,
+        3.166496753692627e-08
+    ],
+    "coefficients": {
+        "const": 14.797500925335415,
+        "ormat_Governance_Percentage of minorities on board of directors": -0.3922084266105347,
+        "ormat_Governance_Percentage of women on board of directors": -0.6382537192967932,
+        "ormat_Governance_Total number on board of directors": 0.563537148820791,
+        "ormat_Social_Percentage of minorities in total workforce": -0.5504151865285448,
+        "ormat_Social_Percentage of women in total workforce": 0.4550610483714123
+    },
+    "log_likelihood": -137.20446815835075,
+    "aic": 286.4089363167015,
+    "bic": -5.466952123348048
+}

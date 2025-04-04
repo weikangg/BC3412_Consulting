@@ -1,0 +1,229 @@
+{
+    "historical": {
+        "2005": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 51.174480939070435,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 20.954838627114583,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 83.13782822574782,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 47
+        },
+        "2016": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 45.88931671325354,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 54.95892999049262,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 52
+        },
+        "2017": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 45.88931671325354,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 54.95892999049262,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 48
+        },
+        "2018": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 77.60030206815493,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 53
+        },
+        "2019": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 77.60030206815493,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 50
+        },
+        "2020": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 35.31898826161974,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 52
+        },
+        "2021": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 35.31898826161974,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 33.706372888381345,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 57.715822853170415,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 43.60163777112271,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 61
+        },
+        "2022": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 45.88931671325354,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 50.70841857007037,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 60.19625483869163,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 9.824508592112851,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 50.79979527860966,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 35
+        },
+        "2023": {
+            "metrics": {
+                "ormat_Governance_Percentage of minorities on board of directors": {
+                    "score": 35.31898826161974,
+                    "weight": 15.087983023508228
+                },
+                "ormat_Governance_Percentage of women on board of directors": {
+                    "score": 82.58725422323728,
+                    "weight": 24.55317282360078
+                },
+                "ormat_Governance_Total number on board of directors": {
+                    "score": 37.25468145163546,
+                    "weight": 21.678878773727863
+                },
+                "ormat_Social_Percentage of minorities in total workforce": {
+                    "score": 36.16473143569451,
+                    "weight": 21.174086089869686
+                },
+                "ormat_Social_Percentage of women in total workforce": {
+                    "score": 93.98874032353133,
+                    "weight": 17.50587928929344
+                }
+            },
+            "overall_score": 52
+        }
+    }
+}

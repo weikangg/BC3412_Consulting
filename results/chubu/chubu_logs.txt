@@ -1,185 +1,194 @@
-2025-04-04 15:20:09,661 - INFO - ========== PROCESSING COMPANY: chubu ==========
-2025-04-04 15:20:09,668 - INFO - Wide-format data for chubu has 6 rows and 22 columns.
-2025-04-04 15:20:09,668 - INFO - Columns for company chubu: ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Owned Net Generation (Renewable)', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Capital Expenditure', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Financial_Operating Revenue', 'chubu_Governance_Percentage of women on board of directors', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Scope 1 Emissions', 'chubu_SASB_Metrics_Scope 2 Emissions', 'chubu_SASB_Metrics_Scope 3 Emissions', 'chubu_SASB_Metrics_Sulfur Oxides (SOx)', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
-2025-04-04 15:20:09,670 - INFO - Using unit: 10,000 t-CO2
-2025-04-04 15:20:09,670 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
-2025-04-04 15:20:09,671 - INFO - Initial call: Max historical year set to 2023.
-2025-04-04 15:20:09,672 - INFO - Extracted 6 TRUE historical records (up to year 2023) for base analysis.
-2025-04-04 15:20:09,676 - INFO - Performing ensemble forecast on historical data (up to 2023).
-2025-04-04 15:20:09,676 - INFO - Forecasting from 2024 to last target year 2050.
-2025-04-04 15:20:09,676 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050]
-2025-04-04 15:20:09,890 - INFO - Prophet forecast completed.
-2025-04-04 15:20:09,899 - INFO - Exponential Smoothing forecast completed.
-2025-04-04 15:20:10,006 - INFO - ARIMA forecast completed.
-2025-04-04 15:20:10,008 - INFO - Net-zero threshold not reached within the forecast horizon.
-2025-04-04 15:20:10,009 - INFO - Initial forecast final year (2050) emission: 6.08e+03
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2025: 10.0% reduction => 5.57e+03
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2030: 20.0% reduction => 4.95e+03
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2035: 60.0% reduction => 2.48e+03
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2040: 75.0% reduction => 1.55e+03
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2045: 90.0% reduction => 6.19e+02
-2025-04-04 15:20:10,038 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
-2025-04-04 15:20:10,478 - INFO - Ensemble forecast figure saved to: fig\chubu\chubu_ensemble_forecast_initial.png
-2025-04-04 15:20:10,479 - INFO - Duration results saved/updated in: results\chubu\chubu_duration_results.json (Tag: initial)
-2025-04-04 15:20:10,481 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
-2025-04-04 15:20:10,481 - INFO - --- Fitting model for Total Emissions ---
-2025-04-04 15:20:10,483 - INFO - Modeling 'chubu_SASB_Metrics_Total Emissions' on 6 rows after filtering.
-2025-04-04 15:20:10,511 - INFO - LASSO selected features: []
-2025-04-04 15:20:10,511 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Total Emissions'. Attempting Correlation backup.
-2025-04-04 15:20:10,514 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
-2025-04-04 15:20:10,520 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,524 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions Intensity' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,529 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,534 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,538 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,541 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,544 - WARNING - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,548 - INFO - Removing predictor 'chubu_Social_Total number of employees' for chubu_SASB_Metrics_Total Emissions due to high VIF: 1088613.22
-2025-04-04 15:20:10,550 - INFO - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Total Emissions due to high VIF: 27.75
-2025-04-04 15:20:10,553 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Total Emissions: ['chubu_Financial_Operating Expenses', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
-2025-04-04 15:20:10,559 - INFO - Model fitted for chubu_SASB_Metrics_Total Emissions.
-2025-04-04 15:20:10,563 - INFO - VIF for Selected Predictors:
+2025-04-04 18:24:01,215 - INFO - ========== PROCESSING COMPANY: chubu ==========
+2025-04-04 18:24:01,226 - INFO - Wide-format data for chubu has 6 rows and 22 columns.
+2025-04-04 18:24:01,227 - INFO - Columns for company chubu: ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Owned Net Generation (Renewable)', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Capital Expenditure', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Financial_Operating Revenue', 'chubu_Governance_Percentage of women on board of directors', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Scope 1 Emissions', 'chubu_SASB_Metrics_Scope 2 Emissions', 'chubu_SASB_Metrics_Scope 3 Emissions', 'chubu_SASB_Metrics_Sulfur Oxides (SOx)', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
+2025-04-04 18:24:01,230 - INFO - Using unit: 10,000 t-CO2
+2025-04-04 18:24:01,230 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
+2025-04-04 18:24:01,231 - INFO - Initial call: Max historical year set to 2023.
+2025-04-04 18:24:01,233 - INFO - Extracted 6 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:01,237 - INFO - Performing ensemble forecast on historical data (up to 2023).
+2025-04-04 18:24:01,238 - INFO - Forecasting from 2024 to last target year 2050.
+2025-04-04 18:24:01,238 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050]
+2025-04-04 18:24:01,567 - INFO - Prophet forecast completed.
+2025-04-04 18:24:01,577 - INFO - Exponential Smoothing forecast completed.
+2025-04-04 18:24:01,692 - INFO - ARIMA forecast completed.
+2025-04-04 18:24:01,694 - INFO - Net-zero threshold not reached within the forecast horizon.
+2025-04-04 18:24:01,695 - INFO - Initial forecast final year (2050) emission: 6.08e+03
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2025: 10.0% reduction => 5.57e+03
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2030: 20.0% reduction => 4.95e+03
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2035: 60.0% reduction => 2.48e+03
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2040: 75.0% reduction => 1.55e+03
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2045: 90.0% reduction => 6.19e+02
+2025-04-04 18:24:01,720 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:01,974 - INFO - Ensemble forecast figure saved to: fig\chubu\chubu_ensemble_forecast_initial.png
+2025-04-04 18:24:01,975 - INFO - Duration results saved/updated in: results\chubu\chubu_duration_results.json (Tag: initial)
+2025-04-04 18:24:01,975 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
+2025-04-04 18:24:01,975 - INFO - --- Fitting model for Total Emissions ---
+2025-04-04 18:24:01,977 - INFO - Modeling 'chubu_SASB_Metrics_Total Emissions' on 6 rows after filtering.
+2025-04-04 18:24:02,000 - INFO - LASSO selected features: []
+2025-04-04 18:24:02,000 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Total Emissions'. Attempting Correlation backup.
+2025-04-04 18:24:02,003 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
+2025-04-04 18:24:02,009 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,014 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions Intensity' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,017 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,022 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,027 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,032 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,036 - WARNING - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,039 - INFO - Removing predictor 'chubu_Social_Total number of employees' for chubu_SASB_Metrics_Total Emissions due to high VIF: 1088613.22
+2025-04-04 18:24:02,043 - INFO - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Total Emissions due to high VIF: 27.75
+2025-04-04 18:24:02,046 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Total Emissions: ['chubu_Financial_Operating Expenses', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
+2025-04-04 18:24:02,055 - INFO - Model fitted for chubu_SASB_Metrics_Total Emissions.
+2025-04-04 18:24:02,059 - INFO - VIF for Selected Predictors:
                                             Variable          VIF
 0                                              const  2944.390753
 1                 chubu_Financial_Operating Expenses     3.946089
 2    chubu_SASB_Metrics_Water consumed (Fresh water)     1.326252
 3  chubu_Social_Percentage of women in total work...     4.272097
-2025-04-04 15:20:10,570 - INFO - 
+2025-04-04 18:24:02,066 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:20:10,570 - INFO -   chubu_Financial_Operating Expenses: 25.29
-2025-04-04 15:20:10,570 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 34.92
-2025-04-04 15:20:10,570 - INFO -   chubu_Social_Percentage of women in total workforce: 39.79
-2025-04-04 15:20:10,570 - INFO - --- Saving results for total model ---
-2025-04-04 15:20:10,810 - INFO - Figure saved to fig\chubu\chubu_total_residual_plot.png
-2025-04-04 15:20:10,810 - INFO - [chubu] total residual plot saved to: fig\chubu\chubu_total_residual_plot.png
-2025-04-04 15:20:10,816 - INFO - [chubu] total model results saved to: results\chubu\chubu_total_model_results.json
-2025-04-04 15:20:10,816 - INFO - --- Fitting model for Scope 1 Emissions ---
-2025-04-04 15:20:10,820 - INFO - Modeling 'chubu_SASB_Metrics_Scope 1 Emissions' on 6 rows after filtering.
-2025-04-04 15:20:10,845 - INFO - LASSO selected features: []
-2025-04-04 15:20:10,845 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Scope 1 Emissions'. Attempting Correlation backup.
-2025-04-04 15:20:10,848 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_Owned Net Generation (Renewable)', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Financial_Capital Expenditure', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Financial_Operating Revenue', 'chubu_Governance_Percentage of women on board of directors', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Sulfur Oxides (SOx)', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
-2025-04-04 15:20:10,853 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,858 - WARNING - Removing predictor 'chubu_Environment_Owned Net Generation (Renewable)' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,863 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,867 - WARNING - Removing predictor 'chubu_Financial_Capital Expenditure' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,872 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,875 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,878 - WARNING - Removing predictor 'chubu_Financial_Operating Expenses' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,882 - WARNING - Removing predictor 'chubu_Governance_Percentage of women on board of directors' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,885 - WARNING - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,888 - WARNING - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:10,890 - INFO - Removing predictor 'chubu_SASB_Metrics_Sulfur Oxides (SOx)' for chubu_SASB_Metrics_Scope 1 Emissions due to high VIF: 29159.09
-2025-04-04 15:20:10,893 - INFO - Removing predictor 'chubu_Social_Total number of employees' for chubu_SASB_Metrics_Scope 1 Emissions due to high VIF: 183.42
-2025-04-04 15:20:10,895 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Scope 1 Emissions: ['chubu_Financial_Operating Revenue', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
-2025-04-04 15:20:10,903 - INFO - Model fitted for chubu_SASB_Metrics_Scope 1 Emissions.
-2025-04-04 15:20:10,903 - INFO - 
+2025-04-04 18:24:02,066 - INFO -   chubu_Financial_Operating Expenses: 25.29
+2025-04-04 18:24:02,066 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 34.92
+2025-04-04 18:24:02,066 - INFO -   chubu_Social_Percentage of women in total workforce: 39.79
+2025-04-04 18:24:02,067 - INFO - --- Saving results for total model ---
+2025-04-04 18:24:02,381 - INFO - Figure saved to fig\chubu\chubu_total_residual_plot.png
+2025-04-04 18:24:02,381 - INFO - [chubu] total residual plot saved to: fig\chubu\chubu_total_residual_plot.png
+2025-04-04 18:24:02,389 - INFO - [chubu] total model results saved to: results\chubu\chubu_total_model_results.json
+2025-04-04 18:24:02,389 - INFO - --- Fitting model for Scope 1 Emissions ---
+2025-04-04 18:24:02,391 - INFO - Modeling 'chubu_SASB_Metrics_Scope 1 Emissions' on 6 rows after filtering.
+2025-04-04 18:24:02,421 - INFO - LASSO selected features: []
+2025-04-04 18:24:02,421 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Scope 1 Emissions'. Attempting Correlation backup.
+2025-04-04 18:24:02,426 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_Owned Net Generation (Renewable)', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Financial_Capital Expenditure', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Financial_Operating Revenue', 'chubu_Governance_Percentage of women on board of directors', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Sulfur Oxides (SOx)', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce', 'chubu_Social_Total number of employees']
+2025-04-04 18:24:02,433 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,440 - WARNING - Removing predictor 'chubu_Environment_Owned Net Generation (Renewable)' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,445 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,449 - WARNING - Removing predictor 'chubu_Financial_Capital Expenditure' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,454 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,458 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,462 - WARNING - Removing predictor 'chubu_Financial_Operating Expenses' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,466 - WARNING - Removing predictor 'chubu_Governance_Percentage of women on board of directors' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,472 - WARNING - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,476 - WARNING - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:02,481 - INFO - Removing predictor 'chubu_SASB_Metrics_Sulfur Oxides (SOx)' for chubu_SASB_Metrics_Scope 1 Emissions due to high VIF: 29159.09
+2025-04-04 18:24:02,485 - INFO - Removing predictor 'chubu_Social_Total number of employees' for chubu_SASB_Metrics_Scope 1 Emissions due to high VIF: 183.42
+2025-04-04 18:24:02,488 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Scope 1 Emissions: ['chubu_Financial_Operating Revenue', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
+2025-04-04 18:24:02,500 - INFO - Model fitted for chubu_SASB_Metrics_Scope 1 Emissions.
+2025-04-04 18:24:02,501 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:20:10,903 - INFO -   chubu_Financial_Operating Revenue: 0.88
-2025-04-04 15:20:10,904 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 25.93
-2025-04-04 15:20:10,904 - INFO -   chubu_Social_Percentage of women in total workforce: 73.19
-2025-04-04 15:20:10,906 - INFO - --- Saving results for scope1 model ---
-2025-04-04 15:20:11,168 - INFO - Figure saved to fig\chubu\chubu_scope1_residual_plot.png
-2025-04-04 15:20:11,168 - INFO - [chubu] scope1 residual plot saved to: fig\chubu\chubu_scope1_residual_plot.png
-2025-04-04 15:20:11,174 - INFO - [chubu] scope1 model results saved to: results\chubu\chubu_scope1_model_results.json
-2025-04-04 15:20:11,174 - INFO - --- Fitting model for Scope 2 Emissions ---
-2025-04-04 15:20:11,176 - INFO - Modeling 'chubu_SASB_Metrics_Scope 2 Emissions' on 6 rows after filtering.
-2025-04-04 15:20:11,202 - INFO - LASSO selected features: ['chubu_Financial_Operating Revenue']
-2025-04-04 15:20:11,204 - INFO - Final predictors after LASSO + VIF for chubu_SASB_Metrics_Scope 2 Emissions: ['chubu_Financial_Operating Revenue']
-2025-04-04 15:20:11,210 - INFO - Model fitted for chubu_SASB_Metrics_Scope 2 Emissions.
-2025-04-04 15:20:11,211 - INFO - 
+2025-04-04 18:24:02,501 - INFO -   chubu_Financial_Operating Revenue: 0.88
+2025-04-04 18:24:02,501 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 25.93
+2025-04-04 18:24:02,501 - INFO -   chubu_Social_Percentage of women in total workforce: 73.19
+2025-04-04 18:24:02,505 - INFO - --- Saving results for scope1 model ---
+2025-04-04 18:24:02,817 - INFO - Figure saved to fig\chubu\chubu_scope1_residual_plot.png
+2025-04-04 18:24:02,817 - INFO - [chubu] scope1 residual plot saved to: fig\chubu\chubu_scope1_residual_plot.png
+2025-04-04 18:24:02,824 - INFO - [chubu] scope1 model results saved to: results\chubu\chubu_scope1_model_results.json
+2025-04-04 18:24:02,824 - INFO - --- Fitting model for Scope 2 Emissions ---
+2025-04-04 18:24:02,826 - INFO - Modeling 'chubu_SASB_Metrics_Scope 2 Emissions' on 6 rows after filtering.
+2025-04-04 18:24:02,859 - INFO - LASSO selected features: ['chubu_Financial_Operating Revenue']
+2025-04-04 18:24:02,862 - INFO - Final predictors after LASSO + VIF for chubu_SASB_Metrics_Scope 2 Emissions: ['chubu_Financial_Operating Revenue']
+2025-04-04 18:24:02,868 - INFO - Model fitted for chubu_SASB_Metrics_Scope 2 Emissions.
+2025-04-04 18:24:02,869 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:20:11,211 - INFO -   chubu_Financial_Operating Revenue: 100.00
-2025-04-04 15:20:11,214 - INFO - --- Saving results for scope2 model ---
-2025-04-04 15:20:11,449 - INFO - Figure saved to fig\chubu\chubu_scope2_residual_plot.png
-2025-04-04 15:20:11,449 - INFO - [chubu] scope2 residual plot saved to: fig\chubu\chubu_scope2_residual_plot.png
-2025-04-04 15:20:11,454 - INFO - [chubu] scope2 model results saved to: results\chubu\chubu_scope2_model_results.json
-2025-04-04 15:20:11,455 - INFO - --- Fitting model for Scope 3 Emissions ---
-2025-04-04 15:20:11,456 - INFO - Modeling 'chubu_SASB_Metrics_Scope 3 Emissions' on 6 rows after filtering.
-2025-04-04 15:20:11,478 - INFO - LASSO selected features: []
-2025-04-04 15:20:11,478 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Scope 3 Emissions'. Attempting Correlation backup.
-2025-04-04 15:20:11,481 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
-2025-04-04 15:20:11,485 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,489 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions Intensity' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,493 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,497 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,501 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,503 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:20:11,506 - INFO - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Scope 3 Emissions due to high VIF: 10940300.58
-2025-04-04 15:20:11,509 - INFO - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Scope 3 Emissions due to high VIF: 14.97
-2025-04-04 15:20:11,510 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Scope 3 Emissions: ['chubu_Financial_Operating Expenses', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
-2025-04-04 15:20:11,516 - INFO - Model fitted for chubu_SASB_Metrics_Scope 3 Emissions.
-2025-04-04 15:20:11,517 - INFO - 
+2025-04-04 18:24:02,870 - INFO -   chubu_Financial_Operating Revenue: 100.00
+2025-04-04 18:24:02,872 - INFO - --- Saving results for scope2 model ---
+2025-04-04 18:24:03,154 - INFO - Figure saved to fig\chubu\chubu_scope2_residual_plot.png
+2025-04-04 18:24:03,154 - INFO - [chubu] scope2 residual plot saved to: fig\chubu\chubu_scope2_residual_plot.png
+2025-04-04 18:24:03,159 - INFO - [chubu] scope2 model results saved to: results\chubu\chubu_scope2_model_results.json
+2025-04-04 18:24:03,159 - INFO - --- Fitting model for Scope 3 Emissions ---
+2025-04-04 18:24:03,161 - INFO - Modeling 'chubu_SASB_Metrics_Scope 3 Emissions' on 6 rows after filtering.
+2025-04-04 18:24:03,184 - INFO - LASSO selected features: []
+2025-04-04 18:24:03,184 - WARNING - LASSO selected 0 features for 'chubu_SASB_Metrics_Scope 3 Emissions'. Attempting Correlation backup.
+2025-04-04 18:24:03,187 - INFO - Correlation selected features (threshold > 0.15): ['chubu_Environment_CO2 Owned Generation Emissions', 'chubu_Environment_CO2 Owned Generation Emissions Intensity', 'chubu_Environment_Total Owned Generation CO2 Emissions', 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity', 'chubu_Financial_Cash Flow from Operating Activities', 'chubu_Financial_Net Income', 'chubu_Financial_Operating Expenses', 'chubu_Governance_Total number on board of directors', 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
+2025-04-04 18:24:03,191 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,195 - WARNING - Removing predictor 'chubu_Environment_CO2 Owned Generation Emissions Intensity' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,199 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,203 - WARNING - Removing predictor 'chubu_Environment_Total Owned Generation CO2 Emissions Intensity' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,206 - WARNING - Removing predictor 'chubu_Financial_Cash Flow from Operating Activities' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,208 - WARNING - Removing predictor 'chubu_Financial_Net Income' for chubu_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:03,211 - INFO - Removing predictor 'chubu_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for chubu_SASB_Metrics_Scope 3 Emissions due to high VIF: 10940300.58
+2025-04-04 18:24:03,213 - INFO - Removing predictor 'chubu_Governance_Total number on board of directors' for chubu_SASB_Metrics_Scope 3 Emissions due to high VIF: 14.97
+2025-04-04 18:24:03,216 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for chubu_SASB_Metrics_Scope 3 Emissions: ['chubu_Financial_Operating Expenses', 'chubu_SASB_Metrics_Water consumed (Fresh water)', 'chubu_Social_Percentage of women in total workforce']
+2025-04-04 18:24:03,221 - INFO - Model fitted for chubu_SASB_Metrics_Scope 3 Emissions.
+2025-04-04 18:24:03,221 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:20:11,517 - INFO -   chubu_Financial_Operating Expenses: 23.10
-2025-04-04 15:20:11,517 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 37.91
-2025-04-04 15:20:11,517 - INFO -   chubu_Social_Percentage of women in total workforce: 38.99
-2025-04-04 15:20:11,520 - INFO - --- Saving results for scope3 model ---
-2025-04-04 15:20:11,770 - INFO - Figure saved to fig\chubu\chubu_scope3_residual_plot.png
-2025-04-04 15:20:11,770 - INFO - [chubu] scope3 residual plot saved to: fig\chubu\chubu_scope3_residual_plot.png
-2025-04-04 15:20:11,776 - INFO - [chubu] scope3 model results saved to: results\chubu\chubu_scope3_model_results.json
-2025-04-04 15:20:11,777 - INFO - 
+2025-04-04 18:24:03,221 - INFO -   chubu_Financial_Operating Expenses: 23.10
+2025-04-04 18:24:03,221 - INFO -   chubu_SASB_Metrics_Water consumed (Fresh water): 37.91
+2025-04-04 18:24:03,222 - INFO -   chubu_Social_Percentage of women in total workforce: 38.99
+2025-04-04 18:24:03,224 - INFO - --- Saving results for scope3 model ---
+2025-04-04 18:24:03,506 - INFO - Figure saved to fig\chubu\chubu_scope3_residual_plot.png
+2025-04-04 18:24:03,506 - INFO - [chubu] scope3 residual plot saved to: fig\chubu\chubu_scope3_residual_plot.png
+2025-04-04 18:24:03,512 - INFO - [chubu] scope3 model results saved to: results\chubu\chubu_scope3_model_results.json
+2025-04-04 18:24:03,512 - INFO - 
 ========== RUNNING PHASED TARGET-SEEKING SCENARIO ==========
-2025-04-04 15:20:11,777 - INFO - Phased scenario range: 2024-2050
-2025-04-04 15:20:11,777 - INFO - Phase Boundaries: Short=(2024, 2032), Medium=(2033, 2041), Long=(2042, 2050)
-2025-04-04 15:20:11,777 - INFO - [chubu] Starting PHASED scenario analysis (2024-2050)
-2025-04-04 15:20:11,778 - INFO - Using baseline emission ref from 2023: 6.23e+03
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2025: 10.0% reduction => 5.61e+03
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2030: 20.0% reduction => 4.98e+03
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2035: 60.0% reduction => 2.49e+03
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2040: 75.0% reduction => 1.56e+03
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2045: 90.0% reduction => 6.23e+02
-2025-04-04 15:20:11,779 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
-2025-04-04 15:20:11,786 - INFO - Generating baseline 'no-change' forecast...
-2025-04-04 15:20:11,786 - INFO - [chubu] Generating CUMULATIVE predictor values for years 2024-2050...
-2025-04-04 15:20:11,788 - INFO - [chubu] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 4)
-2025-04-04 15:20:11,794 - INFO - Baseline total emissions forecast generated.
-2025-04-04 15:20:11,795 - INFO - --- Building rules for Phase: short (2024-2032) ---
-2025-04-04 15:20:11,795 - INFO - Found 3 targetable metrics for phase 'short'.
-2025-04-04 15:20:11,796 - INFO - --- Building rules for Phase: medium (2033-2041) ---
-2025-04-04 15:20:11,797 - INFO - No targetable metrics found for phase 'medium'.
-2025-04-04 15:20:11,797 - INFO - --- Building rules for Phase: long (2042-2050) ---
-2025-04-04 15:20:11,798 - INFO - Found 1 targetable metrics for phase 'long'.
-2025-04-04 15:20:11,799 - INFO - [chubu] Combining phase rules cumulatively...
-2025-04-04 15:20:11,799 - INFO - [chubu] Cumulative rules created for 4 metrics.
-2025-04-04 15:20:11,799 - INFO - [chubu] Generating CUMULATIVE predictor values for years 2024-2050...
-2025-04-04 15:20:11,800 - INFO - [chubu] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 4)
-2025-04-04 15:20:11,800 - INFO - [chubu] Predicting Scope 1 emissions...
-2025-04-04 15:20:11,806 - INFO - [chubu] Predicting Scope 2 emissions...
-2025-04-04 15:20:11,811 - INFO - [chubu] Predicting Scope 3 emissions...
-2025-04-04 15:20:11,818 - INFO - [chubu] Applying phased 'locking' to prevent emission increases...
-2025-04-04 15:20:11,818 - INFO - S1 lock value (end of short phase 2032): 17.1
-2025-04-04 15:20:11,818 - INFO - S2 lock value (end of medium phase 2041): 271
-2025-04-04 15:20:11,820 - INFO - [chubu] Calculated scenario Total Emissions by summing scope predictions.
-2025-04-04 15:20:11,820 - INFO - Actual last historical year determined as: 2023
-2025-04-04 15:20:11,825 - INFO - [chubu] Combined historical and target-seeking scenario data created. Shape: (33, 23)
-2025-04-04 15:20:11,825 - INFO - [chubu] Calculating scores for the combined historical + scenario timeline...
-2025-04-04 15:20:11,825 - INFO - Starting compute_score_timeseries for DataFrame of shape (33, 23)
-2025-04-04 15:20:11,833 - INFO - Finished computing score_timeseries. Final shape=(33, 27)
-2025-04-04 15:20:11,833 - INFO - [chubu] Extracting detailed scores from scenario results...
-2025-04-04 15:20:11,836 - INFO - [chubu] Extracted scenario scores for 33 years.
-2025-04-04 15:20:11,836 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'chubu_SASB_Metrics_Total Emissions_baseline_forecast']
-2025-04-04 15:20:11,839 - INFO - Successfully merged baseline forecast column 'chubu_SASB_Metrics_Total Emissions_baseline_forecast'.
-2025-04-04 15:20:11,839 - INFO - [chubu] Running duration analysis on target-seeking scenario data...
-2025-04-04 15:20:11,840 - INFO - Extracted 6 TRUE historical records (up to year 2023) for base analysis.
-2025-04-04 15:20:11,843 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
-2025-04-04 15:20:11,847 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
-2025-04-04 15:20:11,847 - INFO - Scenario final year (2050) emission: 2.01e+03
-2025-04-04 15:20:11,866 - INFO - Target parsed for 2025: 10.0% reduction => 5.57e+03
-2025-04-04 15:20:11,867 - INFO - Target parsed for 2030: 20.0% reduction => 4.95e+03
-2025-04-04 15:20:11,867 - INFO - Target parsed for 2035: 60.0% reduction => 2.48e+03
-2025-04-04 15:20:11,867 - INFO - Target parsed for 2040: 75.0% reduction => 1.55e+03
-2025-04-04 15:20:11,867 - INFO - Target parsed for 2045: 90.0% reduction => 6.19e+02
-2025-04-04 15:20:11,867 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
-2025-04-04 15:20:12,156 - INFO - Ensemble forecast figure saved to: fig\chubu\chubu_ensemble_forecast_phased_scenario.png
-2025-04-04 15:20:12,156 - INFO - [chubu] Phased Scenario analysis complete. Net Zero: None, Final Emission: 2014.2037939202835
-2025-04-04 15:20:12,156 - INFO - [chubu] Phased Scenario analysis completed. Net Zero: None, Final Emission: 2014.2037939202835
-2025-04-04 15:20:12,158 - INFO - Phased scenario rules saved to: results\chubu\chubu_phased_scenario_rules.json
-2025-04-04 15:20:12,160 - INFO - Duration results saved/updated in: results\chubu\chubu_duration_results.json (Tag: phased_scenario)
-2025-04-04 15:20:12,161 - INFO - Plotting chubu's composite scores. Range: 20–81
-2025-04-04 15:20:12,293 - INFO - Saved chubu score plot to fig\chubu\chubu_scenario_rules_comp_scores_plot.png
-2025-04-04 15:20:12,295 - INFO - Updating score details file with tag: 'phased_scenario'
-2025-04-04 15:20:12,297 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chubu\chubu_phased_scenario_score_details.json
-2025-04-04 15:20:12,298 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for chubu ==========
-2025-04-04 15:20:12,303 - INFO - [chubu] Individual recommendation summary saved to: results\chubu\chubu_recommendation_summary.json
-2025-04-04 15:20:12,304 - INFO - 
-========== PERFORMING RISK ANALYSIS (May take time due to API calls) ==========
+2025-04-04 18:24:03,512 - INFO - Phased scenario range: 2024-2050
+2025-04-04 18:24:03,513 - INFO - Phase Boundaries: Short=(2024, 2032), Medium=(2033, 2041), Long=(2042, 2050)
+2025-04-04 18:24:03,513 - INFO - [chubu] Starting PHASED scenario analysis (2024-2050)
+2025-04-04 18:24:03,514 - INFO - Using baseline emission ref from 2023: 6.23e+03
+2025-04-04 18:24:03,514 - INFO - Target parsed for 2025: 10.0% reduction => 5.61e+03
+2025-04-04 18:24:03,514 - INFO - Target parsed for 2030: 20.0% reduction => 4.98e+03
+2025-04-04 18:24:03,514 - INFO - Target parsed for 2035: 60.0% reduction => 2.49e+03
+2025-04-04 18:24:03,514 - INFO - Target parsed for 2040: 75.0% reduction => 1.56e+03
+2025-04-04 18:24:03,514 - INFO - Target parsed for 2045: 90.0% reduction => 6.23e+02
+2025-04-04 18:24:03,515 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:03,518 - INFO - Generating baseline 'no-change' forecast...
+2025-04-04 18:24:03,519 - INFO - [chubu] Generating CUMULATIVE predictor values for years 2024-2050...
+2025-04-04 18:24:03,520 - INFO - [chubu] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 4)
+2025-04-04 18:24:03,525 - INFO - Baseline total emissions forecast generated.
+2025-04-04 18:24:03,525 - INFO - --- Building rules for Phase: short (2024-2032) ---
+2025-04-04 18:24:03,526 - INFO - Found 3 targetable metrics for phase 'short'.
+2025-04-04 18:24:03,527 - INFO - --- Building rules for Phase: medium (2033-2041) ---
+2025-04-04 18:24:03,527 - INFO - No targetable metrics found for phase 'medium'.
+2025-04-04 18:24:03,527 - INFO - --- Building rules for Phase: long (2042-2050) ---
+2025-04-04 18:24:03,528 - INFO - Found 1 targetable metrics for phase 'long'.
+2025-04-04 18:24:03,529 - INFO - [chubu] Combining phase rules cumulatively...
+2025-04-04 18:24:03,529 - INFO - [chubu] Cumulative rules created for 4 metrics.
+2025-04-04 18:24:03,530 - INFO - [chubu] Generating CUMULATIVE predictor values for years 2024-2050...
+2025-04-04 18:24:03,531 - INFO - [chubu] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 4)
+2025-04-04 18:24:03,531 - INFO - [chubu] Predicting Scope 1 emissions...
+2025-04-04 18:24:03,535 - INFO - [chubu] Predicting Scope 2 emissions...
+2025-04-04 18:24:03,539 - INFO - [chubu] Predicting Scope 3 emissions...
+2025-04-04 18:24:03,542 - INFO - [chubu] Applying phased 'locking' to prevent emission increases...
+2025-04-04 18:24:03,542 - INFO - S1 lock value (end of short phase 2032): 17.1
+2025-04-04 18:24:03,542 - INFO - S2 lock value (end of medium phase 2041): 271
+2025-04-04 18:24:03,543 - INFO - [chubu] Calculated scenario Total Emissions by summing scope predictions.
+2025-04-04 18:24:03,544 - INFO - Actual last historical year determined as: 2023
+2025-04-04 18:24:03,547 - INFO - [chubu] Combined historical and target-seeking scenario data created. Shape: (33, 23)
+2025-04-04 18:24:03,548 - INFO - [chubu] Calculating scores for the combined historical + scenario timeline...
+2025-04-04 18:24:03,548 - INFO - Starting compute_score_timeseries for DataFrame of shape (33, 23)
+2025-04-04 18:24:03,552 - INFO - Finished computing score_timeseries. Final shape=(33, 27)
+2025-04-04 18:24:03,552 - INFO - [chubu] Extracting detailed scores from scenario results...
+2025-04-04 18:24:03,554 - INFO - [chubu] Extracted scenario scores for 33 years.
+2025-04-04 18:24:03,555 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'chubu_SASB_Metrics_Total Emissions_baseline_forecast']
+2025-04-04 18:24:03,556 - INFO - Successfully merged baseline forecast column 'chubu_SASB_Metrics_Total Emissions_baseline_forecast'.
+2025-04-04 18:24:03,556 - INFO - [chubu] Running duration analysis on target-seeking scenario data...
+2025-04-04 18:24:03,557 - INFO - Extracted 6 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:03,559 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
+2025-04-04 18:24:03,562 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
+2025-04-04 18:24:03,562 - INFO - Scenario final year (2050) emission: 2.01e+03
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2025: 10.0% reduction => 5.57e+03
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2030: 20.0% reduction => 4.95e+03
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2035: 60.0% reduction => 2.48e+03
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2040: 75.0% reduction => 1.55e+03
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2045: 90.0% reduction => 6.19e+02
+2025-04-04 18:24:03,574 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:03,818 - INFO - Ensemble forecast figure saved to: fig\chubu\chubu_ensemble_forecast_phased_scenario.png
+2025-04-04 18:24:03,819 - INFO - [chubu] Phased Scenario analysis complete. Net Zero: None, Final Emission: 2014.2037939202835
+2025-04-04 18:24:03,819 - INFO - [chubu] Phased Scenario analysis completed. Net Zero: None, Final Emission: 2014.2037939202835
+2025-04-04 18:24:03,821 - INFO - Phased scenario rules saved to: results\chubu\chubu_phased_scenario_rules.json
+2025-04-04 18:24:03,823 - INFO - Duration results saved/updated in: results\chubu\chubu_duration_results.json (Tag: phased_scenario)
+2025-04-04 18:24:03,825 - INFO - Plotting chubu's composite scores. Range: 20–81
+2025-04-04 18:24:03,963 - INFO - Saved chubu score plot to fig\chubu\chubu_scenario_rules_comp_scores_plot.png
+2025-04-04 18:24:03,965 - INFO - Updating score details file with tag: 'phased_scenario'
+2025-04-04 18:24:03,969 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chubu\chubu_phased_scenario_score_details.json
+2025-04-04 18:24:03,969 - INFO - ========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========
+2025-04-04 18:24:03,969 - INFO - Starting compute_score_timeseries for DataFrame of shape (6, 23)
+2025-04-04 18:24:03,976 - INFO - Finished computing score_timeseries. Final shape=(6, 28)
+2025-04-04 18:24:03,977 - INFO - Plotting chubu's composite scores. Range: 40–58
+2025-04-04 18:24:04,121 - INFO - Saved chubu score plot to fig\chubu\chubu_historical_comp_scores_plot.png
+2025-04-04 18:24:04,121 - INFO - [chubu] Extracting detailed scores from scenario results...
+2025-04-04 18:24:04,122 - INFO - [chubu] Extracted scenario scores for 6 years.
+2025-04-04 18:24:04,124 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:04,126 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chubu\chubu_historical_score_details.json
+2025-04-04 18:24:04,127 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:04,130 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chubu\chubu_historical_score_details.json
+2025-04-04 18:24:04,130 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for chubu ==========
+2025-04-04 18:24:04,135 - INFO - [chubu] Individual recommendation summary saved to: results\chubu\chubu_recommendation_summary.json

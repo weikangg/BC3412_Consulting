@@ -1,0 +1,44 @@
+{
+    "model_summary": "                            Generalized Linear Model Regression Results                            \n===================================================================================================\nDep. Variable:     sumitomo_SASB_Metrics_Scope 1 Emissions   No. Observations:                    9\nModel:                                                 GLM   Df Residuals:                        6\nModel Family:                                        Gamma   Df Model:                            2\nLink Function:                                         Log   Scale:                      4.9711e-05\nMethod:                                               IRLS   Log-Likelihood:                -124.99\nDate:                                     Fri, 04 Apr 2025   Deviance:                   0.00029787\nTime:                                             18:24:16   Pearson chi2:                 0.000298\nNo. Iterations:                                          6   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                 nonrobust                                         \n=====================================================================================================================================================================\n                                                                                                        coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                                17.5902      0.002   7484.517      0.000      17.586      17.595\nsumitomo_SASB_Metrics_Average retail electric rate for industrial customers                          -0.0171      0.003     -5.558      0.000      -0.023      -0.011\nsumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days    -0.0192      0.003     -6.244      0.000      -0.025      -0.013\n=====================================================================================================================================================================",
+    "selected_predictors": [
+        "sumitomo_SASB_Metrics_Average retail electric rate for industrial customers",
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days"
+    ],
+    "variable_importance_weights": {
+        "sumitomo_SASB_Metrics_Average retail electric rate for industrial customers": 47.090742192389065,
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days": 52.90925780761094
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 76.61969476450983
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Average retail electric rate for industrial customers",
+            "VIF": 1.7173490573674375
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",
+            "VIF": 1.7173490573674401
+        }
+    ],
+    "residuals": [
+        -35699.95375843346,
+        -35699.95375843346,
+        -35699.95375843346,
+        -35699.95375843346,
+        -35699.95375843346,
+        -209465.22187651694,
+        347840.4723246768,
+        -399727.9550008178,
+        439133.77429144084
+    ],
+    "coefficients": {
+        "const": 17.590178801883937,
+        "sumitomo_SASB_Metrics_Average retail electric rate for industrial customers": -0.01711723769234943,
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days": -0.01923223758756231
+    },
+    "log_likelihood": -124.98614433204057,
+    "aic": 255.97228866408113,
+    "bic": -13.183049598776163
+}

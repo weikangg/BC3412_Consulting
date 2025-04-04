@@ -1,0 +1,191 @@
+{
+    "most_important_metric": "chugoku_Governance_Percentage of women on board of directors",
+    "importance_weight": 74.83959086923697,
+    "recommended_action": {},
+    "expected_emissions_2045": 58.66311903794823,
+    "emission_unit": "million t-CO2",
+    "historical_score_trend": {
+        "2016": 39,
+        "2017": 39,
+        "2018": 37,
+        "2019": 43,
+        "2020": 49,
+        "2021": 68,
+        "2022": 64,
+        "2023": 60
+    },
+    "phased_score_trend": {
+        "2016": 25,
+        "2017": 26,
+        "2018": 17,
+        "2019": 20,
+        "2020": 21,
+        "2021": 66,
+        "2022": 67,
+        "2023": 55,
+        "2024": 55,
+        "2025": 55,
+        "2026": 55,
+        "2027": 55,
+        "2028": 55,
+        "2029": 55,
+        "2030": 55,
+        "2031": 55,
+        "2032": 55,
+        "2033": 55,
+        "2034": 55,
+        "2035": 55,
+        "2036": 55,
+        "2037": 55,
+        "2038": 55,
+        "2039": 55,
+        "2040": 55,
+        "2041": 55,
+        "2042": 55,
+        "2043": 54,
+        "2044": 54,
+        "2045": 53,
+        "2046": 52,
+        "2047": 51,
+        "2048": 50,
+        "2049": 49,
+        "2050": 42
+    },
+    "phased_scenario_rules": {
+        "2024": {
+            "Total Owned Generation CO2 Emissions Intensity": "-0.04%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.01%"
+        },
+        "2025": {
+            "Total Owned Generation CO2 Emissions Intensity": "-0.54%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.09%"
+        },
+        "2026": {
+            "Total Owned Generation CO2 Emissions Intensity": "-0.75%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.13%"
+        },
+        "2027": {
+            "Total Owned Generation CO2 Emissions Intensity": "-0.96%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.17%"
+        },
+        "2028": {
+            "Total Owned Generation CO2 Emissions Intensity": "-1.18%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.21%"
+        },
+        "2029": {
+            "Total Owned Generation CO2 Emissions Intensity": "-1.40%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.24%"
+        },
+        "2030": {
+            "Total Owned Generation CO2 Emissions Intensity": "-1.63%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.28%"
+        },
+        "2031": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.11%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.37%"
+        },
+        "2032": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2033": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2034": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2035": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2036": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2037": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2038": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2039": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2040": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2041": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+        },
+        "2042": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-18.74%",
+            "Capital Expenditure": "-0.16%",
+            "Percent of coal combustion products beneficially used": "-0.04%"
+        },
+        "2043": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-21.03%",
+            "Capital Expenditure": "-0.18%",
+            "Percent of coal combustion products beneficially used": "-0.05%"
+        },
+        "2044": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-23.68%",
+            "Capital Expenditure": "-0.20%",
+            "Percent of coal combustion products beneficially used": "-0.05%"
+        },
+        "2045": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-26.81%",
+            "Capital Expenditure": "-0.23%",
+            "Percent of coal combustion products beneficially used": "-0.06%"
+        },
+        "2046": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-30.64%",
+            "Capital Expenditure": "-0.26%",
+            "Percent of coal combustion products beneficially used": "-0.07%"
+        },
+        "2047": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-35.57%",
+            "Capital Expenditure": "-0.31%",
+            "Percent of coal combustion products beneficially used": "-0.08%"
+        },
+        "2048": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-42.54%",
+            "Capital Expenditure": "-0.37%",
+            "Percent of coal combustion products beneficially used": "-0.09%"
+        },
+        "2049": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-54.43%",
+            "Capital Expenditure": "-0.47%",
+            "Percent of coal combustion products beneficially used": "-0.12%"
+        },
+        "2050": {
+            "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+            "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+            "Total Owned Generation CO2 Emissions": "-100.00%",
+            "Capital Expenditure": "-3.69%",
+            "Percent of coal combustion products beneficially used": "-0.92%"
+        }
+    }
+}

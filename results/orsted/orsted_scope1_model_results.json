@@ -1,0 +1,51 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                           \n=================================================================================================\nDep. Variable:     orsted_SASB_Metrics_Scope 1 Emissions   No. Observations:                    9\nModel:                                               GLM   Df Residuals:                        5\nModel Family:                                      Gamma   Df Model:                            3\nLink Function:                                       Log   Scale:                      0.00010108\nMethod:                                             IRLS   Log-Likelihood:                -117.11\nDate:                                   Fri, 04 Apr 2025   Deviance:                   0.00050460\nTime:                                           18:24:13   Pearson chi2:                 0.000505\nNo. Iterations:                                       10   Pseudo R-squ. (CS):              1.000\nCovariance Type:                               nonrobust                                         \n===================================================================================================================================================\n                                                                                      coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                              16.4156      0.003   4898.346      0.000      16.409      16.422\norsted_SASB_Metrics_Percentage of electric load served by smart grid technology    -1.4026      0.007   -196.695      0.000      -1.417      -1.389\norsted_SASB_Metrics_Sulfur Oxides (SOx)                                             0.4142      0.008     50.969      0.000       0.398       0.430\norsted_Social_Total number of employees                                            -0.0109      0.010     -1.046      0.296      -0.031       0.010\n===================================================================================================================================================",
+    "selected_predictors": [
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+        "orsted_SASB_Metrics_Sulfur Oxides (SOx)",
+        "orsted_Social_Total number of employees"
+    ],
+    "variable_importance_weights": {
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": 76.74238316560009,
+        "orsted_SASB_Metrics_Sulfur Oxides (SOx)": 22.66081015732439,
+        "orsted_Social_Total number of employees": 0.5968066770755277
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 3872.9113592760823
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+            "VIF": 4.527794325167283
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Sulfur Oxides (SOx)",
+            "VIF": 5.879621874354885
+        },
+        {
+            "Variable": "orsted_Social_Total number of employees",
+            "VIF": 9.691270069996127
+        }
+    ],
+    "residuals": [
+        -44260.40529034287,
+        -44260.40529034287,
+        -44260.40529034287,
+        -44260.40529034287,
+        -44260.40529034287,
+        166869.6418716237,
+        17264.27635202557,
+        -1523.7012847305741,
+        -11974.889436483732
+    ],
+    "coefficients": {
+        "const": 16.41557167298475,
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": -1.402630142952898,
+        "orsted_SASB_Metrics_Sulfur Oxides (SOx)": 0.4141744636964044,
+        "orsted_Social_Total number of employees": -0.010907910339132165
+    },
+    "log_likelihood": -117.10820131542278,
+    "aic": 242.21640263084555,
+    "bic": -10.98561829078392
+}

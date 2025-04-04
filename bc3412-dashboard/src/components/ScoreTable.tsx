@@ -108,7 +108,7 @@ const ScoreTable: React.FC = () => {
 
   return (
     <div className="score-table-container">
-      <h2>Score Table</h2>
+      <h2>Important Metrics, Score Analysis & Ranking Table</h2>
       <div className="score-table-filters">
         <input
           type="text"
@@ -149,7 +149,7 @@ const ScoreTable: React.FC = () => {
             <th className="rank sortable" onClick={() => toggleSort("rank")}>
               Rank {sortKey === "rank" && (sortAsc ? "↑" : "↓")}
             </th>
-            <th className="mitigation">How to Mitigate</th>
+            <th className="mitigation">Important Metrics To Take Note</th>
           </tr>
         </thead>
         <tbody>

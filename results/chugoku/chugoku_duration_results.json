@@ -1,0 +1,14 @@
+{
+    "initial": {
+        "net_zero_year": null,
+        "is_hit_targets": false,
+        "final_year_emission": 13.89205277848451,
+        "emission_unit": "million t-CO2"
+    },
+    "phased_scenario": {
+        "net_zero_year": null,
+        "is_hit_targets": false,
+        "final_year_emission": 58.66311903794823,
+        "emission_unit": "million t-CO2"
+    }
+}

@@ -1,0 +1,194 @@
+2025-04-04 18:24:09,697 - INFO - ========== PROCESSING COMPANY: ormat ==========
+2025-04-04 18:24:09,703 - INFO - Wide-format data for ormat has 9 rows and 55 columns.
+2025-04-04 18:24:09,703 - INFO - Columns for company ormat: ['ormat_Environment_Amount of hazardous waste manifested for disposal', 'ormat_Environment_CO2 Owned Generation Emissions', 'ormat_Environment_CO2 Owned Generation Emissions Intensity', 'ormat_Environment_NOx Emissions Intensity', 'ormat_Environment_Owned Net Generation (Non-Renewable)', 'ormat_Environment_Owned Net Generation (Renewable)', 'ormat_Environment_Owned Net Generation Capacity (Non-Renewable)', 'ormat_Environment_Owned Net Generation Capacity (Renewable)', 'ormat_Environment_Percent of coal combustion products beneficially used', 'ormat_Environment_Retail Electric Customers (Commercial)', 'ormat_Environment_Retail Electric Customers (Industrial)', 'ormat_Environment_Retail Electric Customers (Residential)', 'ormat_Environment_SO2 Emissions Intensity', 'ormat_Environment_Total Owned Generation CO2 Emissions', 'ormat_Environment_Total Owned Generation CO2 Emissions Intensity', 'ormat_Financial_Capital Expenditure', 'ormat_Financial_Cash Flow from Operating Activities', 'ormat_Financial_Issuances of common stock', 'ormat_Financial_Issuances of long-term debt, including premiums and discount', 'ormat_Financial_Net Income', 'ormat_Financial_Operating Expenses', 'ormat_Financial_Operating Revenue', 'ormat_Governance_Environmental Fines', 'ormat_Governance_Percentage of minorities on board of directors', 'ormat_Governance_Percentage of women on board of directors', 'ormat_Governance_Total number on board of directors', 'ormat_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'ormat_SASB_Metrics_Average retail electric rate for commercial', 'ormat_SASB_Metrics_Average retail electric rate for industrial customers', 'ormat_SASB_Metrics_Average retail electric rate for residential', 'ormat_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'ormat_SASB_Metrics_GHG Emissions', 'ormat_SASB_Metrics_Lead (Pb)', 'ormat_SASB_Metrics_Mercury (Hg)', 'ormat_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'ormat_SASB_Metrics_Particulate matter (PM 10)', 'ormat_SASB_Metrics_Percentage of electric load served by smart grid technology', 'ormat_SASB_Metrics_Scope 1 Emissions', 'ormat_SASB_Metrics_Scope 2 Emissions', 'ormat_SASB_Metrics_Scope 3 Emissions', 'ormat_SASB_Metrics_Sulfur Oxides (SOx)', 'ormat_SASB_Metrics_System Average interruption duration Index', 'ormat_SASB_Metrics_System Average interruption frequency Index', 'ormat_SASB_Metrics_Total recordable Incident Rate', 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'ormat_SASB_Metrics_Water consumed', 'ormat_SASB_Metrics_Water withdrawn', 'ormat_SASB_Metrics_Workforce Fatality Frequency', 'ormat_Social_Percentage of minorities in total workforce', 'ormat_Social_Percentage of women in total workforce', 'ormat_Social_Support of SDGs (Number of Goals)', 'ormat_Social_Total number of employees']
+2025-04-04 18:24:09,706 - INFO - Using unit: metric tons Co2e
+2025-04-04 18:24:09,706 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
+2025-04-04 18:24:09,707 - INFO - Initial call: Max historical year set to 2023.
+2025-04-04 18:24:09,708 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:09,710 - INFO - Performing ensemble forecast on historical data (up to 2023).
+2025-04-04 18:24:09,710 - INFO - Forecasting from 2024 to last target year 2045.
+2025-04-04 18:24:09,710 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045]
+2025-04-04 18:24:09,856 - INFO - Prophet forecast completed.
+2025-04-04 18:24:09,864 - INFO - Exponential Smoothing forecast completed.
+2025-04-04 18:24:09,885 - INFO - ARIMA forecast completed.
+2025-04-04 18:24:09,888 - INFO - Net-zero threshold not reached within the forecast horizon.
+2025-04-04 18:24:09,888 - INFO - Initial forecast final year (2045) emission: 1.90e+07
+2025-04-04 18:24:09,902 - INFO - Target parsed for 2025: 70.0% reduction => 3.86e+05
+2025-04-04 18:24:09,903 - INFO - Target parsed for 2030: 82.0% reduction => 2.32e+05
+2025-04-04 18:24:09,903 - INFO - Target parsed for 2035: 87.0% reduction => 1.67e+05
+2025-04-04 18:24:09,903 - INFO - Target parsed for 2040: 94.0% reduction => 7.72e+04
+2025-04-04 18:24:09,903 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:10,160 - INFO - Ensemble forecast figure saved to: fig\ormat\ormat_ensemble_forecast_initial.png
+2025-04-04 18:24:10,162 - INFO - Duration results saved/updated in: results\ormat\ormat_duration_results.json (Tag: initial)
+2025-04-04 18:24:10,162 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
+2025-04-04 18:24:10,162 - INFO - --- Fitting model for Total Emissions ---
+2025-04-04 18:24:10,164 - INFO - Modeling 'ormat_SASB_Metrics_Total Emissions' on 9 rows after filtering.
+2025-04-04 18:24:10,195 - INFO - LASSO selected features: []
+2025-04-04 18:24:10,195 - WARNING - LASSO selected 0 features for 'ormat_SASB_Metrics_Total Emissions'. Attempting Correlation backup.
+2025-04-04 18:24:10,201 - INFO - Correlation selected features (threshold > 0.15): ['ormat_Environment_Amount of hazardous waste manifested for disposal', 'ormat_Environment_CO2 Owned Generation Emissions', 'ormat_Environment_CO2 Owned Generation Emissions Intensity', 'ormat_Environment_NOx Emissions Intensity', 'ormat_Environment_Owned Net Generation (Non-Renewable)', 'ormat_Environment_Owned Net Generation (Renewable)', 'ormat_Environment_Owned Net Generation Capacity (Non-Renewable)', 'ormat_Environment_Owned Net Generation Capacity (Renewable)', 'ormat_Environment_Retail Electric Customers (Commercial)', 'ormat_Environment_Retail Electric Customers (Residential)', 'ormat_Environment_SO2 Emissions Intensity', 'ormat_Environment_Total Owned Generation CO2 Emissions', 'ormat_Environment_Total Owned Generation CO2 Emissions Intensity', 'ormat_Financial_Capital Expenditure', 'ormat_Financial_Cash Flow from Operating Activities', 'ormat_Financial_Issuances of common stock', 'ormat_Financial_Issuances of long-term debt, including premiums and discount', 'ormat_Financial_Net Income', 'ormat_Financial_Operating Expenses', 'ormat_Financial_Operating Revenue', 'ormat_Governance_Percentage of minorities on board of directors', 'ormat_Governance_Percentage of women on board of directors', 'ormat_Governance_Total number on board of directors', 'ormat_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'ormat_SASB_Metrics_Average retail electric rate for commercial', 'ormat_SASB_Metrics_Average retail electric rate for industrial customers', 'ormat_SASB_Metrics_Average retail electric rate for residential', 'ormat_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'ormat_SASB_Metrics_GHG Emissions', 'ormat_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'ormat_SASB_Metrics_Particulate matter (PM 10)', 'ormat_SASB_Metrics_Percentage of electric load served by smart grid technology', 'ormat_SASB_Metrics_Sulfur Oxides (SOx)', 'ormat_SASB_Metrics_System Average interruption frequency Index', 'ormat_SASB_Metrics_Total recordable Incident Rate', 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'ormat_SASB_Metrics_Water withdrawn', 'ormat_Social_Percentage of minorities in total workforce', 'ormat_Social_Percentage of women in total workforce', 'ormat_Social_Total number of employees']
+2025-04-04 18:24:10,213 - WARNING - Removing predictor 'ormat_Environment_Amount of hazardous waste manifested for disposal' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,225 - WARNING - Removing predictor 'ormat_Environment_CO2 Owned Generation Emissions' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,237 - WARNING - Removing predictor 'ormat_Environment_CO2 Owned Generation Emissions Intensity' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,250 - WARNING - Removing predictor 'ormat_Environment_NOx Emissions Intensity' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,261 - WARNING - Removing predictor 'ormat_Environment_Owned Net Generation (Non-Renewable)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,272 - WARNING - Removing predictor 'ormat_Environment_Owned Net Generation (Renewable)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,282 - WARNING - Removing predictor 'ormat_Environment_Owned Net Generation Capacity (Non-Renewable)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,292 - WARNING - Removing predictor 'ormat_Environment_Owned Net Generation Capacity (Renewable)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,301 - WARNING - Removing predictor 'ormat_Environment_Retail Electric Customers (Commercial)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,310 - WARNING - Removing predictor 'ormat_Environment_Retail Electric Customers (Residential)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,319 - WARNING - Removing predictor 'ormat_Environment_SO2 Emissions Intensity' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,328 - WARNING - Removing predictor 'ormat_Environment_Total Owned Generation CO2 Emissions' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,337 - WARNING - Removing predictor 'ormat_Environment_Total Owned Generation CO2 Emissions Intensity' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,345 - WARNING - Removing predictor 'ormat_Financial_Capital Expenditure' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,354 - WARNING - Removing predictor 'ormat_Financial_Cash Flow from Operating Activities' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,362 - WARNING - Removing predictor 'ormat_Financial_Issuances of common stock' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,370 - WARNING - Removing predictor 'ormat_Financial_Issuances of long-term debt, including premiums and discount' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,381 - WARNING - Removing predictor 'ormat_Financial_Net Income' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,392 - WARNING - Removing predictor 'ormat_Financial_Operating Expenses' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,400 - WARNING - Removing predictor 'ormat_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,409 - WARNING - Removing predictor 'ormat_SASB_Metrics_Average retail electric rate for commercial' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,417 - WARNING - Removing predictor 'ormat_SASB_Metrics_Average retail electric rate for industrial customers' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,423 - WARNING - Removing predictor 'ormat_SASB_Metrics_Average retail electric rate for residential' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,429 - WARNING - Removing predictor 'ormat_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,435 - WARNING - Removing predictor 'ormat_SASB_Metrics_GHG Emissions' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,441 - WARNING - Removing predictor 'ormat_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,446 - WARNING - Removing predictor 'ormat_SASB_Metrics_Particulate matter (PM 10)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,452 - WARNING - Removing predictor 'ormat_SASB_Metrics_Percentage of electric load served by smart grid technology' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,457 - WARNING - Removing predictor 'ormat_SASB_Metrics_Sulfur Oxides (SOx)' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,461 - WARNING - Removing predictor 'ormat_SASB_Metrics_System Average interruption frequency Index' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,467 - WARNING - Removing predictor 'ormat_SASB_Metrics_Total recordable Incident Rate' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,471 - WARNING - Removing predictor 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,474 - WARNING - Removing predictor 'ormat_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month' for ormat_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:10,478 - INFO - Removing predictor 'ormat_SASB_Metrics_Water withdrawn' for ormat_SASB_Metrics_Total Emissions due to high VIF: 879.70
+2025-04-04 18:24:10,483 - INFO - Removing predictor 'ormat_Financial_Operating Revenue' for ormat_SASB_Metrics_Total Emissions due to high VIF: 82.91
+2025-04-04 18:24:10,487 - INFO - Removing predictor 'ormat_Social_Total number of employees' for ormat_SASB_Metrics_Total Emissions due to high VIF: 17.14
+2025-04-04 18:24:10,490 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for ormat_SASB_Metrics_Total Emissions: ['ormat_Governance_Percentage of minorities on board of directors', 'ormat_Governance_Percentage of women on board of directors', 'ormat_Governance_Total number on board of directors', 'ormat_Social_Percentage of minorities in total workforce', 'ormat_Social_Percentage of women in total workforce']
+2025-04-04 18:24:10,496 - INFO - Model fitted for ormat_SASB_Metrics_Total Emissions.
+2025-04-04 18:24:10,501 - INFO - VIF for Selected Predictors:
+                                            Variable          VIF
+0                                              const  1394.198443
+1  ormat_Governance_Percentage of minorities on b...     1.210931
+2  ormat_Governance_Percentage of women on board ...     2.922799
+3  ormat_Governance_Total number on board of dire...     1.492943
+4  ormat_Social_Percentage of minorities in total...     1.352229
+5  ormat_Social_Percentage of women in total work...     2.780673
+2025-04-04 18:24:10,506 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:10,506 - INFO -   ormat_Governance_Percentage of minorities on board of directors: 15.09
+2025-04-04 18:24:10,506 - INFO -   ormat_Governance_Percentage of women on board of directors: 24.55
+2025-04-04 18:24:10,506 - INFO -   ormat_Governance_Total number on board of directors: 21.68
+2025-04-04 18:24:10,506 - INFO -   ormat_Social_Percentage of minorities in total workforce: 21.17
+2025-04-04 18:24:10,506 - INFO -   ormat_Social_Percentage of women in total workforce: 17.51
+2025-04-04 18:24:10,507 - INFO - --- Saving results for total model ---
+2025-04-04 18:24:10,753 - INFO - Figure saved to fig\ormat\ormat_total_residual_plot.png
+2025-04-04 18:24:10,753 - INFO - [ormat] total residual plot saved to: fig\ormat\ormat_total_residual_plot.png
+2025-04-04 18:24:10,760 - INFO - [ormat] total model results saved to: results\ormat\ormat_total_model_results.json
+2025-04-04 18:24:10,760 - INFO - --- Fitting model for Scope 1 Emissions ---
+2025-04-04 18:24:10,762 - INFO - Modeling 'ormat_SASB_Metrics_Scope 1 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:10,792 - INFO - LASSO selected features: ['ormat_Environment_Retail Electric Customers (Residential)']
+2025-04-04 18:24:10,794 - INFO - Final predictors after LASSO + VIF for ormat_SASB_Metrics_Scope 1 Emissions: ['ormat_Environment_Retail Electric Customers (Residential)']
+2025-04-04 18:24:10,800 - INFO - Model fitted for ormat_SASB_Metrics_Scope 1 Emissions.
+2025-04-04 18:24:10,801 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:10,801 - INFO -   ormat_Environment_Retail Electric Customers (Residential): 100.00
+2025-04-04 18:24:10,803 - INFO - --- Saving results for scope1 model ---
+2025-04-04 18:24:11,093 - INFO - Figure saved to fig\ormat\ormat_scope1_residual_plot.png
+2025-04-04 18:24:11,093 - INFO - [ormat] scope1 residual plot saved to: fig\ormat\ormat_scope1_residual_plot.png
+2025-04-04 18:24:11,099 - INFO - [ormat] scope1 model results saved to: results\ormat\ormat_scope1_model_results.json
+2025-04-04 18:24:11,099 - INFO - --- Fitting model for Scope 2 Emissions ---
+2025-04-04 18:24:11,101 - INFO - Modeling 'ormat_SASB_Metrics_Scope 2 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:11,141 - INFO - LASSO selected features: ['ormat_SASB_Metrics_GHG Emissions']
+2025-04-04 18:24:11,144 - INFO - Final predictors after LASSO + VIF for ormat_SASB_Metrics_Scope 2 Emissions: ['ormat_SASB_Metrics_GHG Emissions']
+2025-04-04 18:24:11,152 - INFO - Model fitted for ormat_SASB_Metrics_Scope 2 Emissions.
+2025-04-04 18:24:11,153 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:11,153 - INFO -   ormat_SASB_Metrics_GHG Emissions: 100.00
+2025-04-04 18:24:11,156 - INFO - --- Saving results for scope2 model ---
+2025-04-04 18:24:11,609 - INFO - Figure saved to fig\ormat\ormat_scope2_residual_plot.png
+2025-04-04 18:24:11,609 - INFO - [ormat] scope2 residual plot saved to: fig\ormat\ormat_scope2_residual_plot.png
+2025-04-04 18:24:11,614 - INFO - [ormat] scope2 model results saved to: results\ormat\ormat_scope2_model_results.json
+2025-04-04 18:24:11,614 - INFO - --- Fitting model for Scope 3 Emissions ---
+2025-04-04 18:24:11,615 - INFO - Modeling 'ormat_SASB_Metrics_Scope 3 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:11,645 - INFO - LASSO selected features: ['ormat_SASB_Metrics_Average retail electric rate for residential']
+2025-04-04 18:24:11,647 - INFO - Final predictors after LASSO + VIF for ormat_SASB_Metrics_Scope 3 Emissions: ['ormat_SASB_Metrics_Average retail electric rate for residential']
+2025-04-04 18:24:11,657 - INFO - Model fitted for ormat_SASB_Metrics_Scope 3 Emissions.
+2025-04-04 18:24:11,657 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:11,657 - INFO -   ormat_SASB_Metrics_Average retail electric rate for residential: 100.00
+2025-04-04 18:24:11,660 - INFO - --- Saving results for scope3 model ---
+2025-04-04 18:24:11,927 - INFO - Figure saved to fig\ormat\ormat_scope3_residual_plot.png
+2025-04-04 18:24:11,927 - INFO - [ormat] scope3 residual plot saved to: fig\ormat\ormat_scope3_residual_plot.png
+2025-04-04 18:24:11,933 - INFO - [ormat] scope3 model results saved to: results\ormat\ormat_scope3_model_results.json
+2025-04-04 18:24:11,933 - INFO - 
+========== RUNNING PHASED TARGET-SEEKING SCENARIO ==========
+2025-04-04 18:24:11,933 - INFO - Phased scenario range: 2024-2045
+2025-04-04 18:24:11,933 - INFO - Phase Boundaries: Short=(2024, 2030), Medium=(2031, 2037), Long=(2038, 2045)
+2025-04-04 18:24:11,933 - INFO - [ormat] Starting PHASED scenario analysis (2024-2045)
+2025-04-04 18:24:11,934 - INFO - Using baseline emission ref from 2023: 9.40e+06
+2025-04-04 18:24:11,934 - INFO - Target parsed for 2025: 70.0% reduction => 2.82e+06
+2025-04-04 18:24:11,935 - INFO - Target parsed for 2030: 82.0% reduction => 1.69e+06
+2025-04-04 18:24:11,935 - INFO - Target parsed for 2035: 87.0% reduction => 1.22e+06
+2025-04-04 18:24:11,935 - INFO - Target parsed for 2040: 94.0% reduction => 5.64e+05
+2025-04-04 18:24:11,935 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:11,939 - INFO - Generating baseline 'no-change' forecast...
+2025-04-04 18:24:11,939 - INFO - [ormat] Generating CUMULATIVE predictor values for years 2024-2045...
+2025-04-04 18:24:11,940 - INFO - [ormat] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 8)
+2025-04-04 18:24:11,945 - INFO - Baseline total emissions forecast generated.
+2025-04-04 18:24:11,945 - INFO - --- Building rules for Phase: short (2024-2030) ---
+2025-04-04 18:24:11,946 - INFO - Found 1 targetable metrics for phase 'short'.
+2025-04-04 18:24:11,947 - INFO - --- Building rules for Phase: medium (2031-2037) ---
+2025-04-04 18:24:11,947 - INFO - No targetable metrics found for phase 'medium'.
+2025-04-04 18:24:11,947 - INFO - --- Building rules for Phase: long (2038-2045) ---
+2025-04-04 18:24:11,948 - INFO - Found 1 targetable metrics for phase 'long'.
+2025-04-04 18:24:11,948 - INFO - [ormat] Combining phase rules cumulatively...
+2025-04-04 18:24:11,949 - INFO - [ormat] Cumulative rules created for 8 metrics.
+2025-04-04 18:24:11,949 - INFO - [ormat] Generating CUMULATIVE predictor values for years 2024-2045...
+2025-04-04 18:24:11,950 - INFO - [ormat] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 8)
+2025-04-04 18:24:11,950 - INFO - [ormat] Predicting Scope 1 emissions...
+2025-04-04 18:24:11,954 - INFO - [ormat] Predicting Scope 2 emissions...
+2025-04-04 18:24:11,957 - INFO - [ormat] Predicting Scope 3 emissions...
+2025-04-04 18:24:11,961 - INFO - [ormat] Applying phased 'locking' to prevent emission increases...
+2025-04-04 18:24:11,961 - INFO - S1 lock value (end of short phase 2030): 7.09e+04
+2025-04-04 18:24:11,961 - INFO - S2 lock value (end of medium phase 2037): 3.06e+04
+2025-04-04 18:24:11,962 - INFO - [ormat] Calculated scenario Total Emissions by summing scope predictions.
+2025-04-04 18:24:11,962 - INFO - Actual last historical year determined as: 2023
+2025-04-04 18:24:11,967 - INFO - [ormat] Combined historical and target-seeking scenario data created. Shape: (31, 56)
+2025-04-04 18:24:11,967 - INFO - [ormat] Calculating scores for the combined historical + scenario timeline...
+2025-04-04 18:24:11,967 - INFO - Starting compute_score_timeseries for DataFrame of shape (31, 56)
+2025-04-04 18:24:11,974 - INFO - Finished computing score_timeseries. Final shape=(31, 62)
+2025-04-04 18:24:11,974 - INFO - [ormat] Extracting detailed scores from scenario results...
+2025-04-04 18:24:11,976 - INFO - [ormat] Extracted scenario scores for 31 years.
+2025-04-04 18:24:11,976 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'ormat_SASB_Metrics_Total Emissions_baseline_forecast']
+2025-04-04 18:24:11,978 - INFO - Successfully merged baseline forecast column 'ormat_SASB_Metrics_Total Emissions_baseline_forecast'.
+2025-04-04 18:24:11,978 - INFO - [ormat] Running duration analysis on target-seeking scenario data...
+2025-04-04 18:24:11,979 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:11,980 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
+2025-04-04 18:24:11,983 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
+2025-04-04 18:24:11,983 - INFO - Scenario final year (2045) emission: 3.46e+04
+2025-04-04 18:24:11,997 - INFO - Target parsed for 2025: 70.0% reduction => 3.86e+05
+2025-04-04 18:24:11,997 - INFO - Target parsed for 2030: 82.0% reduction => 2.32e+05
+2025-04-04 18:24:11,997 - INFO - Target parsed for 2035: 87.0% reduction => 1.67e+05
+2025-04-04 18:24:11,997 - INFO - Target parsed for 2040: 94.0% reduction => 7.72e+04
+2025-04-04 18:24:11,997 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:12,249 - INFO - Ensemble forecast figure saved to: fig\ormat\ormat_ensemble_forecast_phased_scenario.png
+2025-04-04 18:24:12,249 - INFO - [ormat] Phased Scenario analysis complete. Net Zero: None, Final Emission: 34631.81151008
+2025-04-04 18:24:12,249 - INFO - [ormat] Phased Scenario analysis completed. Net Zero: None, Final Emission: 34631.81151008
+2025-04-04 18:24:12,251 - INFO - Phased scenario rules saved to: results\ormat\ormat_phased_scenario_rules.json
+2025-04-04 18:24:12,252 - INFO - Duration results saved/updated in: results\ormat\ormat_duration_results.json (Tag: phased_scenario)
+2025-04-04 18:24:12,254 - INFO - Plotting ormat's composite scores. Range: 39–55
+2025-04-04 18:24:12,385 - INFO - Saved ormat score plot to fig\ormat\ormat_scenario_rules_comp_scores_plot.png
+2025-04-04 18:24:12,386 - INFO - Updating score details file with tag: 'phased_scenario'
+2025-04-04 18:24:12,397 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\ormat\ormat_phased_scenario_score_details.json
+2025-04-04 18:24:12,398 - INFO - ========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========
+2025-04-04 18:24:12,398 - INFO - Starting compute_score_timeseries for DataFrame of shape (9, 56)
+2025-04-04 18:24:12,409 - INFO - Finished computing score_timeseries. Final shape=(9, 65)
+2025-04-04 18:24:12,411 - INFO - Plotting ormat's composite scores. Range: 35–61
+2025-04-04 18:24:12,551 - INFO - Saved ormat score plot to fig\ormat\ormat_historical_comp_scores_plot.png
+2025-04-04 18:24:12,551 - INFO - [ormat] Extracting detailed scores from scenario results...
+2025-04-04 18:24:12,552 - INFO - [ormat] Extracted scenario scores for 9 years.
+2025-04-04 18:24:12,553 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:12,555 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\ormat\ormat_historical_score_details.json
+2025-04-04 18:24:12,556 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:12,559 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\ormat\ormat_historical_score_details.json
+2025-04-04 18:24:12,559 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for ormat ==========
+2025-04-04 18:24:12,564 - INFO - [ormat] Individual recommendation summary saved to: results\ormat\ormat_recommendation_summary.json

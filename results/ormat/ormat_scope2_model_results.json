@@ -1,0 +1,37 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                           \n================================================================================================\nDep. Variable:     ormat_SASB_Metrics_Scope 2 Emissions   No. Observations:                    9\nModel:                                              GLM   Df Residuals:                        7\nModel Family:                                     Gamma   Df Model:                            1\nLink Function:                                      Log   Scale:                       0.0051180\nMethod:                                            IRLS   Log-Likelihood:                -80.337\nDate:                                  Fri, 04 Apr 2025   Deviance:                     0.034069\nTime:                                          18:24:11   Pearson chi2:                   0.0358\nNo. Iterations:                                       9   Pseudo R-squ. (CS):             0.6916\nCovariance Type:                              nonrobust                                         \n====================================================================================================\n                                       coef    std err          z      P>|z|      [0.025      0.975]\n----------------------------------------------------------------------------------------------------\nconst                               10.2766      0.024    430.943      0.000      10.230      10.323\normat_SASB_Metrics_GHG Emissions    -0.0736      0.024     -3.086      0.002      -0.120      -0.027\n====================================================================================================",
+    "selected_predictors": [
+        "ormat_SASB_Metrics_GHG Emissions"
+    ],
+    "variable_importance_weights": {
+        "ormat_SASB_Metrics_GHG Emissions": 100.0
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 105.93689743925322
+        },
+        {
+            "Variable": "ormat_SASB_Metrics_GHG Emissions",
+            "VIF": 0.9999999999999998
+        }
+    ],
+    "residuals": [
+        -1076.5286720623553,
+        -1076.5286720623553,
+        -1076.5286720623553,
+        -1076.5286720623553,
+        -1076.5286720623553,
+        -1076.5286720623553,
+        3676.319654678322,
+        3125.468613928191,
+        -266.53612806876845
+    ],
+    "coefficients": {
+        "const": 10.276553936635292,
+        "ormat_SASB_Metrics_GHG Emissions": -0.07360068862919915
+    },
+    "log_likelihood": -80.33716882726378,
+    "aic": 164.67433765452756,
+    "bic": -15.346502549151994
+}

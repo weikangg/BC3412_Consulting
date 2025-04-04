@@ -1,0 +1,72 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                           \n=================================================================================================\nDep. Variable:     orsted_SASB_Metrics_Scope 3 Emissions   No. Observations:                    9\nModel:                                               GLM   Df Residuals:                        2\nModel Family:                                      Gamma   Df Model:                            6\nLink Function:                                       Log   Scale:                         0.35270\nMethod:                                             IRLS   Log-Likelihood:                -102.54\nDate:                                   Fri, 04 Apr 2025   Deviance:                      0.71440\nTime:                                           18:24:14   Pearson chi2:                    0.705\nNo. Iterations:                                       23   Pseudo R-squ. (CS):              1.000\nCovariance Type:                               nonrobust                                         \n==============================================================================================================================================================================================\n                                                                                                                                 coef    std err          z      P>|z|      [0.025      0.975]\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                                                         10.8934      0.198     55.028      0.000      10.505      11.281\norsted_Environment_Retail Electric Customers (Industrial)                                                                     -0.3158      0.310     -1.020      0.308      -0.922       0.291\norsted_Financial_Net Income                                                                                                   -0.3975      0.367     -1.084      0.278      -1.116       0.321\norsted_Governance_Percentage of minorities on board of directors                                                              -0.0519      0.297     -0.175      0.861      -0.634       0.530\norsted_SASB_Metrics_Percentage of electric load served by smart grid technology                                                2.5905      0.316      8.199      0.000       1.971       3.210\norsted_SASB_Metrics_System Average interruption frequency Index                                                               -0.2509      0.473     -0.531      0.596      -1.177       0.675\norsted_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month     0.4706      0.450      1.046      0.296      -0.412       1.353\n==============================================================================================================================================================================================",
+    "selected_predictors": [
+        "orsted_Environment_Retail Electric Customers (Industrial)",
+        "orsted_Financial_Net Income",
+        "orsted_Governance_Percentage of minorities on board of directors",
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+        "orsted_SASB_Metrics_System Average interruption frequency Index",
+        "orsted_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month"
+    ],
+    "variable_importance_weights": {
+        "orsted_Environment_Retail Electric Customers (Industrial)": 7.7460377348955864,
+        "orsted_Financial_Net Income": 9.749224073442207,
+        "orsted_Governance_Percentage of minorities on board of directors": 1.2727994350693261,
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": 63.53678016196255,
+        "orsted_SASB_Metrics_System Average interruption frequency Index": 6.153330248939973,
+        "orsted_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": 11.541828345690359
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 5403.976500753489
+        },
+        {
+            "Variable": "orsted_Environment_Retail Electric Customers (Industrial)",
+            "VIF": 2.4447695432591474
+        },
+        {
+            "Variable": "orsted_Financial_Net Income",
+            "VIF": 3.4290334369905517
+        },
+        {
+            "Variable": "orsted_Governance_Percentage of minorities on board of directors",
+            "VIF": 2.249052323126195
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+            "VIF": 2.547262282062827
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_System Average interruption frequency Index",
+            "VIF": 5.699271435131375
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month",
+            "VIF": 5.169537863769683
+        }
+    ],
+    "residuals": [
+        -147.21426293196964,
+        -4430.395222961161,
+        67.75100719456714,
+        1235.3250115787077,
+        -2188.2258216722375,
+        1511.7138887283172,
+        -534093.0945180627,
+        1028744.482405215,
+        -1282760.6251411075
+    ],
+    "coefficients": {
+        "const": 10.89342300634409,
+        "orsted_Environment_Retail Electric Customers (Industrial)": -0.31582277924746904,
+        "orsted_Financial_Net Income": -0.3974970362602233,
+        "orsted_Governance_Percentage of minorities on board of directors": -0.05189479689690946,
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": 2.5905324995756627,
+        "orsted_SASB_Metrics_System Average interruption frequency Index": -0.2508846364242426,
+        "orsted_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": 0.47058540514356045
+    },
+    "log_likelihood": -102.54063939567688,
+    "aic": 219.08127879135375,
+    "bic": -3.680048047467713
+}

@@ -1,0 +1,65 @@
+{
+    "model_summary": "                            Generalized Linear Model Regression Results                            \n===================================================================================================\nDep. Variable:     sumitomo_SASB_Metrics_Scope 3 Emissions   No. Observations:                    9\nModel:                                                 GLM   Df Residuals:                        3\nModel Family:                                        Gamma   Df Model:                            5\nLink Function:                                         Log   Scale:                      0.00025919\nMethod:                                               IRLS   Log-Likelihood:                -97.097\nDate:                                     Fri, 04 Apr 2025   Deviance:                   0.00077720\nTime:                                             18:24:17   Pearson chi2:                 0.000778\nNo. Iterations:                                          7   Pseudo R-squ. (CS):              1.000\nCovariance Type:                                 nonrobust                                         \n=====================================================================================================================================================================\n                                                                                                        coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                                                13.8320      0.005   2577.504      0.000      13.822      13.843\nsumitomo_Environment_Water withdrawals - consumptive rate                                             0.0698      0.013      5.456      0.000       0.045       0.095\nsumitomo_Governance_Total number on board of directors                                               -0.0148      0.006     -2.638      0.008      -0.026      -0.004\nsumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days     0.5485      0.013     42.431      0.000       0.523       0.574\nsumitomo_SASB_Metrics_Mercury (Hg)                                                                    0.1212      0.006     21.114      0.000       0.110       0.132\nsumitomo_SASB_Metrics_Percentage of electric load served by smart grid technology                    -0.4491      0.006    -71.256      0.000      -0.461      -0.437\n=====================================================================================================================================================================",
+    "selected_predictors": [
+        "sumitomo_Environment_Water withdrawals - consumptive rate",
+        "sumitomo_Governance_Total number on board of directors",
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",
+        "sumitomo_SASB_Metrics_Mercury (Hg)",
+        "sumitomo_SASB_Metrics_Percentage of electric load served by smart grid technology"
+    ],
+    "variable_importance_weights": {
+        "sumitomo_Environment_Water withdrawals - consumptive rate": 5.799332956020377,
+        "sumitomo_Governance_Total number on board of directors": 1.2290695155365654,
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days": 45.57879936443937,
+        "sumitomo_SASB_Metrics_Mercury (Hg)": 10.072520849785263,
+        "sumitomo_SASB_Metrics_Percentage of electric load served by smart grid technology": 37.32027731421843
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 5278.129654345576
+        },
+        {
+            "Variable": "sumitomo_Environment_Water withdrawals - consumptive rate",
+            "VIF": 5.682466693012497
+        },
+        {
+            "Variable": "sumitomo_Governance_Total number on board of directors",
+            "VIF": 1.091606081629202
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days",
+            "VIF": 5.802399785778654
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Mercury (Hg)",
+            "VIF": 1.1444145955432274
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Percentage of electric load served by smart grid technology",
+            "VIF": 1.3794522115688617
+        }
+    ],
+    "residuals": [
+        -1845.7981997615425,
+        12965.931872997317,
+        -13017.393110150937,
+        2032.9951522937045,
+        2032.9951522937045,
+        -958.6383088078001,
+        -7402.795935465954,
+        14118.14499842003,
+        -7969.627371199429
+    ],
+    "coefficients": {
+        "const": 13.83201878539756,
+        "sumitomo_Environment_Water withdrawals - consumptive rate": 0.06978993311073908,
+        "sumitomo_Governance_Total number on board of directors": -0.014790783686371947,
+        "sumitomo_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days": 0.5485012471321958,
+        "sumitomo_SASB_Metrics_Mercury (Hg)": 0.12121403645798334,
+        "sumitomo_SASB_Metrics_Percentage of electric load served by smart grid technology": -0.4491171100513695
+    },
+    "log_likelihood": -97.09691234114871,
+    "aic": 206.19382468229742,
+    "bic": -6.590896532590724
+}

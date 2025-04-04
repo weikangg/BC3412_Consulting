@@ -1,217 +1,217 @@
-2025-04-04 15:17:11,353 - INFO - ========== PROCESSING COMPANY: nextera_energy ==========
-2025-04-04 15:17:11,359 - INFO - Wide-format data for nextera_energy has 9 rows and 58 columns.
-2025-04-04 15:17:11,359 - INFO - Columns for company nextera_energy: ['nextera_energy_Environment_Amount of hazardous waste manifested for disposal', 'nextera_energy_Environment_CO2 Owned Generation Emissions', 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity', 'nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_NOx Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation (Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_SO2 Emissions Intensity', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Capital Expenditure', 'nextera_energy_Financial_Cash Flow from Operating Activities', 'nextera_energy_Financial_Issuances of common stock', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Net Income', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Financial_Operating Revenue', 'nextera_energy_Governance_Environmental Fines', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential', 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_SASB_Metrics_Lead (Pb)', 'nextera_energy_SASB_Metrics_Mercury (Hg)', 'nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)', 'nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology', 'nextera_energy_SASB_Metrics_Scope 1 Emissions', 'nextera_energy_SASB_Metrics_Scope 2 Emissions', 'nextera_energy_SASB_Metrics_Scope 3 Emissions', 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_SASB_Metrics_System Average interruption frequency Index', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Water consumed', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_SASB_Metrics_Workforce Fatality Frequency', 'nextera_energy_Social_Percentage of minorities in total workforce', 'nextera_energy_Social_Percentage of women in total workforce', 'nextera_energy_Social_Support of SDGs (Number of Goals)', 'nextera_energy_Social_Total number of employees']
-2025-04-04 15:17:11,371 - INFO - Using unit: metric tons Co2e
-2025-04-04 15:17:11,371 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
-2025-04-04 15:17:11,371 - INFO - Initial call: Max historical year set to 2023.
-2025-04-04 15:17:11,371 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
-2025-04-04 15:17:11,377 - INFO - Performing ensemble forecast on historical data (up to 2023).
-2025-04-04 15:17:11,377 - INFO - Forecasting from 2024 to last target year 2045.
-2025-04-04 15:17:11,377 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045]
-2025-04-04 15:17:11,561 - INFO - Prophet forecast completed.
-2025-04-04 15:17:11,571 - INFO - Exponential Smoothing forecast completed.
-2025-04-04 15:17:11,590 - INFO - ARIMA forecast completed.
-2025-04-04 15:17:11,591 - INFO - Net-zero threshold not reached within the forecast horizon.
-2025-04-04 15:17:11,593 - INFO - Initial forecast final year (2045) emission: 3.40e+07
-2025-04-04 15:17:11,601 - INFO - Target parsed for 2025: 70.0% reduction => 1.44e+07
-2025-04-04 15:17:11,601 - INFO - Target parsed for 2030: 82.0% reduction => 8.65e+06
-2025-04-04 15:17:11,601 - INFO - Target parsed for 2035: 87.0% reduction => 6.25e+06
-2025-04-04 15:17:11,601 - INFO - Target parsed for 2040: 94.0% reduction => 2.88e+06
-2025-04-04 15:17:11,601 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
-2025-04-04 15:17:11,921 - INFO - Ensemble forecast figure saved to: fig\nextera_energy\nextera_energy_ensemble_forecast_initial.png
-2025-04-04 15:17:11,923 - INFO - Duration results saved/updated in: results\nextera_energy\nextera_energy_duration_results.json (Tag: initial)
-2025-04-04 15:17:11,923 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
-2025-04-04 15:17:11,923 - INFO - --- Fitting model for Total Emissions ---
-2025-04-04 15:17:11,925 - INFO - Modeling 'nextera_energy_SASB_Metrics_Total Emissions' on 9 rows after filtering.
-2025-04-04 15:17:11,982 - INFO - LASSO selected features: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_Social_Percentage of minorities in total workforce']
-2025-04-04 15:17:11,997 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,001 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,011 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,013 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,022 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Industrial)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,025 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,031 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,031 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - consumptive rate' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,043 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,047 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 5148.85
-2025-04-04 15:17:12,051 - INFO - Removing predictor 'nextera_energy_Financial_Operating Expenses' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 518.75
-2025-04-04 15:17:12,053 - INFO - Removing predictor 'nextera_energy_Social_Percentage of minorities in total workforce' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 22.93
-2025-04-04 15:17:12,058 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption duration Index' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 14.19
-2025-04-04 15:17:12,061 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Total Emissions: ['nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential']
-2025-04-04 15:17:12,063 - INFO - Model fitted for nextera_energy_SASB_Metrics_Total Emissions.
-2025-04-04 15:17:12,071 - INFO - VIF for Selected Predictors:
+2025-04-04 18:24:06,836 - INFO - ========== PROCESSING COMPANY: nextera_energy ==========
+2025-04-04 18:24:06,843 - INFO - Wide-format data for nextera_energy has 9 rows and 58 columns.
+2025-04-04 18:24:06,843 - INFO - Columns for company nextera_energy: ['nextera_energy_Environment_Amount of hazardous waste manifested for disposal', 'nextera_energy_Environment_CO2 Owned Generation Emissions', 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity', 'nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_NOx Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation (Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_SO2 Emissions Intensity', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Capital Expenditure', 'nextera_energy_Financial_Cash Flow from Operating Activities', 'nextera_energy_Financial_Issuances of common stock', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Net Income', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Financial_Operating Revenue', 'nextera_energy_Governance_Environmental Fines', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential', 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_SASB_Metrics_Lead (Pb)', 'nextera_energy_SASB_Metrics_Mercury (Hg)', 'nextera_energy_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)', 'nextera_energy_SASB_Metrics_Percentage of electric load served by smart grid technology', 'nextera_energy_SASB_Metrics_Scope 1 Emissions', 'nextera_energy_SASB_Metrics_Scope 2 Emissions', 'nextera_energy_SASB_Metrics_Scope 3 Emissions', 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_SASB_Metrics_System Average interruption frequency Index', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Water consumed', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_SASB_Metrics_Workforce Fatality Frequency', 'nextera_energy_Social_Percentage of minorities in total workforce', 'nextera_energy_Social_Percentage of women in total workforce', 'nextera_energy_Social_Support of SDGs (Number of Goals)', 'nextera_energy_Social_Total number of employees']
+2025-04-04 18:24:06,850 - INFO - Using unit: metric tons Co2e
+2025-04-04 18:24:06,850 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
+2025-04-04 18:24:06,851 - INFO - Initial call: Max historical year set to 2023.
+2025-04-04 18:24:06,853 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:06,854 - INFO - Performing ensemble forecast on historical data (up to 2023).
+2025-04-04 18:24:06,855 - INFO - Forecasting from 2024 to last target year 2045.
+2025-04-04 18:24:06,855 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045]
+2025-04-04 18:24:07,010 - INFO - Prophet forecast completed.
+2025-04-04 18:24:07,019 - INFO - Exponential Smoothing forecast completed.
+2025-04-04 18:24:07,040 - INFO - ARIMA forecast completed.
+2025-04-04 18:24:07,042 - INFO - Net-zero threshold not reached within the forecast horizon.
+2025-04-04 18:24:07,043 - INFO - Initial forecast final year (2045) emission: 3.40e+07
+2025-04-04 18:24:07,055 - INFO - Target parsed for 2025: 70.0% reduction => 1.44e+07
+2025-04-04 18:24:07,055 - INFO - Target parsed for 2030: 82.0% reduction => 8.65e+06
+2025-04-04 18:24:07,055 - INFO - Target parsed for 2035: 87.0% reduction => 6.25e+06
+2025-04-04 18:24:07,055 - INFO - Target parsed for 2040: 94.0% reduction => 2.88e+06
+2025-04-04 18:24:07,055 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:07,290 - INFO - Ensemble forecast figure saved to: fig\nextera_energy\nextera_energy_ensemble_forecast_initial.png
+2025-04-04 18:24:07,301 - INFO - Duration results saved/updated in: results\nextera_energy\nextera_energy_duration_results.json (Tag: initial)
+2025-04-04 18:24:07,302 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
+2025-04-04 18:24:07,302 - INFO - --- Fitting model for Total Emissions ---
+2025-04-04 18:24:07,305 - INFO - Modeling 'nextera_energy_SASB_Metrics_Total Emissions' on 9 rows after filtering.
+2025-04-04 18:24:07,362 - INFO - LASSO selected features: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_Social_Percentage of minorities in total workforce']
+2025-04-04 18:24:07,371 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,378 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation Capacity (Non-Renewable)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,383 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,389 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,394 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Industrial)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,400 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,404 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,408 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - consumptive rate' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,411 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated' for nextera_energy_SASB_Metrics_Total Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,416 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 5148.85
+2025-04-04 18:24:07,419 - INFO - Removing predictor 'nextera_energy_Financial_Operating Expenses' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 518.75
+2025-04-04 18:24:07,422 - INFO - Removing predictor 'nextera_energy_Social_Percentage of minorities in total workforce' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 22.93
+2025-04-04 18:24:07,425 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption duration Index' for nextera_energy_SASB_Metrics_Total Emissions due to high VIF: 14.19
+2025-04-04 18:24:07,428 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Total Emissions: ['nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for residential']
+2025-04-04 18:24:07,434 - INFO - Model fitted for nextera_energy_SASB_Metrics_Total Emissions.
+2025-04-04 18:24:07,437 - INFO - VIF for Selected Predictors:
                                             Variable         VIF
 0                                              const  166.019090
 1  nextera_energy_Environment_Water withdrawals -...    4.646371
 2  nextera_energy_Financial_Issuances of long-ter...    2.187752
 3  nextera_energy_Governance_Percentage of minori...    2.302548
 4  nextera_energy_SASB_Metrics_Average retail ele...    1.453422
-2025-04-04 15:17:12,075 - INFO - 
+2025-04-04 18:24:07,443 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:17:12,075 - INFO -   nextera_energy_Environment_Water withdrawals - non-consumptive rate: 64.49
-2025-04-04 15:17:12,075 - INFO -   nextera_energy_Financial_Issuances of long-term debt, including premiums and discount: 11.68
-2025-04-04 15:17:12,075 - INFO -   nextera_energy_Governance_Percentage of minorities on board of directors: 1.31
-2025-04-04 15:17:12,075 - INFO -   nextera_energy_SASB_Metrics_Average retail electric rate for residential: 22.53
-2025-04-04 15:17:12,075 - INFO - --- Saving results for total model ---
-2025-04-04 15:17:12,391 - INFO - Figure saved to fig\nextera_energy\nextera_energy_total_residual_plot.png
-2025-04-04 15:17:12,391 - INFO - [nextera_energy] total residual plot saved to: fig\nextera_energy\nextera_energy_total_residual_plot.png
-2025-04-04 15:17:12,403 - INFO - [nextera_energy] total model results saved to: results\nextera_energy\nextera_energy_total_model_results.json
-2025-04-04 15:17:12,403 - INFO - --- Fitting model for Scope 1 Emissions ---
-2025-04-04 15:17:12,403 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 1 Emissions' on 9 rows after filtering.
-2025-04-04 15:17:12,452 - INFO - LASSO selected features: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_Social_Percentage of minorities in total workforce']
-2025-04-04 15:17:12,466 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,471 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,471 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,481 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Industrial)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,481 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,481 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,491 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,495 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 146.97
-2025-04-04 15:17:12,501 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_GHG Emissions' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 136.95
-2025-04-04 15:17:12,502 - INFO - Removing predictor 'nextera_energy_Social_Percentage of minorities in total workforce' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 107.88
-2025-04-04 15:17:12,502 - INFO - Removing predictor 'nextera_energy_Environment_Water withdrawals - non-consumptive rate' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 22.34
-2025-04-04 15:17:12,511 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Scope 1 Emissions: ['nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers']
-2025-04-04 15:17:12,515 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 1 Emissions.
-2025-04-04 15:17:12,515 - INFO - 
+2025-04-04 18:24:07,444 - INFO -   nextera_energy_Environment_Water withdrawals - non-consumptive rate: 64.49
+2025-04-04 18:24:07,444 - INFO -   nextera_energy_Financial_Issuances of long-term debt, including premiums and discount: 11.68
+2025-04-04 18:24:07,444 - INFO -   nextera_energy_Governance_Percentage of minorities on board of directors: 1.31
+2025-04-04 18:24:07,444 - INFO -   nextera_energy_SASB_Metrics_Average retail electric rate for residential: 22.53
+2025-04-04 18:24:07,444 - INFO - --- Saving results for total model ---
+2025-04-04 18:24:07,747 - INFO - Figure saved to fig\nextera_energy\nextera_energy_total_residual_plot.png
+2025-04-04 18:24:07,747 - INFO - [nextera_energy] total residual plot saved to: fig\nextera_energy\nextera_energy_total_residual_plot.png
+2025-04-04 18:24:07,753 - INFO - [nextera_energy] total model results saved to: results\nextera_energy\nextera_energy_total_model_results.json
+2025-04-04 18:24:07,753 - INFO - --- Fitting model for Scope 1 Emissions ---
+2025-04-04 18:24:07,755 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 1 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:07,799 - INFO - LASSO selected features: ['nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Industrial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_Social_Percentage of minorities in total workforce']
+2025-04-04 18:24:07,804 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,810 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,814 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,819 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Industrial)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,824 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,828 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,833 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:07,839 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Average retail electric rate for commercial' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 146.97
+2025-04-04 18:24:07,842 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_GHG Emissions' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 136.95
+2025-04-04 18:24:07,845 - INFO - Removing predictor 'nextera_energy_Social_Percentage of minorities in total workforce' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 107.88
+2025-04-04 18:24:07,849 - INFO - Removing predictor 'nextera_energy_Environment_Water withdrawals - non-consumptive rate' for nextera_energy_SASB_Metrics_Scope 1 Emissions due to high VIF: 22.34
+2025-04-04 18:24:07,851 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Scope 1 Emissions: ['nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Governance_Percentage of women on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers']
+2025-04-04 18:24:07,856 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 1 Emissions.
+2025-04-04 18:24:07,857 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:17:12,515 - INFO -   nextera_energy_Environment_Water withdrawals - consumptive rate: 52.83
-2025-04-04 15:17:12,515 - INFO -   nextera_energy_Governance_Percentage of women on board of directors: 7.27
-2025-04-04 15:17:12,515 - INFO -   nextera_energy_Governance_Total number on board of directors: 13.01
-2025-04-04 15:17:12,515 - INFO -   nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers: 26.88
-2025-04-04 15:17:12,522 - INFO - --- Saving results for scope1 model ---
-2025-04-04 15:17:12,803 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope1_residual_plot.png
-2025-04-04 15:17:12,803 - INFO - [nextera_energy] scope1 residual plot saved to: fig\nextera_energy\nextera_energy_scope1_residual_plot.png
-2025-04-04 15:17:12,813 - INFO - [nextera_energy] scope1 model results saved to: results\nextera_energy\nextera_energy_scope1_model_results.json
-2025-04-04 15:17:12,813 - INFO - --- Fitting model for Scope 2 Emissions ---
-2025-04-04 15:17:12,813 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 2 Emissions' on 9 rows after filtering.
-2025-04-04 15:17:12,858 - INFO - LASSO selected features: []
-2025-04-04 15:17:12,858 - WARNING - LASSO selected 0 features for 'nextera_energy_SASB_Metrics_Scope 2 Emissions'. Attempting Correlation backup.
-2025-04-04 15:17:12,861 - INFO - Correlation selected features (threshold > 0.15): ['nextera_energy_Environment_Amount of hazardous waste manifested for disposal', 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity', 'nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation (Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Capital Expenditure', 'nextera_energy_Financial_Cash Flow from Operating Activities', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Financial_Operating Revenue', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_SASB_Metrics_Mercury (Hg)', 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)', 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_SASB_Metrics_System Average interruption frequency Index', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Water consumed', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_Social_Percentage of minorities in total workforce', 'nextera_energy_Social_Percentage of women in total workforce', 'nextera_energy_Social_Total number of employees']
-2025-04-04 15:17:12,878 - WARNING - Removing predictor 'nextera_energy_Environment_Amount of hazardous waste manifested for disposal' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,891 - WARNING - Removing predictor 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,902 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,914 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,925 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation (Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,937 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,941 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,953 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,961 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,971 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,984 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - consumptive rate' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:12,991 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - non-consumptive rate' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,001 - WARNING - Removing predictor 'nextera_energy_Financial_Capital Expenditure' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,011 - WARNING - Removing predictor 'nextera_energy_Financial_Cash Flow from Operating Activities' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,014 - WARNING - Removing predictor 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,025 - WARNING - Removing predictor 'nextera_energy_Financial_Operating Expenses' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,033 - WARNING - Removing predictor 'nextera_energy_Financial_Operating Revenue' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,042 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,048 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,053 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_GHG Emissions' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,063 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Mercury (Hg)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,063 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,075 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,075 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption duration Index' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,081 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption frequency Index' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,086 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,091 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
-2025-04-04 15:17:13,097 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Water consumed' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 3576.11
-2025-04-04 15:17:13,101 - INFO - Removing predictor 'nextera_energy_Social_Percentage of women in total workforce' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 66.51
-2025-04-04 15:17:13,105 - INFO - Removing predictor 'nextera_energy_Social_Total number of employees' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 13.17
-2025-04-04 15:17:13,108 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for nextera_energy_SASB_Metrics_Scope 2 Emissions: ['nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_Social_Percentage of minorities in total workforce']
-2025-04-04 15:17:13,116 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 2 Emissions.
-2025-04-04 15:17:13,116 - INFO - 
+2025-04-04 18:24:07,857 - INFO -   nextera_energy_Environment_Water withdrawals - consumptive rate: 52.83
+2025-04-04 18:24:07,857 - INFO -   nextera_energy_Governance_Percentage of women on board of directors: 7.27
+2025-04-04 18:24:07,857 - INFO -   nextera_energy_Governance_Total number on board of directors: 13.01
+2025-04-04 18:24:07,857 - INFO -   nextera_energy_SASB_Metrics_Average retail electric rate for industrial customers: 26.88
+2025-04-04 18:24:07,861 - INFO - --- Saving results for scope1 model ---
+2025-04-04 18:24:08,134 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope1_residual_plot.png
+2025-04-04 18:24:08,134 - INFO - [nextera_energy] scope1 residual plot saved to: fig\nextera_energy\nextera_energy_scope1_residual_plot.png
+2025-04-04 18:24:08,140 - INFO - [nextera_energy] scope1 model results saved to: results\nextera_energy\nextera_energy_scope1_model_results.json
+2025-04-04 18:24:08,140 - INFO - --- Fitting model for Scope 2 Emissions ---
+2025-04-04 18:24:08,141 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 2 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:08,174 - INFO - LASSO selected features: []
+2025-04-04 18:24:08,174 - WARNING - LASSO selected 0 features for 'nextera_energy_SASB_Metrics_Scope 2 Emissions'. Attempting Correlation backup.
+2025-04-04 18:24:08,180 - INFO - Correlation selected features (threshold > 0.15): ['nextera_energy_Environment_Amount of hazardous waste manifested for disposal', 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity', 'nextera_energy_Environment_Hg Emissions Intensity', 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)', 'nextera_energy_Environment_Owned Net Generation (Renewable)', 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)', 'nextera_energy_Environment_Percent of coal combustion products beneficially used', 'nextera_energy_Environment_Retail Electric Customers (Commercial)', 'nextera_energy_Environment_Retail Electric Customers (Residential)', 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity', 'nextera_energy_Environment_Water withdrawals - consumptive rate', 'nextera_energy_Environment_Water withdrawals - non-consumptive rate', 'nextera_energy_Financial_Capital Expenditure', 'nextera_energy_Financial_Cash Flow from Operating Activities', 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount', 'nextera_energy_Financial_Operating Expenses', 'nextera_energy_Financial_Operating Revenue', 'nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days', 'nextera_energy_SASB_Metrics_GHG Emissions', 'nextera_energy_SASB_Metrics_Mercury (Hg)', 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)', 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)', 'nextera_energy_SASB_Metrics_System Average interruption duration Index', 'nextera_energy_SASB_Metrics_System Average interruption frequency Index', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month', 'nextera_energy_SASB_Metrics_Water consumed', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_Social_Percentage of minorities in total workforce', 'nextera_energy_Social_Percentage of women in total workforce', 'nextera_energy_Social_Total number of employees']
+2025-04-04 18:24:08,191 - WARNING - Removing predictor 'nextera_energy_Environment_Amount of hazardous waste manifested for disposal' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,202 - WARNING - Removing predictor 'nextera_energy_Environment_CO2 Owned Generation Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,213 - WARNING - Removing predictor 'nextera_energy_Environment_Hg Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,222 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation (Non-Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,232 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation (Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,242 - WARNING - Removing predictor 'nextera_energy_Environment_Owned Net Generation Capacity (Renewable)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,251 - WARNING - Removing predictor 'nextera_energy_Environment_Percent of coal combustion products beneficially used' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,260 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Commercial)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,269 - WARNING - Removing predictor 'nextera_energy_Environment_Retail Electric Customers (Residential)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,277 - WARNING - Removing predictor 'nextera_energy_Environment_Total Owned Generation CO2 Emissions Intensity' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,286 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - consumptive rate' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,293 - WARNING - Removing predictor 'nextera_energy_Environment_Water withdrawals - non-consumptive rate' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,301 - WARNING - Removing predictor 'nextera_energy_Financial_Capital Expenditure' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,309 - WARNING - Removing predictor 'nextera_energy_Financial_Cash Flow from Operating Activities' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,316 - WARNING - Removing predictor 'nextera_energy_Financial_Issuances of long-term debt, including premiums and discount' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,323 - WARNING - Removing predictor 'nextera_energy_Financial_Operating Expenses' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,329 - WARNING - Removing predictor 'nextera_energy_Financial_Operating Revenue' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,335 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,342 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Customer Average Interruption Duration Index, inclusive of major event days' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,350 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_GHG Emissions' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,357 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Mercury (Hg)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,366 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Particulate matter (PM 10)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,372 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Sulfur Oxides (SOx)' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,379 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption duration Index' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,384 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_System Average interruption frequency Index' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,390 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,396 - WARNING - Removing predictor 'nextera_energy_SASB_Metrics_Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:08,402 - INFO - Removing predictor 'nextera_energy_SASB_Metrics_Water consumed' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 3576.11
+2025-04-04 18:24:08,406 - INFO - Removing predictor 'nextera_energy_Social_Percentage of women in total workforce' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 66.51
+2025-04-04 18:24:08,411 - INFO - Removing predictor 'nextera_energy_Social_Total number of employees' for nextera_energy_SASB_Metrics_Scope 2 Emissions due to high VIF: 13.17
+2025-04-04 18:24:08,413 - INFO - Final predictors after LASSO (Correlation Backup) + VIF for nextera_energy_SASB_Metrics_Scope 2 Emissions: ['nextera_energy_Governance_Percentage of minorities on board of directors', 'nextera_energy_Governance_Total number on board of directors', 'nextera_energy_SASB_Metrics_Total recordable Incident Rate', 'nextera_energy_SASB_Metrics_Water withdrawn', 'nextera_energy_Social_Percentage of minorities in total workforce']
+2025-04-04 18:24:08,419 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 2 Emissions.
+2025-04-04 18:24:08,420 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:17:13,116 - INFO -   nextera_energy_Governance_Percentage of minorities on board of directors: 7.04
-2025-04-04 15:17:13,116 - INFO -   nextera_energy_Governance_Total number on board of directors: 20.68
-2025-04-04 15:17:13,116 - INFO -   nextera_energy_SASB_Metrics_Total recordable Incident Rate: 17.38
-2025-04-04 15:17:13,116 - INFO -   nextera_energy_SASB_Metrics_Water withdrawn: 32.49
-2025-04-04 15:17:13,116 - INFO -   nextera_energy_Social_Percentage of minorities in total workforce: 22.41
-2025-04-04 15:17:13,121 - INFO - --- Saving results for scope2 model ---
-2025-04-04 15:17:13,431 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope2_residual_plot.png
-2025-04-04 15:17:13,431 - INFO - [nextera_energy] scope2 residual plot saved to: fig\nextera_energy\nextera_energy_scope2_residual_plot.png
-2025-04-04 15:17:13,437 - INFO - [nextera_energy] scope2 model results saved to: results\nextera_energy\nextera_energy_scope2_model_results.json
-2025-04-04 15:17:13,437 - INFO - --- Fitting model for Scope 3 Emissions ---
-2025-04-04 15:17:13,441 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 3 Emissions' on 9 rows after filtering.
-2025-04-04 15:17:13,471 - INFO - LASSO selected features: ['nextera_energy_Social_Support of SDGs (Number of Goals)']
-2025-04-04 15:17:13,479 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Scope 3 Emissions: ['nextera_energy_Social_Support of SDGs (Number of Goals)']
-2025-04-04 15:17:13,483 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 3 Emissions.
-2025-04-04 15:17:13,483 - INFO - 
+2025-04-04 18:24:08,420 - INFO -   nextera_energy_Governance_Percentage of minorities on board of directors: 7.04
+2025-04-04 18:24:08,420 - INFO -   nextera_energy_Governance_Total number on board of directors: 20.68
+2025-04-04 18:24:08,420 - INFO -   nextera_energy_SASB_Metrics_Total recordable Incident Rate: 17.38
+2025-04-04 18:24:08,420 - INFO -   nextera_energy_SASB_Metrics_Water withdrawn: 32.49
+2025-04-04 18:24:08,420 - INFO -   nextera_energy_Social_Percentage of minorities in total workforce: 22.41
+2025-04-04 18:24:08,423 - INFO - --- Saving results for scope2 model ---
+2025-04-04 18:24:08,690 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope2_residual_plot.png
+2025-04-04 18:24:08,690 - INFO - [nextera_energy] scope2 residual plot saved to: fig\nextera_energy\nextera_energy_scope2_residual_plot.png
+2025-04-04 18:24:08,696 - INFO - [nextera_energy] scope2 model results saved to: results\nextera_energy\nextera_energy_scope2_model_results.json
+2025-04-04 18:24:08,696 - INFO - --- Fitting model for Scope 3 Emissions ---
+2025-04-04 18:24:08,698 - INFO - Modeling 'nextera_energy_SASB_Metrics_Scope 3 Emissions' on 9 rows after filtering.
+2025-04-04 18:24:08,725 - INFO - LASSO selected features: ['nextera_energy_Social_Support of SDGs (Number of Goals)']
+2025-04-04 18:24:08,726 - INFO - Final predictors after LASSO + VIF for nextera_energy_SASB_Metrics_Scope 3 Emissions: ['nextera_energy_Social_Support of SDGs (Number of Goals)']
+2025-04-04 18:24:08,732 - INFO - Model fitted for nextera_energy_SASB_Metrics_Scope 3 Emissions.
+2025-04-04 18:24:08,732 - INFO - 
 Variable Importance Weights (out of 100):
-2025-04-04 15:17:13,483 - INFO -   nextera_energy_Social_Support of SDGs (Number of Goals): 100.00
-2025-04-04 15:17:13,488 - INFO - --- Saving results for scope3 model ---
-2025-04-04 15:17:13,771 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope3_residual_plot.png
-2025-04-04 15:17:13,771 - INFO - [nextera_energy] scope3 residual plot saved to: fig\nextera_energy\nextera_energy_scope3_residual_plot.png
-2025-04-04 15:17:13,780 - INFO - [nextera_energy] scope3 model results saved to: results\nextera_energy\nextera_energy_scope3_model_results.json
-2025-04-04 15:17:13,780 - INFO - 
+2025-04-04 18:24:08,732 - INFO -   nextera_energy_Social_Support of SDGs (Number of Goals): 100.00
+2025-04-04 18:24:08,735 - INFO - --- Saving results for scope3 model ---
+2025-04-04 18:24:09,003 - INFO - Figure saved to fig\nextera_energy\nextera_energy_scope3_residual_plot.png
+2025-04-04 18:24:09,003 - INFO - [nextera_energy] scope3 residual plot saved to: fig\nextera_energy\nextera_energy_scope3_residual_plot.png
+2025-04-04 18:24:09,009 - INFO - [nextera_energy] scope3 model results saved to: results\nextera_energy\nextera_energy_scope3_model_results.json
+2025-04-04 18:24:09,009 - INFO - 
 ========== RUNNING PHASED TARGET-SEEKING SCENARIO ==========
-2025-04-04 15:17:13,781 - INFO - Phased scenario range: 2024-2045
-2025-04-04 15:17:13,781 - INFO - Phase Boundaries: Short=(2024, 2030), Medium=(2031, 2037), Long=(2038, 2045)
-2025-04-04 15:17:13,781 - INFO - [nextera_energy] Starting PHASED scenario analysis (2024-2045)
-2025-04-04 15:17:13,781 - INFO - Using baseline emission ref from 2023: 4.40e+07
-2025-04-04 15:17:13,781 - INFO - Target parsed for 2025: 70.0% reduction => 1.32e+07
-2025-04-04 15:17:13,781 - INFO - Target parsed for 2030: 82.0% reduction => 7.92e+06
-2025-04-04 15:17:13,781 - INFO - Target parsed for 2035: 87.0% reduction => 5.72e+06
-2025-04-04 15:17:13,781 - INFO - Target parsed for 2040: 94.0% reduction => 2.64e+06
-2025-04-04 15:17:13,781 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
-2025-04-04 15:17:13,791 - INFO - Generating baseline 'no-change' forecast...
-2025-04-04 15:17:13,791 - INFO - [nextera_energy] Generating CUMULATIVE predictor values for years 2024-2045...
-2025-04-04 15:17:13,792 - INFO - [nextera_energy] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 12)
-2025-04-04 15:17:13,798 - INFO - Baseline total emissions forecast generated.
-2025-04-04 15:17:13,798 - INFO - --- Building rules for Phase: short (2024-2030) ---
-2025-04-04 15:17:13,798 - INFO - Found 2 targetable metrics for phase 'short'.
-2025-04-04 15:17:13,801 - INFO - --- Building rules for Phase: medium (2031-2037) ---
-2025-04-04 15:17:13,801 - INFO - Found 3 targetable metrics for phase 'medium'.
-2025-04-04 15:17:13,803 - INFO - --- Building rules for Phase: long (2038-2045) ---
-2025-04-04 15:17:13,803 - INFO - Found 1 targetable metrics for phase 'long'.
-2025-04-04 15:17:13,803 - INFO - [nextera_energy] Combining phase rules cumulatively...
-2025-04-04 15:17:13,803 - INFO - [nextera_energy] Cumulative rules created for 12 metrics.
-2025-04-04 15:17:13,803 - INFO - [nextera_energy] Generating CUMULATIVE predictor values for years 2024-2045...
-2025-04-04 15:17:13,806 - INFO - [nextera_energy] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 12)
-2025-04-04 15:17:13,806 - INFO - [nextera_energy] Predicting Scope 1 emissions...
-2025-04-04 15:17:13,811 - INFO - [nextera_energy] Predicting Scope 2 emissions...
-2025-04-04 15:17:13,815 - INFO - [nextera_energy] Predicting Scope 3 emissions...
-2025-04-04 15:17:13,822 - INFO - [nextera_energy] Applying phased 'locking' to prevent emission increases...
-2025-04-04 15:17:13,823 - INFO - S1 lock value (end of short phase 2030): 4.04e+07
-2025-04-04 15:17:13,823 - INFO - S2 lock value (end of medium phase 2037): 2.42e+04
-2025-04-04 15:17:13,825 - INFO - [nextera_energy] Calculated scenario Total Emissions by summing scope predictions.
-2025-04-04 15:17:13,825 - INFO - Actual last historical year determined as: 2023
-2025-04-04 15:17:13,832 - INFO - [nextera_energy] Combined historical and target-seeking scenario data created. Shape: (31, 59)
-2025-04-04 15:17:13,832 - INFO - [nextera_energy] Calculating scores for the combined historical + scenario timeline...
-2025-04-04 15:17:13,832 - INFO - Starting compute_score_timeseries for DataFrame of shape (31, 59)
-2025-04-04 15:17:13,837 - INFO - Finished computing score_timeseries. Final shape=(31, 64)
-2025-04-04 15:17:13,837 - INFO - [nextera_energy] Extracting detailed scores from scenario results...
-2025-04-04 15:17:13,841 - INFO - [nextera_energy] Extracted scenario scores for 31 years.
-2025-04-04 15:17:13,841 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'nextera_energy_SASB_Metrics_Total Emissions_baseline_forecast']
-2025-04-04 15:17:13,843 - INFO - Successfully merged baseline forecast column 'nextera_energy_SASB_Metrics_Total Emissions_baseline_forecast'.
-2025-04-04 15:17:13,843 - INFO - [nextera_energy] Running duration analysis on target-seeking scenario data...
-2025-04-04 15:17:13,843 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
-2025-04-04 15:17:13,848 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
-2025-04-04 15:17:13,851 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
-2025-04-04 15:17:13,851 - INFO - Scenario final year (2045) emission: 4.22e+07
-2025-04-04 15:17:13,865 - INFO - Target parsed for 2025: 70.0% reduction => 1.44e+07
-2025-04-04 15:17:13,865 - INFO - Target parsed for 2030: 82.0% reduction => 8.65e+06
-2025-04-04 15:17:13,865 - INFO - Target parsed for 2035: 87.0% reduction => 6.25e+06
-2025-04-04 15:17:13,865 - INFO - Target parsed for 2040: 94.0% reduction => 2.88e+06
-2025-04-04 15:17:13,865 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
-2025-04-04 15:17:14,141 - INFO - Ensemble forecast figure saved to: fig\nextera_energy\nextera_energy_ensemble_forecast_phased_scenario.png
-2025-04-04 15:17:14,141 - INFO - [nextera_energy] Phased Scenario analysis complete. Net Zero: None, Final Emission: 42182396.51170115
-2025-04-04 15:17:14,141 - INFO - [nextera_energy] Phased Scenario analysis completed. Net Zero: None, Final Emission: 42182396.51170115
-2025-04-04 15:17:14,141 - INFO - Phased scenario rules saved to: results\nextera_energy\nextera_energy_phased_scenario_rules.json
-2025-04-04 15:17:14,141 - INFO - Duration results saved/updated in: results\nextera_energy\nextera_energy_duration_results.json (Tag: phased_scenario)
-2025-04-04 15:17:14,148 - INFO - Plotting nextera_energy's composite scores. Range: 28–61
-2025-04-04 15:17:14,279 - INFO - Saved nextera_energy score plot to fig\nextera_energy\nextera_energy_scenario_rules_comp_scores_plot.png
-2025-04-04 15:17:14,281 - INFO - Updating score details file with tag: 'phased_scenario'
-2025-04-04 15:17:14,283 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_phased_scenario_score_details.json
-2025-04-04 15:17:14,283 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for nextera_energy ==========
-2025-04-04 15:17:14,283 - INFO - [nextera_energy] Individual recommendation summary saved to: results\nextera_energy\nextera_energy_recommendation_summary.json
-2025-04-04 15:17:14,283 - INFO - ========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========
-2025-04-04 15:17:14,283 - INFO - Starting compute_score_timeseries for DataFrame of shape (9, 59)
-2025-04-04 15:17:14,304 - INFO - Finished computing score_timeseries. Final shape=(9, 72)
-2025-04-04 15:17:14,304 - INFO - Plotting nextera_energy's composite scores. Range: 41–60
-2025-04-04 15:17:14,581 - INFO - Saved nextera_energy score plot to fig\nextera_energy\nextera_energy_historical_comp_scores_plot.png
-2025-04-04 15:17:14,581 - INFO - [nextera_energy] Extracting detailed scores from scenario results...
-2025-04-04 15:17:14,581 - INFO - [nextera_energy] Extracted scenario scores for 9 years.
-2025-04-04 15:17:14,591 - INFO - Updating score details file with tag: 'historical'
-2025-04-04 15:17:14,591 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_historical_score_details.json
-2025-04-04 15:17:14,595 - INFO - Updating score details file with tag: 'historical'
-2025-04-04 15:17:14,598 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_historical_score_details.json
+2025-04-04 18:24:09,009 - INFO - Phased scenario range: 2024-2045
+2025-04-04 18:24:09,009 - INFO - Phase Boundaries: Short=(2024, 2030), Medium=(2031, 2037), Long=(2038, 2045)
+2025-04-04 18:24:09,009 - INFO - [nextera_energy] Starting PHASED scenario analysis (2024-2045)
+2025-04-04 18:24:09,010 - INFO - Using baseline emission ref from 2023: 4.40e+07
+2025-04-04 18:24:09,010 - INFO - Target parsed for 2025: 70.0% reduction => 1.32e+07
+2025-04-04 18:24:09,011 - INFO - Target parsed for 2030: 82.0% reduction => 7.92e+06
+2025-04-04 18:24:09,011 - INFO - Target parsed for 2035: 87.0% reduction => 5.72e+06
+2025-04-04 18:24:09,011 - INFO - Target parsed for 2040: 94.0% reduction => 2.64e+06
+2025-04-04 18:24:09,011 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:09,014 - INFO - Generating baseline 'no-change' forecast...
+2025-04-04 18:24:09,015 - INFO - [nextera_energy] Generating CUMULATIVE predictor values for years 2024-2045...
+2025-04-04 18:24:09,016 - INFO - [nextera_energy] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 12)
+2025-04-04 18:24:09,020 - INFO - Baseline total emissions forecast generated.
+2025-04-04 18:24:09,021 - INFO - --- Building rules for Phase: short (2024-2030) ---
+2025-04-04 18:24:09,021 - INFO - Found 2 targetable metrics for phase 'short'.
+2025-04-04 18:24:09,022 - INFO - --- Building rules for Phase: medium (2031-2037) ---
+2025-04-04 18:24:09,022 - INFO - Found 3 targetable metrics for phase 'medium'.
+2025-04-04 18:24:09,023 - INFO - --- Building rules for Phase: long (2038-2045) ---
+2025-04-04 18:24:09,024 - INFO - Found 1 targetable metrics for phase 'long'.
+2025-04-04 18:24:09,024 - INFO - [nextera_energy] Combining phase rules cumulatively...
+2025-04-04 18:24:09,024 - INFO - [nextera_energy] Cumulative rules created for 12 metrics.
+2025-04-04 18:24:09,025 - INFO - [nextera_energy] Generating CUMULATIVE predictor values for years 2024-2045...
+2025-04-04 18:24:09,026 - INFO - [nextera_energy] Generated CUMULATIVE scenario predictor DataFrame shape: (22, 12)
+2025-04-04 18:24:09,026 - INFO - [nextera_energy] Predicting Scope 1 emissions...
+2025-04-04 18:24:09,030 - INFO - [nextera_energy] Predicting Scope 2 emissions...
+2025-04-04 18:24:09,035 - INFO - [nextera_energy] Predicting Scope 3 emissions...
+2025-04-04 18:24:09,040 - INFO - [nextera_energy] Applying phased 'locking' to prevent emission increases...
+2025-04-04 18:24:09,040 - INFO - S1 lock value (end of short phase 2030): 4.04e+07
+2025-04-04 18:24:09,040 - INFO - S2 lock value (end of medium phase 2037): 2.42e+04
+2025-04-04 18:24:09,042 - INFO - [nextera_energy] Calculated scenario Total Emissions by summing scope predictions.
+2025-04-04 18:24:09,042 - INFO - Actual last historical year determined as: 2023
+2025-04-04 18:24:09,047 - INFO - [nextera_energy] Combined historical and target-seeking scenario data created. Shape: (31, 59)
+2025-04-04 18:24:09,047 - INFO - [nextera_energy] Calculating scores for the combined historical + scenario timeline...
+2025-04-04 18:24:09,047 - INFO - Starting compute_score_timeseries for DataFrame of shape (31, 59)
+2025-04-04 18:24:09,054 - INFO - Finished computing score_timeseries. Final shape=(31, 64)
+2025-04-04 18:24:09,055 - INFO - [nextera_energy] Extracting detailed scores from scenario results...
+2025-04-04 18:24:09,056 - INFO - [nextera_energy] Extracted scenario scores for 31 years.
+2025-04-04 18:24:09,057 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'nextera_energy_SASB_Metrics_Total Emissions_baseline_forecast']
+2025-04-04 18:24:09,059 - INFO - Successfully merged baseline forecast column 'nextera_energy_SASB_Metrics_Total Emissions_baseline_forecast'.
+2025-04-04 18:24:09,059 - INFO - [nextera_energy] Running duration analysis on target-seeking scenario data...
+2025-04-04 18:24:09,060 - INFO - Extracted 9 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:09,062 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
+2025-04-04 18:24:09,064 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
+2025-04-04 18:24:09,065 - INFO - Scenario final year (2045) emission: 4.22e+07
+2025-04-04 18:24:09,079 - INFO - Target parsed for 2025: 70.0% reduction => 1.44e+07
+2025-04-04 18:24:09,080 - INFO - Target parsed for 2030: 82.0% reduction => 8.65e+06
+2025-04-04 18:24:09,080 - INFO - Target parsed for 2035: 87.0% reduction => 6.25e+06
+2025-04-04 18:24:09,080 - INFO - Target parsed for 2040: 94.0% reduction => 2.88e+06
+2025-04-04 18:24:09,080 - INFO - Target parsed for 2045: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:09,342 - INFO - Ensemble forecast figure saved to: fig\nextera_energy\nextera_energy_ensemble_forecast_phased_scenario.png
+2025-04-04 18:24:09,342 - INFO - [nextera_energy] Phased Scenario analysis complete. Net Zero: None, Final Emission: 42182396.51170115
+2025-04-04 18:24:09,342 - INFO - [nextera_energy] Phased Scenario analysis completed. Net Zero: None, Final Emission: 42182396.51170115
+2025-04-04 18:24:09,345 - INFO - Phased scenario rules saved to: results\nextera_energy\nextera_energy_phased_scenario_rules.json
+2025-04-04 18:24:09,346 - INFO - Duration results saved/updated in: results\nextera_energy\nextera_energy_duration_results.json (Tag: phased_scenario)
+2025-04-04 18:24:09,348 - INFO - Plotting nextera_energy's composite scores. Range: 28–61
+2025-04-04 18:24:09,487 - INFO - Saved nextera_energy score plot to fig\nextera_energy\nextera_energy_scenario_rules_comp_scores_plot.png
+2025-04-04 18:24:09,489 - INFO - Updating score details file with tag: 'phased_scenario'
+2025-04-04 18:24:09,492 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_phased_scenario_score_details.json
+2025-04-04 18:24:09,493 - INFO - ========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========
+2025-04-04 18:24:09,493 - INFO - Starting compute_score_timeseries for DataFrame of shape (9, 59)
+2025-04-04 18:24:09,509 - INFO - Finished computing score_timeseries. Final shape=(9, 72)
+2025-04-04 18:24:09,511 - INFO - Plotting nextera_energy's composite scores. Range: 41–60
+2025-04-04 18:24:09,681 - INFO - Saved nextera_energy score plot to fig\nextera_energy\nextera_energy_historical_comp_scores_plot.png
+2025-04-04 18:24:09,682 - INFO - [nextera_energy] Extracting detailed scores from scenario results...
+2025-04-04 18:24:09,683 - INFO - [nextera_energy] Extracted scenario scores for 9 years.
+2025-04-04 18:24:09,685 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:09,688 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_historical_score_details.json
+2025-04-04 18:24:09,690 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:09,691 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\nextera_energy\nextera_energy_historical_score_details.json
+2025-04-04 18:24:09,691 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for nextera_energy ==========
+2025-04-04 18:24:09,696 - INFO - [nextera_energy] Individual recommendation summary saved to: results\nextera_energy\nextera_energy_recommendation_summary.json

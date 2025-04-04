@@ -1,0 +1,127 @@
+{
+    "most_important_metric": "ormat_Governance_Percentage of women on board of directors",
+    "importance_weight": 24.55317282360078,
+    "recommended_action": {},
+    "expected_emissions_2045": 34631.81151008,
+    "emission_unit": "metric tons Co2e",
+    "historical_score_trend": {
+        "2005": 47,
+        "2016": 52,
+        "2017": 48,
+        "2018": 53,
+        "2019": 50,
+        "2020": 52,
+        "2021": 61,
+        "2022": 35,
+        "2023": 52
+    },
+    "phased_score_trend": {
+        "2005": 52,
+        "2016": 55,
+        "2017": 55,
+        "2018": 52,
+        "2019": 52,
+        "2020": 43,
+        "2021": 39,
+        "2022": 39,
+        "2023": 50,
+        "2024": 50,
+        "2025": 50,
+        "2026": 50,
+        "2027": 50,
+        "2028": 50,
+        "2029": 50,
+        "2030": 50,
+        "2031": 50,
+        "2032": 50,
+        "2033": 50,
+        "2034": 50,
+        "2035": 50,
+        "2036": 50,
+        "2037": 50,
+        "2038": 50,
+        "2039": 50,
+        "2040": 50,
+        "2041": 50,
+        "2042": 50,
+        "2043": 50,
+        "2044": 50,
+        "2045": 50
+    },
+    "phased_scenario_rules": {
+        "2024": {
+            "Retail Electric Customers (Residential)": "-3.83%"
+        },
+        "2025": {
+            "Retail Electric Customers (Residential)": "-10.69%"
+        },
+        "2026": {
+            "Retail Electric Customers (Residential)": "-11.43%"
+        },
+        "2027": {
+            "Retail Electric Customers (Residential)": "-12.23%"
+        },
+        "2028": {
+            "Retail Electric Customers (Residential)": "-13.12%"
+        },
+        "2029": {
+            "Retail Electric Customers (Residential)": "-14.11%"
+        },
+        "2030": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2031": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2032": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2033": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2034": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2035": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2036": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2037": {
+            "Retail Electric Customers (Residential)": "-15.22%"
+        },
+        "2038": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-19.33%"
+        },
+        "2039": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-20.71%"
+        },
+        "2040": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-22.38%"
+        },
+        "2041": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-24.15%"
+        },
+        "2042": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-26.44%"
+        },
+        "2043": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-29.66%"
+        },
+        "2044": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-35.18%"
+        },
+        "2045": {
+            "Retail Electric Customers (Residential)": "-15.22%",
+            "Average retail electric rate for residential": "-100.00%"
+        }
+    }
+}

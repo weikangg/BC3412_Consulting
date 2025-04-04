@@ -1,0 +1,36 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                            \n==================================================================================================\nDep. Variable:     chugoku_SASB_Metrics_Scope 2 Emissions   No. Observations:                    8\nModel:                                                GLM   Df Residuals:                        6\nModel Family:                                       Gamma   Df Model:                            1\nLink Function:                                        Log   Scale:                        0.013202\nMethod:                                              IRLS   Log-Likelihood:                -22.214\nDate:                                    Fri, 04 Apr 2025   Deviance:                     0.079323\nTime:                                            18:24:05   Pearson chi2:                   0.0792\nNo. Iterations:                                         6   Pseudo R-squ. (CS):             0.6701\nCovariance Type:                                nonrobust                                         \n=============================================================================================================================================\n                                                                                coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                         3.6498      0.041     89.845      0.000       3.570       3.729\nchugoku_Environment_Percent of coal combustion products beneficially used    -0.1225      0.041     -3.015      0.003      -0.202      -0.043\n=============================================================================================================================================",
+    "selected_predictors": [
+        "chugoku_Environment_Percent of coal combustion products beneficially used"
+    ],
+    "variable_importance_weights": {
+        "chugoku_Environment_Percent of coal combustion products beneficially used": 100.0
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 71560.45506266781
+        },
+        {
+            "Variable": "chugoku_Environment_Percent of coal combustion products beneficially used",
+            "VIF": 1.0
+        }
+    ],
+    "residuals": [
+        3.5442176043146034,
+        4.729458036854773,
+        -4.452087929043223,
+        -1.6086460711726787,
+        5.547912070956777,
+        -0.9025965561795068,
+        -5.270541963145227,
+        -1.6086460711726787
+    ],
+    "coefficients": {
+        "const": 3.6498095439285767,
+        "chugoku_Environment_Percent of coal combustion products beneficially used": -0.12249034634853734
+    },
+    "log_likelihood": -22.21376699055665,
+    "aic": 48.4275339811133,
+    "bic": -12.397326625866045
+}

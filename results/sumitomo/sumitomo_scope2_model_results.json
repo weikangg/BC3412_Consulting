@@ -1,0 +1,65 @@
+{
+    "model_summary": "                            Generalized Linear Model Regression Results                            \n===================================================================================================\nDep. Variable:     sumitomo_SASB_Metrics_Scope 2 Emissions   No. Observations:                    9\nModel:                                                 GLM   Df Residuals:                        3\nModel Family:                                        Gamma   Df Model:                            5\nLink Function:                                         Log   Scale:                        0.010212\nMethod:                                               IRLS   Log-Likelihood:                -82.770\nDate:                                     Fri, 04 Apr 2025   Deviance:                     0.031649\nTime:                                             18:24:17   Pearson chi2:                   0.0306\nNo. Iterations:                                          8   Pseudo R-squ. (CS):             0.2710\nCovariance Type:                                 nonrobust                                         \n======================================================================================================================================\n                                                                         coef    std err          z      P>|z|      [0.025      0.975]\n--------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                 10.3985      0.034    308.694      0.000      10.332      10.465\nsumitomo_Governance_Percentage of minorities on board of directors     0.0029      0.037      0.079      0.937      -0.070       0.075\nsumitomo_Governance_Percentage of women on board of directors          0.0032      0.059      0.054      0.957      -0.113       0.119\nsumitomo_SASB_Metrics_Total recordable Incident Rate                   0.0602      0.068      0.879      0.380      -0.074       0.194\nsumitomo_Social_Support of SDGs (Number of Goals)                     -0.0832      0.052     -1.611      0.107      -0.184       0.018\nsumitomo_Social_Total number of employees                              0.0842      0.096      0.874      0.382      -0.105       0.273\n======================================================================================================================================",
+    "selected_predictors": [
+        "sumitomo_Governance_Percentage of minorities on board of directors",
+        "sumitomo_Governance_Percentage of women on board of directors",
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate",
+        "sumitomo_Social_Support of SDGs (Number of Goals)",
+        "sumitomo_Social_Total number of employees"
+    ],
+    "variable_importance_weights": {
+        "sumitomo_Governance_Percentage of minorities on board of directors": 1.253654329587067,
+        "sumitomo_Governance_Percentage of women on board of directors": 1.3659138789098721,
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate": 25.744582603333278,
+        "sumitomo_Social_Support of SDGs (Number of Goals)": 35.59972518342238,
+        "sumitomo_Social_Total number of employees": 36.03612400474741
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 1324.5117067231436
+        },
+        {
+            "Variable": "sumitomo_Governance_Percentage of minorities on board of directors",
+            "VIF": 1.2068627658490012
+        },
+        {
+            "Variable": "sumitomo_Governance_Percentage of women on board of directors",
+            "VIF": 3.076312579854626
+        },
+        {
+            "Variable": "sumitomo_SASB_Metrics_Total recordable Incident Rate",
+            "VIF": 4.130728042906252
+        },
+        {
+            "Variable": "sumitomo_Social_Support of SDGs (Number of Goals)",
+            "VIF": 2.3512498353951643
+        },
+        {
+            "Variable": "sumitomo_Social_Total number of employees",
+            "VIF": 8.181903095280703
+        }
+    ],
+    "residuals": [
+        36.260280469177815,
+        -579.9137894454834,
+        1979.5603910047976,
+        -553.7189383620134,
+        472.17453702248895,
+        -4299.947265002695,
+        2801.0410420758126,
+        -1108.8857533886148,
+        1240.307721656518
+    ],
+    "coefficients": {
+        "const": 10.398518705638434,
+        "sumitomo_Governance_Percentage of minorities on board of directors": 0.0029296733754761318,
+        "sumitomo_Governance_Percentage of women on board of directors": 0.0031920134839351364,
+        "sumitomo_SASB_Metrics_Total recordable Incident Rate": 0.060162691130795726,
+        "sumitomo_Social_Support of SDGs (Number of Goals)": -0.08319324121705297,
+        "sumitomo_Social_Total number of employees": 0.08421306460676375
+    },
+    "log_likelihood": -82.76981280426287,
+    "aic": 177.53962560852574,
+    "bic": -6.560024502308231
+}

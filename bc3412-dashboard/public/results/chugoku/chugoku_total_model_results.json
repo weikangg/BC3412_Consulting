@@ -1,0 +1,43 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                           \n================================================================================================\nDep. Variable:     chugoku_SASB_Metrics_Total Emissions   No. Observations:                    8\nModel:                                              GLM   Df Residuals:                        5\nModel Family:                                     Gamma   Df Model:                            2\nLink Function:                                      Log   Scale:                       0.0020957\nMethod:                                            IRLS   Log-Likelihood:                -19.355\nDate:                                  Fri, 04 Apr 2025   Deviance:                     0.010537\nTime:                                          18:24:04   Pearson chi2:                   0.0105\nNo. Iterations:                                       7   Pseudo R-squ. (CS):             0.9989\nCovariance Type:                              nonrobust                                         \n=============================================================================================================================================\n                                                                                coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                         4.2705      0.016    263.850      0.000       4.239       4.302\nchugoku_Environment_Percent of coal combustion products beneficially used    -0.0344      0.018     -1.890      0.059      -0.070       0.001\nchugoku_Governance_Percentage of women on board of directors                 -0.1024      0.018     -5.621      0.000      -0.138      -0.067\n=============================================================================================================================================",
+    "selected_predictors": [
+        "chugoku_Environment_Percent of coal combustion products beneficially used",
+        "chugoku_Governance_Percentage of women on board of directors"
+    ],
+    "variable_importance_weights": {
+        "chugoku_Environment_Percent of coal combustion products beneficially used": 25.16040913076302,
+        "chugoku_Governance_Percentage of women on board of directors": 74.83959086923697
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 89986.45295320258
+        },
+        {
+            "Variable": "chugoku_Environment_Percent of coal combustion products beneficially used",
+            "VIF": 1.266710680937863
+        },
+        {
+            "Variable": "chugoku_Governance_Percentage of women on board of directors",
+            "VIF": 1.266710680937861
+        }
+    ],
+    "residuals": [
+        2.2696609331615036,
+        2.9777910081460135,
+        -2.120071286479458,
+        -4.849561375299302,
+        1.337743952221274,
+        -1.514360343500151,
+        -1.2566665447230676,
+        3.0977449683244913
+    ],
+    "coefficients": {
+        "const": 4.270532761438766,
+        "chugoku_Environment_Percent of coal combustion products beneficially used": -0.03442381113553006,
+        "chugoku_Governance_Percentage of women on board of directors": -0.10239356316320858
+    },
+    "log_likelihood": -19.35451999220504,
+    "aic": 44.70903998441008,
+    "bic": -10.386670282836077
+}

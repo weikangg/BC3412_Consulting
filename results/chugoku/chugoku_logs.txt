@@ -1,0 +1,168 @@
+2025-04-04 18:24:04,136 - INFO - ========== PROCESSING COMPANY: chugoku ==========
+2025-04-04 18:24:04,144 - INFO - Wide-format data for chugoku has 8 rows and 40 columns.
+2025-04-04 18:24:04,144 - INFO - Columns for company chugoku: ['chugoku_Environment_CO2 Owned Generation Emissions', 'chugoku_Environment_CO2 Owned Generation Emissions Intensity', 'chugoku_Environment_NOx Emissions Intensity', 'chugoku_Environment_Owned Net Generation (Non-Renewable)', 'chugoku_Environment_Owned Net Generation (Renewable)', 'chugoku_Environment_Owned Net Generation Capacity (Non-Renewable)', 'chugoku_Environment_Owned Net Generation Capacity (Renewable)', 'chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Environment_SO2 Emissions Intensity', 'chugoku_Environment_Total Owned Generation CO2 Emissions', 'chugoku_Environment_Total Owned Generation CO2 Emissions Intensity', 'chugoku_Financial_Capital Expenditure', 'chugoku_Financial_Cash Flow from Operating Activities', 'chugoku_Financial_Net Income', 'chugoku_Financial_Operating Revenue', 'chugoku_Governance_Percentage of women on board of directors', 'chugoku_Governance_Total number on board of directors', 'chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'chugoku_SASB_Metrics_Average retail electric rate for commercial customers', 'chugoku_SASB_Metrics_Average retail electric rate for industrial customers', 'chugoku_SASB_Metrics_Average retail electric rate for residential customers', 'chugoku_SASB_Metrics_Customer Average Interruption Duration Index (CAIDI)', 'chugoku_SASB_Metrics_GHG Emissions associated with power deliveries', 'chugoku_SASB_Metrics_Nitrogen Oxides, excluding nitrous oxide', 'chugoku_SASB_Metrics_Percentage of electric load served by smart grid technology', 'chugoku_SASB_Metrics_Scope 1 Emissions', 'chugoku_SASB_Metrics_Scope 2 Emissions', 'chugoku_SASB_Metrics_Scope 3 Emissions', 'chugoku_SASB_Metrics_Sulfur Oxides (SOx)', 'chugoku_SASB_Metrics_System Average Interruption Duration Index (SAIDI)', 'chugoku_SASB_Metrics_System Average Interruption Frequency Index (SAIFI)', 'chugoku_SASB_Metrics_Total recordable Incident Rate', 'chugoku_SASB_Metrics_Water consumed (Fresh water)', 'chugoku_SASB_Metrics_Water withdrawn (Fresh water)', 'chugoku_SASB_Metrics_Water withdrawn (Seawater)', 'chugoku_SASB_Metrics_Workforce Fatality Frequency', 'chugoku_Social_Percentage of women in total workforce', 'chugoku_Social_Total number of employees']
+2025-04-04 18:24:04,147 - INFO - Using unit: million t-CO2
+2025-04-04 18:24:04,147 - INFO - ========== ANALYZING DURATION TO NET ZERO (DURATION ANALYZER) ==========
+2025-04-04 18:24:04,148 - INFO - Initial call: Max historical year set to 2023.
+2025-04-04 18:24:04,149 - INFO - Extracted 8 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:04,150 - INFO - Performing ensemble forecast on historical data (up to 2023).
+2025-04-04 18:24:04,150 - INFO - Forecasting from 2024 to last target year 2050.
+2025-04-04 18:24:04,150 - INFO - Final forecast years for ensemble: [2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050]
+2025-04-04 18:24:04,302 - INFO - Prophet forecast completed.
+2025-04-04 18:24:04,312 - INFO - Exponential Smoothing forecast completed.
+2025-04-04 18:24:04,345 - INFO - ARIMA forecast completed.
+2025-04-04 18:24:04,348 - INFO - Net-zero threshold not reached within the forecast horizon.
+2025-04-04 18:24:04,348 - INFO - Initial forecast final year (2050) emission: 1.39e+01
+2025-04-04 18:24:04,358 - INFO - Target parsed for 2025: 10.0% reduction => 7.10e+01
+2025-04-04 18:24:04,359 - INFO - Target parsed for 2030: 20.0% reduction => 6.31e+01
+2025-04-04 18:24:04,359 - INFO - Target parsed for 2035: 40.0% reduction => 4.73e+01
+2025-04-04 18:24:04,359 - INFO - Target parsed for 2040: 60.0% reduction => 3.15e+01
+2025-04-04 18:24:04,359 - INFO - Target parsed for 2045: 80.0% reduction => 1.58e+01
+2025-04-04 18:24:04,359 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:04,629 - INFO - Ensemble forecast figure saved to: fig\chugoku\chugoku_ensemble_forecast_initial.png
+2025-04-04 18:24:04,631 - INFO - Duration results saved/updated in: results\chugoku\chugoku_duration_results.json (Tag: initial)
+2025-04-04 18:24:04,631 - INFO - ========== MODELING (TOTAL & SCOPES 1, 2 and 3) ==========
+2025-04-04 18:24:04,631 - INFO - --- Fitting model for Total Emissions ---
+2025-04-04 18:24:04,634 - INFO - Modeling 'chugoku_SASB_Metrics_Total Emissions' on 8 rows after filtering.
+2025-04-04 18:24:04,676 - INFO - LASSO selected features: ['chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Governance_Percentage of women on board of directors']
+2025-04-04 18:24:04,679 - INFO - Final predictors after LASSO + VIF for chugoku_SASB_Metrics_Total Emissions: ['chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Governance_Percentage of women on board of directors']
+2025-04-04 18:24:04,684 - INFO - Model fitted for chugoku_SASB_Metrics_Total Emissions.
+2025-04-04 18:24:04,687 - INFO - VIF for Selected Predictors:
+                                            Variable           VIF
+0                                              const  89986.452953
+1  chugoku_Environment_Percent of coal combustion...      1.266711
+2  chugoku_Governance_Percentage of women on boar...      1.266711
+2025-04-04 18:24:04,692 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:04,692 - INFO -   chugoku_Environment_Percent of coal combustion products beneficially used: 25.16
+2025-04-04 18:24:04,692 - INFO -   chugoku_Governance_Percentage of women on board of directors: 74.84
+2025-04-04 18:24:04,693 - INFO - --- Saving results for total model ---
+2025-04-04 18:24:04,972 - INFO - Figure saved to fig\chugoku\chugoku_total_residual_plot.png
+2025-04-04 18:24:04,973 - INFO - [chugoku] total residual plot saved to: fig\chugoku\chugoku_total_residual_plot.png
+2025-04-04 18:24:04,977 - INFO - [chugoku] total model results saved to: results\chugoku\chugoku_total_model_results.json
+2025-04-04 18:24:04,977 - INFO - --- Fitting model for Scope 1 Emissions ---
+2025-04-04 18:24:04,979 - INFO - Modeling 'chugoku_SASB_Metrics_Scope 1 Emissions' on 8 rows after filtering.
+2025-04-04 18:24:05,017 - INFO - LASSO selected features: ['chugoku_Environment_CO2 Owned Generation Emissions Intensity', 'chugoku_Environment_Owned Net Generation (Renewable)', 'chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Environment_Total Owned Generation CO2 Emissions Intensity', 'chugoku_Financial_Cash Flow from Operating Activities', 'chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated', 'chugoku_SASB_Metrics_Percentage of electric load served by smart grid technology', 'chugoku_SASB_Metrics_Sulfur Oxides (SOx)', 'chugoku_SASB_Metrics_Water consumed (Fresh water)', 'chugoku_SASB_Metrics_Water withdrawn (Fresh water)', 'chugoku_SASB_Metrics_Water withdrawn (Seawater)']
+2025-04-04 18:24:05,021 - WARNING - Removing predictor 'chugoku_Environment_CO2 Owned Generation Emissions Intensity' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,024 - WARNING - Removing predictor 'chugoku_Environment_Owned Net Generation (Renewable)' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,028 - WARNING - Removing predictor 'chugoku_SASB_Metrics_Percentage of electric load served by smart grid technology' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,031 - WARNING - Removing predictor 'chugoku_SASB_Metrics_Sulfur Oxides (SOx)' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,034 - WARNING - Removing predictor 'chugoku_SASB_Metrics_Water consumed (Fresh water)' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,036 - WARNING - Removing predictor 'chugoku_SASB_Metrics_Water withdrawn (Fresh water)' for chugoku_SASB_Metrics_Scope 1 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,040 - INFO - Removing predictor 'chugoku_SASB_Metrics_Water withdrawn (Seawater)' for chugoku_SASB_Metrics_Scope 1 Emissions due to high VIF: 111.06
+2025-04-04 18:24:05,042 - INFO - Final predictors after LASSO + VIF for chugoku_SASB_Metrics_Scope 1 Emissions: ['chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Environment_Total Owned Generation CO2 Emissions Intensity', 'chugoku_Financial_Cash Flow from Operating Activities', 'chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated']
+2025-04-04 18:24:05,047 - INFO - Model fitted for chugoku_SASB_Metrics_Scope 1 Emissions.
+2025-04-04 18:24:05,047 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:05,047 - INFO -   chugoku_Environment_Percent of coal combustion products beneficially used: 3.83
+2025-04-04 18:24:05,048 - INFO -   chugoku_Environment_Total Owned Generation CO2 Emissions Intensity: 71.02
+2025-04-04 18:24:05,048 - INFO -   chugoku_Financial_Cash Flow from Operating Activities: 6.67
+2025-04-04 18:24:05,048 - INFO -   chugoku_SASB_Metrics_Amount of Coal Combustion Residuals (CCR) generated: 18.47
+2025-04-04 18:24:05,050 - INFO - --- Saving results for scope1 model ---
+2025-04-04 18:24:05,348 - INFO - Figure saved to fig\chugoku\chugoku_scope1_residual_plot.png
+2025-04-04 18:24:05,348 - INFO - [chugoku] scope1 residual plot saved to: fig\chugoku\chugoku_scope1_residual_plot.png
+2025-04-04 18:24:05,357 - INFO - [chugoku] scope1 model results saved to: results\chugoku\chugoku_scope1_model_results.json
+2025-04-04 18:24:05,358 - INFO - --- Fitting model for Scope 2 Emissions ---
+2025-04-04 18:24:05,361 - INFO - Modeling 'chugoku_SASB_Metrics_Scope 2 Emissions' on 8 rows after filtering.
+2025-04-04 18:24:05,408 - INFO - LASSO selected features: ['chugoku_Environment_Percent of coal combustion products beneficially used']
+2025-04-04 18:24:05,410 - INFO - Final predictors after LASSO + VIF for chugoku_SASB_Metrics_Scope 2 Emissions: ['chugoku_Environment_Percent of coal combustion products beneficially used']
+2025-04-04 18:24:05,415 - INFO - Model fitted for chugoku_SASB_Metrics_Scope 2 Emissions.
+2025-04-04 18:24:05,416 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:05,416 - INFO -   chugoku_Environment_Percent of coal combustion products beneficially used: 100.00
+2025-04-04 18:24:05,418 - INFO - --- Saving results for scope2 model ---
+2025-04-04 18:24:05,817 - INFO - Figure saved to fig\chugoku\chugoku_scope2_residual_plot.png
+2025-04-04 18:24:05,817 - INFO - [chugoku] scope2 residual plot saved to: fig\chugoku\chugoku_scope2_residual_plot.png
+2025-04-04 18:24:05,823 - INFO - [chugoku] scope2 model results saved to: results\chugoku\chugoku_scope2_model_results.json
+2025-04-04 18:24:05,823 - INFO - --- Fitting model for Scope 3 Emissions ---
+2025-04-04 18:24:05,825 - INFO - Modeling 'chugoku_SASB_Metrics_Scope 3 Emissions' on 8 rows after filtering.
+2025-04-04 18:24:05,877 - INFO - LASSO selected features: ['chugoku_Environment_CO2 Owned Generation Emissions', 'chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Environment_Total Owned Generation CO2 Emissions', 'chugoku_Financial_Capital Expenditure', 'chugoku_Financial_Cash Flow from Operating Activities', 'chugoku_Financial_Operating Revenue']
+2025-04-04 18:24:05,880 - WARNING - Removing predictor 'chugoku_Environment_CO2 Owned Generation Emissions' for chugoku_SASB_Metrics_Scope 3 Emissions due to infinite VIF (perfect collinearity).
+2025-04-04 18:24:05,883 - INFO - Final predictors after LASSO + VIF for chugoku_SASB_Metrics_Scope 3 Emissions: ['chugoku_Environment_Percent of coal combustion products beneficially used', 'chugoku_Environment_Total Owned Generation CO2 Emissions', 'chugoku_Financial_Capital Expenditure', 'chugoku_Financial_Cash Flow from Operating Activities', 'chugoku_Financial_Operating Revenue']
+2025-04-04 18:24:05,888 - INFO - Model fitted for chugoku_SASB_Metrics_Scope 3 Emissions.
+2025-04-04 18:24:05,889 - INFO - 
+Variable Importance Weights (out of 100):
+2025-04-04 18:24:05,889 - INFO -   chugoku_Environment_Percent of coal combustion products beneficially used: 8.92
+2025-04-04 18:24:05,889 - INFO -   chugoku_Environment_Total Owned Generation CO2 Emissions: 68.11
+2025-04-04 18:24:05,889 - INFO -   chugoku_Financial_Capital Expenditure: 1.66
+2025-04-04 18:24:05,889 - INFO -   chugoku_Financial_Cash Flow from Operating Activities: 12.19
+2025-04-04 18:24:05,889 - INFO -   chugoku_Financial_Operating Revenue: 9.13
+2025-04-04 18:24:05,892 - INFO - --- Saving results for scope3 model ---
+2025-04-04 18:24:06,176 - INFO - Figure saved to fig\chugoku\chugoku_scope3_residual_plot.png
+2025-04-04 18:24:06,176 - INFO - [chugoku] scope3 residual plot saved to: fig\chugoku\chugoku_scope3_residual_plot.png
+2025-04-04 18:24:06,182 - INFO - [chugoku] scope3 model results saved to: results\chugoku\chugoku_scope3_model_results.json
+2025-04-04 18:24:06,182 - INFO - 
+========== RUNNING PHASED TARGET-SEEKING SCENARIO ==========
+2025-04-04 18:24:06,182 - INFO - Phased scenario range: 2024-2050
+2025-04-04 18:24:06,182 - INFO - Phase Boundaries: Short=(2024, 2032), Medium=(2033, 2041), Long=(2042, 2050)
+2025-04-04 18:24:06,183 - INFO - [chugoku] Starting PHASED scenario analysis (2024-2050)
+2025-04-04 18:24:06,183 - INFO - Using baseline emission ref from 2023: 6.79e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2025: 10.0% reduction => 6.11e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2030: 20.0% reduction => 5.43e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2035: 40.0% reduction => 4.07e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2040: 60.0% reduction => 2.72e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2045: 80.0% reduction => 1.36e+01
+2025-04-04 18:24:06,184 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:06,189 - INFO - Generating baseline 'no-change' forecast...
+2025-04-04 18:24:06,189 - INFO - [chugoku] Generating CUMULATIVE predictor values for years 2024-2050...
+2025-04-04 18:24:06,190 - INFO - [chugoku] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 8)
+2025-04-04 18:24:06,196 - INFO - Baseline total emissions forecast generated.
+2025-04-04 18:24:06,196 - INFO - --- Building rules for Phase: short (2024-2032) ---
+2025-04-04 18:24:06,197 - INFO - Found 2 targetable metrics for phase 'short'.
+2025-04-04 18:24:06,198 - INFO - --- Building rules for Phase: medium (2033-2041) ---
+2025-04-04 18:24:06,199 - INFO - No targetable metrics found for phase 'medium'.
+2025-04-04 18:24:06,199 - INFO - --- Building rules for Phase: long (2042-2050) ---
+2025-04-04 18:24:06,200 - INFO - Found 4 targetable metrics for phase 'long'.
+2025-04-04 18:24:06,201 - INFO - [chugoku] Combining phase rules cumulatively...
+2025-04-04 18:24:06,201 - INFO - [chugoku] Cumulative rules created for 8 metrics.
+2025-04-04 18:24:06,202 - INFO - [chugoku] Generating CUMULATIVE predictor values for years 2024-2050...
+2025-04-04 18:24:06,203 - INFO - [chugoku] Generated CUMULATIVE scenario predictor DataFrame shape: (27, 8)
+2025-04-04 18:24:06,203 - INFO - [chugoku] Predicting Scope 1 emissions...
+2025-04-04 18:24:06,207 - INFO - [chugoku] Predicting Scope 2 emissions...
+2025-04-04 18:24:06,210 - INFO - [chugoku] Predicting Scope 3 emissions...
+2025-04-04 18:24:06,215 - INFO - [chugoku] Applying phased 'locking' to prevent emission increases...
+2025-04-04 18:24:06,215 - INFO - S1 lock value (end of short phase 2032): 18
+2025-04-04 18:24:06,215 - INFO - S2 lock value (end of medium phase 2041): 41.6
+2025-04-04 18:24:06,216 - INFO - [chugoku] Calculated scenario Total Emissions by summing scope predictions.
+2025-04-04 18:24:06,216 - INFO - Actual last historical year determined as: 2023
+2025-04-04 18:24:06,221 - INFO - [chugoku] Combined historical and target-seeking scenario data created. Shape: (35, 41)
+2025-04-04 18:24:06,221 - INFO - [chugoku] Calculating scores for the combined historical + scenario timeline...
+2025-04-04 18:24:06,221 - INFO - Starting compute_score_timeseries for DataFrame of shape (35, 41)
+2025-04-04 18:24:06,224 - INFO - Finished computing score_timeseries. Final shape=(35, 44)
+2025-04-04 18:24:06,225 - INFO - [chugoku] Extracting detailed scores from scenario results...
+2025-04-04 18:24:06,226 - INFO - [chugoku] Extracted scenario scores for 35 years.
+2025-04-04 18:24:06,226 - INFO - Attempting to merge baseline forecast using columns: ['Year', 'chugoku_SASB_Metrics_Total Emissions_baseline_forecast']
+2025-04-04 18:24:06,228 - INFO - Successfully merged baseline forecast column 'chugoku_SASB_Metrics_Total Emissions_baseline_forecast'.
+2025-04-04 18:24:06,228 - INFO - [chugoku] Running duration analysis on target-seeking scenario data...
+2025-04-04 18:24:06,229 - INFO - Extracted 8 TRUE historical records (up to year 2023) for base analysis.
+2025-04-04 18:24:06,230 - INFO - Analyzing duration based on provided scenario data in df_wide (post-history).
+2025-04-04 18:24:06,233 - INFO - Net-zero threshold (0.00e+00) comparison done on scenario data. Result: None
+2025-04-04 18:24:06,233 - INFO - Scenario final year (2050) emission: 5.87e+01
+2025-04-04 18:24:06,245 - INFO - Target parsed for 2025: 10.0% reduction => 7.10e+01
+2025-04-04 18:24:06,245 - INFO - Target parsed for 2030: 20.0% reduction => 6.31e+01
+2025-04-04 18:24:06,245 - INFO - Target parsed for 2035: 40.0% reduction => 4.73e+01
+2025-04-04 18:24:06,245 - INFO - Target parsed for 2040: 60.0% reduction => 3.15e+01
+2025-04-04 18:24:06,246 - INFO - Target parsed for 2045: 80.0% reduction => 1.58e+01
+2025-04-04 18:24:06,246 - INFO - Target parsed for 2050: 100.0% reduction => 0.00e+00
+2025-04-04 18:24:06,524 - INFO - Ensemble forecast figure saved to: fig\chugoku\chugoku_ensemble_forecast_phased_scenario.png
+2025-04-04 18:24:06,524 - INFO - [chugoku] Phased Scenario analysis complete. Net Zero: None, Final Emission: 58.66311903794823
+2025-04-04 18:24:06,525 - INFO - [chugoku] Phased Scenario analysis completed. Net Zero: None, Final Emission: 58.66311903794823
+2025-04-04 18:24:06,527 - INFO - Phased scenario rules saved to: results\chugoku\chugoku_phased_scenario_rules.json
+2025-04-04 18:24:06,528 - INFO - Duration results saved/updated in: results\chugoku\chugoku_duration_results.json (Tag: phased_scenario)
+2025-04-04 18:24:06,530 - INFO - Plotting chugoku's composite scores. Range: 17–67
+2025-04-04 18:24:06,653 - INFO - Saved chugoku score plot to fig\chugoku\chugoku_scenario_rules_comp_scores_plot.png
+2025-04-04 18:24:06,656 - INFO - Updating score details file with tag: 'phased_scenario'
+2025-04-04 18:24:06,658 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chugoku\chugoku_phased_scenario_score_details.json
+2025-04-04 18:24:06,659 - INFO - ========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========
+2025-04-04 18:24:06,659 - INFO - Starting compute_score_timeseries for DataFrame of shape (8, 41)
+2025-04-04 18:24:06,670 - INFO - Finished computing score_timeseries. Final shape=(8, 50)
+2025-04-04 18:24:06,671 - INFO - Plotting chugoku's composite scores. Range: 37–68
+2025-04-04 18:24:06,817 - INFO - Saved chugoku score plot to fig\chugoku\chugoku_historical_comp_scores_plot.png
+2025-04-04 18:24:06,817 - INFO - [chugoku] Extracting detailed scores from scenario results...
+2025-04-04 18:24:06,818 - INFO - [chugoku] Extracted scenario scores for 8 years.
+2025-04-04 18:24:06,821 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:06,824 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chugoku\chugoku_historical_score_details.json
+2025-04-04 18:24:06,826 - INFO - Updating score details file with tag: 'historical'
+2025-04-04 18:24:06,828 - INFO - Detailed scores saved/updated in: C:\Users\chong\OneDrive\Desktop\BC3412 Proj\BC3412_Consulting\utils\..\results\chugoku\chugoku_historical_score_details.json
+2025-04-04 18:24:06,828 - INFO - ========== BUILDING RECOMMENDATION SUMMARY for chugoku ==========
+2025-04-04 18:24:06,835 - INFO - [chugoku] Individual recommendation summary saved to: results\chugoku\chugoku_recommendation_summary.json

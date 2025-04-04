@@ -1,0 +1,407 @@
+{
+    "phased_scenario": {
+        "2005": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 12.632351664474193,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 52.72631119026663,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 44
+        },
+        "2016": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 12.632351664474193,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 52.72631119026663,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 44
+        },
+        "2017": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 12.632351664474193,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 52.72631119026663,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 44
+        },
+        "2018": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 12.632351664474193,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 52.72631119026663,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 44
+        },
+        "2019": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 12.632351664474193,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 52.72631119026663,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 44
+        },
+        "2020": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 58.644384435799154,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 51.69679543534693,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 53
+        },
+        "2021": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 59.199397962054924,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.107055250475966,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2022": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 58.52920080347942,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 57.4343860309121,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2023": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2024": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2025": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2026": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2027": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2028": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2029": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2030": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2031": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2032": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2033": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2034": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2035": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2036": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2037": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 58.16088272395654,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 58
+        },
+        "2038": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 53.606150556018505,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 54
+        },
+        "2039": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 48.92841115988081,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 51
+        },
+        "2040": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 44.10124947825011,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 47
+        },
+        "2041": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 39.157945964017024,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 43
+        },
+        "2042": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 34.0488732106733,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 39
+        },
+        "2043": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 28.670023412506502,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 35
+        },
+        "2044": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 22.726407336219456,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 30
+        },
+        "2045": {
+            "metrics": {
+                "orsted_SASB_Metrics_GHG Emissions": {
+                    "score": 56.97675036853459,
+                    "weight": 21.34773550756532
+                },
+                "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": {
+                    "score": 0.0,
+                    "weight": 78.65226449243467
+                }
+            },
+            "overall_score": 12
+        }
+    }
+}

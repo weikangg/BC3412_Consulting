@@ -1,0 +1,44 @@
+{
+    "model_summary": "                           Generalized Linear Model Regression Results                           \n=================================================================================================\nDep. Variable:     orsted_SASB_Metrics_Scope 2 Emissions   No. Observations:                    9\nModel:                                               GLM   Df Residuals:                        6\nModel Family:                                      Gamma   Df Model:                            2\nLink Function:                                       Log   Scale:                        0.037180\nMethod:                                             IRLS   Log-Likelihood:                -96.862\nDate:                                   Fri, 04 Apr 2025   Deviance:                      0.22842\nTime:                                           18:24:14   Pearson chi2:                    0.223\nNo. Iterations:                                       14   Pseudo R-squ. (CS):              1.000\nCovariance Type:                               nonrobust                                         \n=============================================================================================================================================\n                                                                                coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                        11.1578      0.064    173.598      0.000      11.032      11.284\norsted_SASB_Metrics_Average retail electric rate for industrial customers     0.1612      0.179      0.898      0.369      -0.190       0.513\norsted_Social_Support of SDGs (Number of Goals)                               1.3779      0.179      7.681      0.000       1.026       1.730\n=============================================================================================================================================",
+    "selected_predictors": [
+        "orsted_SASB_Metrics_Average retail electric rate for industrial customers",
+        "orsted_Social_Support of SDGs (Number of Goals)"
+    ],
+    "variable_importance_weights": {
+        "orsted_SASB_Metrics_Average retail electric rate for industrial customers": 10.471915651851276,
+        "orsted_Social_Support of SDGs (Number of Goals)": 89.52808434814872
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 94.92600240539214
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Average retail electric rate for industrial customers",
+            "VIF": 7.790177502031029
+        },
+        {
+            "Variable": "orsted_Social_Support of SDGs (Number of Goals)",
+            "VIF": 7.790177502031023
+        }
+    ],
+    "residuals": [
+        -1723.0494007349917,
+        -1723.0494007349917,
+        -1723.0494007349917,
+        -1723.0494007349917,
+        -1723.0494007349917,
+        3447.615098658778,
+        4454.80465690474,
+        373589.98826838774,
+        -343810.2162431965
+    ],
+    "coefficients": {
+        "const": 11.157751359919908,
+        "orsted_SASB_Metrics_Average retail electric rate for industrial customers": 0.16117019298850518,
+        "orsted_Social_Support of SDGs (Number of Goals)": 1.3779005782701683
+    },
+    "log_likelihood": -96.86180935839259,
+    "aic": 199.72361871678518,
+    "bic": -12.95492319383364
+}

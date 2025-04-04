@@ -1,0 +1,24 @@
+Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units,SASB Topic
+Scope 1 Emissions,not reported,not reported,not reported,not reported,44475780,44231199,43540810,40153390,42152984,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 2 Emissions,not reported,not reported,not reported,not reported,33860.83,29538.89,36673.55,27273.14,32986.09,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+Scope 3 Emissions,not reported,not reported,not reported,not reported,691491.6,364986.3,2495143,3022674,2664761,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+GHG Emissions,not reported,not reported,not reported,not reported,46380613,2249309,1663219,2350608,1968298,metric tons Co2e,Greenhouse gas emissions and energy resource planning
+"Nitrogen Oxides, excluding nitrous oxide",not reported,not reported,not reported,not reported,11259.04,8271.696,10964.97,8226.18,7478.933,metric tons,Renewable portfolio goals and air quality
+Sulfur Oxides (SOx),not reported,not reported,not reported,not reported,2374.438,1209.775,826.4479,1006.008,453.5049,metric tons,Renewable portfolio goals and air quality
+Particulate matter (PM 10),not reported,not reported,not reported,not reported,733.3456,973.5603,1005.921,661.0497,674.7622,metric tons,Renewable portfolio goals and air quality
+Lead (Pb),not reported,not reported,not reported,not reported,0.558425,0.369982,0.629413,0.258262,0.031261,metric tons,Renewable portfolio goals and air quality
+Mercury (Hg),not reported,not reported,not reported,not reported,0.028766,0.029121,0.048797,0.0296,0.009895,metric tons,Renewable portfolio goals and air quality
+Water withdrawn,not reported,not reported,not reported,not reported,7654177,7517493,7648482,8139954,8249779,thousand cubic metres,Water Management
+Water consumed,not reported,not reported,not reported,not reported,144537.3,116561.9,114765.5,124234.5,111699.9,thousand cubic metres,Water Management
+Amount of Coal Combustion Residuals (CCR) generated,not reported,not reported,not reported,not reported,351702.9,162513,145265.5,141148.6,57682.2,number of CCR,Coal Ash Management
+Average retail electric rate for residential,not reported,not reported,not reported,not reported,0.113716,0.100832,0.112578,0.128547,0.154329,kilowatt-hour,Energy Affordability
+Average retail electric rate for commercial,not reported,not reported,not reported,not reported,0.083716,0.078497,0.090011,0.106483,0.116279,kilowatt-hour,Energy Affordability
+Average retail electric rate for industrial customers,not reported,not reported,not reported,not reported,0.067803,0.059034,0.066083,0.086594,0.082787,kilowatt-hour,Energy Affordability
+Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month,not reported,not reported,not reported,not reported,52.65336,51.88426,56.76312,67.78271,70.90421,dollars,Energy Affordability
+Typical monthly electric bill for residential customers for 1000kWh of electricity delivered per month,not reported,not reported,not reported,not reported,100.0279,93.48217,99.36792,117.2646,129.22,dollars,Energy Affordability
+Total recordable Incident Rate,2.4,0.7,0.53,0.56,0.641466,0.386864,0.34034,0.301611,0.231464,incident rate,Workforce health and safety
+Workforce Fatality Frequency,0,0,0,0,0,0,0,0,0,fatality rate,Workforce health and safety
+Percentage of electric load served by smart grid technology,not reported,not reported,not reported,not reported,0.991038,1.036638,0.981692,0.988459,0.95619,percentage,End-use efficiency and demand
+System Average interruption duration Index,not reported,not reported,not reported,not reported,49.68767,49.8776,43.72584,47.82101,46.62263,index score,Grid resiliency
+System Average interruption frequency Index,not reported,not reported,not reported,not reported,0.984578,0.866034,0.838135,0.852404,0.707582,index score,Grid resiliency
+"Customer Average Interruption Duration Index, inclusive of major event days",not reported,not reported,not reported,not reported,0.476105,0.565944,0.627271,0.716873,0.626125,index score,Grid resiliency

@@ -187,6 +187,197 @@
                 }
             }
         },
+        "chugoku": {
+            "most_important_metric": "chugoku_Governance_Percentage of women on board of directors",
+            "importance_weight": 74.83959086923697,
+            "recommended_action": {},
+            "expected_emissions_2045": 58.66311903794823,
+            "emission_unit": "million t-CO2",
+            "historical_score_trend": {
+                "2016": 39,
+                "2017": 39,
+                "2018": 37,
+                "2019": 43,
+                "2020": 49,
+                "2021": 68,
+                "2022": 64,
+                "2023": 60
+            },
+            "phased_score_trend": {
+                "2016": 25,
+                "2017": 26,
+                "2018": 17,
+                "2019": 20,
+                "2020": 21,
+                "2021": 66,
+                "2022": 67,
+                "2023": 55,
+                "2024": 55,
+                "2025": 55,
+                "2026": 55,
+                "2027": 55,
+                "2028": 55,
+                "2029": 55,
+                "2030": 55,
+                "2031": 55,
+                "2032": 55,
+                "2033": 55,
+                "2034": 55,
+                "2035": 55,
+                "2036": 55,
+                "2037": 55,
+                "2038": 55,
+                "2039": 55,
+                "2040": 55,
+                "2041": 55,
+                "2042": 55,
+                "2043": 54,
+                "2044": 54,
+                "2045": 53,
+                "2046": 52,
+                "2047": 51,
+                "2048": 50,
+                "2049": 49,
+                "2050": 42
+            },
+            "phased_scenario_rules": {
+                "2024": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-0.04%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.01%"
+                },
+                "2025": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-0.54%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.09%"
+                },
+                "2026": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-0.75%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.13%"
+                },
+                "2027": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-0.96%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.17%"
+                },
+                "2028": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-1.18%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.21%"
+                },
+                "2029": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-1.40%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.24%"
+                },
+                "2030": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-1.63%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.28%"
+                },
+                "2031": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.11%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.37%"
+                },
+                "2032": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2033": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2034": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2035": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2036": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2037": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2038": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2039": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2040": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2041": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%"
+                },
+                "2042": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-18.74%",
+                    "Capital Expenditure": "-0.16%",
+                    "Percent of coal combustion products beneficially used": "-0.04%"
+                },
+                "2043": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-21.03%",
+                    "Capital Expenditure": "-0.18%",
+                    "Percent of coal combustion products beneficially used": "-0.05%"
+                },
+                "2044": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-23.68%",
+                    "Capital Expenditure": "-0.20%",
+                    "Percent of coal combustion products beneficially used": "-0.05%"
+                },
+                "2045": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-26.81%",
+                    "Capital Expenditure": "-0.23%",
+                    "Percent of coal combustion products beneficially used": "-0.06%"
+                },
+                "2046": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-30.64%",
+                    "Capital Expenditure": "-0.26%",
+                    "Percent of coal combustion products beneficially used": "-0.07%"
+                },
+                "2047": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-35.57%",
+                    "Capital Expenditure": "-0.31%",
+                    "Percent of coal combustion products beneficially used": "-0.08%"
+                },
+                "2048": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-42.54%",
+                    "Capital Expenditure": "-0.37%",
+                    "Percent of coal combustion products beneficially used": "-0.09%"
+                },
+                "2049": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-54.43%",
+                    "Capital Expenditure": "-0.47%",
+                    "Percent of coal combustion products beneficially used": "-0.12%"
+                },
+                "2050": {
+                    "Total Owned Generation CO2 Emissions Intensity": "-2.61%",
+                    "Amount of Coal Combustion Residuals (CCR) generated": "-0.45%",
+                    "Total Owned Generation CO2 Emissions": "-100.00%",
+                    "Capital Expenditure": "-3.69%",
+                    "Percent of coal combustion products beneficially used": "-0.92%"
+                }
+            }
+        },
         "nextera_energy": {
             "most_important_metric": "nextera_energy_Environment_Water withdrawals - non-consumptive rate",
             "importance_weight": 64.4854230523257,
@@ -269,115 +460,581 @@
                 "2031": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.19%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-3.30%"
+                    "Percentage of minorities in total workforce": "-3.30%",
+                    "Total number on board of directors": "-3.19%"
                 },
                 "2032": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.30%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-3.41%"
+                    "Percentage of minorities in total workforce": "-3.41%",
+                    "Total number on board of directors": "-3.30%"
                 },
                 "2033": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.42%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-3.53%"
+                    "Percentage of minorities in total workforce": "-3.53%",
+                    "Total number on board of directors": "-3.42%"
                 },
                 "2034": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.54%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-3.66%"
+                    "Percentage of minorities in total workforce": "-3.66%",
+                    "Total number on board of directors": "-3.54%"
                 },
                 "2035": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.67%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-3.80%"
+                    "Percentage of minorities in total workforce": "-3.80%",
+                    "Total number on board of directors": "-3.67%"
                 },
                 "2036": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-3.88%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-4.01%"
+                    "Percentage of minorities in total workforce": "-4.01%",
+                    "Total number on board of directors": "-3.88%"
                 },
                 "2037": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
-                    "Percentage of minorities in total workforce": "-4.25%"
+                    "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%"
                 },
                 "2038": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-40.40%"
                 },
                 "2039": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-43.28%"
                 },
                 "2040": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-46.77%"
                 },
                 "2041": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-50.48%"
                 },
                 "2042": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-55.26%"
                 },
                 "2043": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-61.99%"
                 },
                 "2044": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-73.54%"
                 },
                 "2045": {
                     "Water withdrawals - consumptive rate": "-100.00%",
                     "Percentage of women on board of directors": "-4.04%",
-                    "Total number on board of directors": "-4.11%",
                     "Total recordable Incident Rate": "-100.00%",
                     "Percentage of minorities in total workforce": "-4.25%",
+                    "Total number on board of directors": "-4.11%",
                     "Support of SDGs (Number of Goals)": "-100.00%"
+                }
+            }
+        },
+        "ormat": {
+            "most_important_metric": "ormat_Governance_Percentage of women on board of directors",
+            "importance_weight": 24.55317282360078,
+            "recommended_action": {},
+            "expected_emissions_2045": 34631.81151008,
+            "emission_unit": "metric tons Co2e",
+            "historical_score_trend": {
+                "2005": 47,
+                "2016": 52,
+                "2017": 48,
+                "2018": 53,
+                "2019": 50,
+                "2020": 52,
+                "2021": 61,
+                "2022": 35,
+                "2023": 52
+            },
+            "phased_score_trend": {
+                "2005": 52,
+                "2016": 55,
+                "2017": 55,
+                "2018": 52,
+                "2019": 52,
+                "2020": 43,
+                "2021": 39,
+                "2022": 39,
+                "2023": 50,
+                "2024": 50,
+                "2025": 50,
+                "2026": 50,
+                "2027": 50,
+                "2028": 50,
+                "2029": 50,
+                "2030": 50,
+                "2031": 50,
+                "2032": 50,
+                "2033": 50,
+                "2034": 50,
+                "2035": 50,
+                "2036": 50,
+                "2037": 50,
+                "2038": 50,
+                "2039": 50,
+                "2040": 50,
+                "2041": 50,
+                "2042": 50,
+                "2043": 50,
+                "2044": 50,
+                "2045": 50
+            },
+            "phased_scenario_rules": {
+                "2024": {
+                    "Retail Electric Customers (Residential)": "-3.83%"
+                },
+                "2025": {
+                    "Retail Electric Customers (Residential)": "-10.69%"
+                },
+                "2026": {
+                    "Retail Electric Customers (Residential)": "-11.43%"
+                },
+                "2027": {
+                    "Retail Electric Customers (Residential)": "-12.23%"
+                },
+                "2028": {
+                    "Retail Electric Customers (Residential)": "-13.12%"
+                },
+                "2029": {
+                    "Retail Electric Customers (Residential)": "-14.11%"
+                },
+                "2030": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2031": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2032": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2033": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2034": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2035": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2036": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2037": {
+                    "Retail Electric Customers (Residential)": "-15.22%"
+                },
+                "2038": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-19.33%"
+                },
+                "2039": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-20.71%"
+                },
+                "2040": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-22.38%"
+                },
+                "2041": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-24.15%"
+                },
+                "2042": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-26.44%"
+                },
+                "2043": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-29.66%"
+                },
+                "2044": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-35.18%"
+                },
+                "2045": {
+                    "Retail Electric Customers (Residential)": "-15.22%",
+                    "Average retail electric rate for residential": "-100.00%"
+                }
+            }
+        },
+        "orsted": {
+            "most_important_metric": "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+            "importance_weight": 78.65226449243467,
+            "recommended_action": {},
+            "expected_emissions_2045": 638301.5700892499,
+            "emission_unit": "metric tons Co2e",
+            "historical_score_trend": {
+                "2005": 42,
+                "2016": 41,
+                "2017": 42,
+                "2018": 42,
+                "2019": 42,
+                "2020": 45,
+                "2021": 58,
+                "2022": 67,
+                "2023": 70
+            },
+            "phased_score_trend": {
+                "2005": 44,
+                "2016": 44,
+                "2017": 44,
+                "2018": 44,
+                "2019": 44,
+                "2020": 53,
+                "2021": 58,
+                "2022": 58,
+                "2023": 58,
+                "2024": 58,
+                "2025": 58,
+                "2026": 58,
+                "2027": 58,
+                "2028": 58,
+                "2029": 58,
+                "2030": 58,
+                "2031": 58,
+                "2032": 58,
+                "2033": 58,
+                "2034": 58,
+                "2035": 58,
+                "2036": 58,
+                "2037": 58,
+                "2038": 54,
+                "2039": 51,
+                "2040": 47,
+                "2041": 43,
+                "2042": 39,
+                "2043": 35,
+                "2044": 30,
+                "2045": 12
+            },
+            "phased_scenario_rules": {
+                "2024": {
+                    "Sulfur Oxides (SOx)": "-19.46%"
+                },
+                "2025": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2026": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2027": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2028": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2029": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2030": {
+                    "Sulfur Oxides (SOx)": "-100.00%"
+                },
+                "2031": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-1.79%",
+                    "Support of SDGs (Number of Goals)": "-21.66%"
+                },
+                "2032": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-1.87%",
+                    "Support of SDGs (Number of Goals)": "-22.57%"
+                },
+                "2033": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-1.95%",
+                    "Support of SDGs (Number of Goals)": "-23.53%"
+                },
+                "2034": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.03%",
+                    "Support of SDGs (Number of Goals)": "-24.55%"
+                },
+                "2035": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.12%",
+                    "Support of SDGs (Number of Goals)": "-25.66%"
+                },
+                "2036": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.26%",
+                    "Support of SDGs (Number of Goals)": "-27.36%"
+                },
+                "2037": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%"
+                },
+                "2038": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-5.07%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.19%"
+                },
+                "2039": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-5.49%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.37%"
+                },
+                "2040": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-5.99%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.59%"
+                },
+                "2041": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-6.53%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.82%"
+                },
+                "2042": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-7.22%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-3.11%"
+                },
+                "2043": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-8.19%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-3.53%"
+                },
+                "2044": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-9.86%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-4.25%"
+                },
+                "2045": {
+                    "Sulfur Oxides (SOx)": "-100.00%",
+                    "Average retail electric rate for industrial customers": "-2.42%",
+                    "Support of SDGs (Number of Goals)": "-29.27%",
+                    "Percentage of electric load served by smart grid technology": "-86.91%",
+                    "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-37.51%"
+                }
+            }
+        },
+        "sumitomo": {
+            "most_important_metric": "sumitomo_Governance_Total number on board of directors",
+            "importance_weight": 40.03880861022828,
+            "recommended_action": {},
+            "expected_emissions_2045": 41768838.367671795,
+            "emission_unit": "metric tons Co2e",
+            "historical_score_trend": {
+                "2005": 47,
+                "2016": 52,
+                "2017": 51,
+                "2018": 49,
+                "2019": 48,
+                "2020": 56,
+                "2021": 46,
+                "2022": 49,
+                "2023": 51
+            },
+            "phased_score_trend": {
+                "2005": 45,
+                "2016": 47,
+                "2017": 48,
+                "2018": 33,
+                "2019": 32,
+                "2020": 41,
+                "2021": 40,
+                "2022": 63,
+                "2023": 51,
+                "2024": 51,
+                "2025": 51,
+                "2026": 51,
+                "2027": 51,
+                "2028": 51,
+                "2029": 51,
+                "2030": 51,
+                "2031": 53,
+                "2032": 53,
+                "2033": 53,
+                "2034": 53,
+                "2035": 53,
+                "2036": 53,
+                "2037": 53,
+                "2038": 53,
+                "2039": 53,
+                "2040": 53,
+                "2041": 53,
+                "2042": 53,
+                "2043": 53,
+                "2044": 52,
+                "2045": 52
+            },
+            "phased_scenario_rules": {
+                "2024": {},
+                "2025": {},
+                "2026": {},
+                "2027": {},
+                "2028": {},
+                "2029": {},
+                "2030": {},
+                "2031": {
+                    "Total number of employees": "-6.49%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.73%",
+                    "Percentage of minorities on board of directors": "-0.68%"
+                },
+                "2032": {
+                    "Total number of employees": "-6.71%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.75%",
+                    "Percentage of minorities on board of directors": "-0.70%"
+                },
+                "2033": {
+                    "Total number of employees": "-6.95%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.78%",
+                    "Percentage of minorities on board of directors": "-0.73%"
+                },
+                "2034": {
+                    "Total number of employees": "-7.20%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.81%",
+                    "Percentage of minorities on board of directors": "-0.75%"
+                },
+                "2035": {
+                    "Total number of employees": "-7.48%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.84%",
+                    "Percentage of minorities on board of directors": "-0.78%"
+                },
+                "2036": {
+                    "Total number of employees": "-7.90%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.88%",
+                    "Percentage of minorities on board of directors": "-0.83%"
+                },
+                "2037": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%"
+                },
+                "2038": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-49.67%",
+                    "Mercury (Hg)": "-36.78%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-24.74%"
+                },
+                "2039": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-53.22%",
+                    "Mercury (Hg)": "-39.41%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-26.51%"
+                },
+                "2040": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-57.53%",
+                    "Mercury (Hg)": "-42.60%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-28.66%"
+                },
+                "2041": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-62.11%",
+                    "Mercury (Hg)": "-45.99%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-30.94%"
+                },
+                "2042": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-68.00%",
+                    "Mercury (Hg)": "-50.36%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-33.88%"
+                },
+                "2043": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-76.32%",
+                    "Mercury (Hg)": "-56.51%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-38.02%"
+                },
+                "2044": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-90.57%",
+                    "Mercury (Hg)": "-67.07%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-45.12%"
+                },
+                "2045": {
+                    "Total number of employees": "-8.37%",
+                    "Total recordable Incident Rate": "-100.00%",
+                    "Percentage of women on board of directors": "-0.94%",
+                    "Percentage of minorities on board of directors": "-0.88%",
+                    "Water withdrawals - consumptive rate": "-100.00%",
+                    "Mercury (Hg)": "-100.00%",
+                    "Customer Average Interruption Duration Index, inclusive of major event days": "-100.00%"
                 }
             }
         }

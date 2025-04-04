@@ -141,6 +141,8 @@ def build_risk_analysis_sequential(compiled_data):
     companies = compiled_data.get("companies", {})
 
     for company, data in companies.items():
+        if company == "chubu" or company == "nextera_energy":
+            continue
         risk_analysis[company] = {}
         # We assume the phased recommendations are stored under "phased_scenario_rules" in the "results" field.
         phased_scenario_rules = data.get("phased_scenario_rules", {})

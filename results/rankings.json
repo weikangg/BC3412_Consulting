@@ -8,9 +8,33 @@
         },
         "nextera_energy": {
             "historical_score": 43,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 36,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "ormat": {
+            "historical_score": 47,
+            "historical_rank": 1,
+            "phased_score": 52,
             "phased_rank": 1
+        },
+        "orsted": {
+            "historical_score": 42,
+            "historical_rank": 4,
+            "phased_score": 44,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 47,
+            "historical_rank": 2,
+            "phased_score": 45,
+            "phased_rank": 2
         }
     },
     "2016": {
@@ -22,9 +46,33 @@
         },
         "nextera_energy": {
             "historical_score": 45,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 39,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": 39,
+            "historical_rank": 5,
+            "phased_score": 25,
+            "phased_rank": 5
+        },
+        "ormat": {
+            "historical_score": 52,
+            "historical_rank": 1,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "orsted": {
+            "historical_score": 41,
+            "historical_rank": 4,
+            "phased_score": 44,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 52,
+            "historical_rank": 2,
+            "phased_score": 47,
+            "phased_rank": 2
         }
     },
     "2017": {
@@ -36,37 +84,109 @@
         },
         "nextera_energy": {
             "historical_score": 44,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 38,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": 39,
+            "historical_rank": 5,
+            "phased_score": 26,
+            "phased_rank": 5
+        },
+        "ormat": {
+            "historical_score": 48,
+            "historical_rank": 2,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "orsted": {
+            "historical_score": 42,
+            "historical_rank": 4,
+            "phased_score": 44,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 51,
+            "historical_rank": 1,
+            "phased_score": 48,
+            "phased_rank": 2
         }
     },
     "2018": {
         "chubu": {
             "historical_score": 40,
-            "historical_rank": 2,
+            "historical_rank": 5,
             "phased_score": 58,
             "phased_rank": 1
         },
         "nextera_energy": {
             "historical_score": 44,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 41,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": 37,
+            "historical_rank": 6,
+            "phased_score": 17,
+            "phased_rank": 6
+        },
+        "ormat": {
+            "historical_score": 53,
+            "historical_rank": 1,
+            "phased_score": 52,
             "phased_rank": 2
+        },
+        "orsted": {
+            "historical_score": 42,
+            "historical_rank": 4,
+            "phased_score": 44,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 49,
+            "historical_rank": 2,
+            "phased_score": 33,
+            "phased_rank": 5
         }
     },
     "2019": {
         "chubu": {
             "historical_score": 40,
-            "historical_rank": 2,
+            "historical_rank": 6,
             "phased_score": 58,
             "phased_rank": 1
         },
         "nextera_energy": {
             "historical_score": 41,
-            "historical_rank": 1,
+            "historical_rank": 5,
             "phased_score": 28,
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": 43,
+            "historical_rank": 3,
+            "phased_score": 20,
+            "phased_rank": 6
+        },
+        "ormat": {
+            "historical_score": 50,
+            "historical_rank": 1,
+            "phased_score": 52,
             "phased_rank": 2
+        },
+        "orsted": {
+            "historical_score": 42,
+            "historical_rank": 4,
+            "phased_score": 44,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 48,
+            "historical_rank": 2,
+            "phased_score": 32,
+            "phased_rank": 4
         }
     },
     "2020": {
@@ -78,51 +198,147 @@
         },
         "nextera_energy": {
             "historical_score": 55,
-            "historical_rank": 2,
+            "historical_rank": 3,
             "phased_score": 61,
             "phased_rank": 2
+        },
+        "chugoku": {
+            "historical_score": 49,
+            "historical_rank": 5,
+            "phased_score": 21,
+            "phased_rank": 6
+        },
+        "ormat": {
+            "historical_score": 52,
+            "historical_rank": 4,
+            "phased_score": 43,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": 45,
+            "historical_rank": 6,
+            "phased_score": 53,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 56,
+            "historical_rank": 2,
+            "phased_score": 41,
+            "phased_rank": 5
         }
     },
     "2021": {
         "chubu": {
             "historical_score": 56,
-            "historical_rank": 2,
+            "historical_rank": 5,
             "phased_score": 72,
             "phased_rank": 1
         },
         "nextera_energy": {
             "historical_score": 57,
-            "historical_rank": 1,
+            "historical_rank": 4,
             "phased_score": 57,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": 68,
+            "historical_rank": 1,
+            "phased_score": 66,
             "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": 61,
+            "historical_rank": 2,
+            "phased_score": 39,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": 58,
+            "historical_rank": 3,
+            "phased_score": 58,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 46,
+            "historical_rank": 6,
+            "phased_score": 40,
+            "phased_rank": 5
         }
     },
     "2022": {
         "chubu": {
             "historical_score": 50,
-            "historical_rank": 2,
+            "historical_rank": 4,
             "phased_score": 56,
-            "phased_rank": 1
+            "phased_rank": 4
         },
         "nextera_energy": {
             "historical_score": 60,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 54,
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": 64,
+            "historical_rank": 2,
+            "phased_score": 67,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": 35,
+            "historical_rank": 6,
+            "phased_score": 39,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": 67,
+            "historical_rank": 1,
+            "phased_score": 58,
+            "phased_rank": 3
+        },
+        "sumitomo": {
+            "historical_score": 49,
+            "historical_rank": 5,
+            "phased_score": 63,
             "phased_rank": 2
         }
     },
     "2023": {
         "chubu": {
             "historical_score": 56,
-            "historical_rank": 2,
+            "historical_rank": 4,
             "phased_score": 59,
             "phased_rank": 1
         },
         "nextera_energy": {
             "historical_score": 60,
-            "historical_rank": 1,
+            "historical_rank": 3,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": 60,
+            "historical_rank": 2,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": 52,
+            "historical_rank": 5,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": 70,
+            "historical_rank": 1,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": 51,
+            "historical_rank": 6,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2024": {
@@ -136,7 +352,31 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2025": {
@@ -150,7 +390,31 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2026": {
@@ -164,7 +428,31 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2027": {
@@ -178,7 +466,31 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2028": {
@@ -192,7 +504,31 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2029": {
@@ -200,13 +536,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 57,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
-            "phased_rank": 2
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2030": {
@@ -214,13 +574,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 57,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
-            "phased_rank": 2
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 5
         }
     },
     "2031": {
@@ -228,13 +612,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 56,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
-            "phased_rank": 2
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 4
         }
     },
     "2032": {
@@ -242,13 +650,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 55,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
-            "phased_rank": 2
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 3
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 4
         }
     },
     "2033": {
@@ -256,13 +688,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 54,
-            "phased_rank": 1
+            "phased_rank": 3
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 4
         }
     },
     "2034": {
@@ -270,13 +726,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 53,
-            "phased_rank": 1
+            "phased_rank": 3
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 4
         }
     },
     "2035": {
@@ -284,13 +764,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
-            "phased_rank": 1
+            "phased_rank": 4
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 5
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
+            "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 3
         }
     },
     "2036": {
@@ -298,13 +802,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 51,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 3
         }
     },
     "2037": {
@@ -312,13 +840,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 50,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
+            "phased_rank": 2
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 6
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 58,
             "phased_rank": 1
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 3
         }
     },
     "2038": {
@@ -326,13 +878,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 49,
-            "phased_rank": 2
+            "phased_rank": 6
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 4
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 5
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 54,
+            "phased_rank": 2
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 3
         }
     },
     "2039": {
@@ -340,13 +916,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 48,
-            "phased_rank": 2
+            "phased_rank": 6
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 3
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 5
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 4
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 2
         }
     },
     "2040": {
@@ -354,13 +954,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 47,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 3
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 47,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 2
         }
     },
     "2041": {
@@ -368,13 +992,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 46,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 3
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 43,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 2
         }
     },
     "2042": {
@@ -382,13 +1030,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 44,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 3
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 55,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 39,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 2
         }
     },
     "2043": {
@@ -396,13 +1068,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 42,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 3
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 54,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 35,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
+            "phased_rank": 2
         }
     },
     "2044": {
@@ -410,13 +1106,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 39,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 2
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 54,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 30,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 3
         }
     },
     "2045": {
@@ -424,13 +1144,37 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 37,
-            "phased_rank": 2
+            "phased_rank": 5
         },
         "nextera_energy": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 52,
+            "phased_rank": 2
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 53,
             "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 4
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 12,
+            "phased_rank": 6
+        },
+        "sumitomo": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 3
         }
     },
     "2046": {
@@ -438,9 +1182,33 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 35,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 52,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "sumitomo": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": null,
@@ -452,9 +1220,33 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 33,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 51,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "sumitomo": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": null,
@@ -466,9 +1258,33 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 30,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 50,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "sumitomo": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": null,
@@ -480,9 +1296,33 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 28,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 49,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "sumitomo": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": null,
@@ -494,9 +1334,33 @@
             "historical_score": null,
             "historical_rank": null,
             "phased_score": 20,
-            "phased_rank": 1
+            "phased_rank": 2
         },
         "nextera_energy": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "chugoku": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": 42,
+            "phased_rank": 1
+        },
+        "ormat": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "orsted": {
+            "historical_score": null,
+            "historical_rank": null,
+            "phased_score": null,
+            "phased_rank": null
+        },
+        "sumitomo": {
             "historical_score": null,
             "historical_rank": null,
             "phased_score": null,

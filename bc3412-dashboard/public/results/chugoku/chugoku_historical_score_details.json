@@ -1,0 +1,108 @@
+{
+    "historical": {
+        "2016": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 56.83599428383044,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 37.357666897407135,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 39
+        },
+        "2017": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 61.042759996957365,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 37.357666897407135,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 39
+        },
+        "2018": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 31.595400005071255,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 37.357666897407135,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 37
+        },
+        "2019": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 40.00893143132451,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 37.357666897407135,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 43
+        },
+        "2020": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 31.595400005071255,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 40.54541850836182,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 49
+        },
+        "2021": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 77.86982284946329,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 68.43824513296485,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 68
+        },
+        "2022": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 61.042759996957365,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 73.14742363607994,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 64
+        },
+        "2023": {
+            "metrics": {
+                "chugoku_Environment_Percent of coal combustion products beneficially used": {
+                    "score": 40.00893143132451,
+                    "weight": 25.16040913076302
+                },
+                "chugoku_Governance_Percentage of women on board of directors": {
+                    "score": 68.43824513296485,
+                    "weight": 74.83959086923697
+                }
+            },
+            "overall_score": 60
+        }
+    }
+}

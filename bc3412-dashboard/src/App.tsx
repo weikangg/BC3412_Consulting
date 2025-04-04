@@ -5,7 +5,7 @@ import RiskTable from './components/RiskTable';
 function App() {
   return (
     <div className="App">
-      <h1>Dashboard</h1>
+      <h1>TransitionPath Insights Dashboard</h1>
       <ScoreTable />
       <RiskTable />
     </div>

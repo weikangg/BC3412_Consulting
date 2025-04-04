@@ -1,0 +1,37 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                           \n================================================================================================\nDep. Variable:     ormat_SASB_Metrics_Scope 3 Emissions   No. Observations:                    9\nModel:                                              GLM   Df Residuals:                        7\nModel Family:                                     Gamma   Df Model:                            1\nLink Function:                                      Log   Scale:                          2.4064\nMethod:                                            IRLS   Log-Likelihood:                -113.25\nDate:                                  Fri, 04 Apr 2025   Deviance:                       11.783\nTime:                                          18:24:11   Pearson chi2:                     16.8\nNo. Iterations:                                      47   Pseudo R-squ. (CS):             0.8489\nCovariance Type:                              nonrobust                                         \n===================================================================================================================================\n                                                                      coef    std err          z      P>|z|      [0.025      0.975]\n-----------------------------------------------------------------------------------------------------------------------------------\nconst                                                              11.4273      0.517     22.100      0.000      10.414      12.441\normat_SASB_Metrics_Average retail electric rate for residential     3.4088      0.517      6.592      0.000       2.395       4.422\n===================================================================================================================================",
+    "selected_predictors": [
+        "ormat_SASB_Metrics_Average retail electric rate for residential"
+    ],
+    "variable_importance_weights": {
+        "ormat_SASB_Metrics_Average retail electric rate for residential": 100.0
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 116.04672745655353
+        },
+        {
+            "Variable": "ormat_SASB_Metrics_Average retail electric rate for residential",
+            "VIF": 1.0
+        }
+    ],
+    "residuals": [
+        -3151.6668431793014,
+        -3151.6668431793014,
+        -3151.6668431793014,
+        -3151.6668431793014,
+        -3151.6668431793014,
+        -3151.6668431793014,
+        1884917.9484778873,
+        -21957132.537107848,
+        -47042258.174033105
+    ],
+    "coefficients": {
+        "const": 11.427348040052664,
+        "ormat_SASB_Metrics_Average retail electric rate for residential": 3.4087676981830737
+    },
+    "log_likelihood": -113.24626362303755,
+    "aic": 230.4925272460751,
+    "bic": -3.597276453925531
+}

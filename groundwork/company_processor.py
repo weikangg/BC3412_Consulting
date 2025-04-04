@@ -256,27 +256,6 @@ def process_company(
     fig_folder = os.path.join("fig", comp)
     os.makedirs(fig_folder, exist_ok=True)
 
-    logger.info(f"========== BUILDING RECOMMENDATION SUMMARY for {comp} ==========")
-    company_results_folder = os.path.join("results", comp)
-    try:
-        # 1. Load all necessary JSON results just saved for this company
-        comp_results_data = compile_company_results(company_results_folder)
-
-        # 2. Build the recommendation summary
-        recommendation_summary = build_recommendation_for_company(comp_results_data)
-
-        # 3. Save the individual summary
-        save_individual_recommendation(comp, recommendation_summary, logger)
-
-    except Exception as e:
-        logger.error(f"[{comp}] Failed to build or save individual recommendation summary: {e}", exc_info=True)
-
-    logger.info("\n========== PERFORMING RISK ANALYSIS (May take time due to API calls) ==========")
-    try:
-        risk_analyzer.main()
-    except Exception as e:
-        print(f"ERROR running risk analyzer: {e}")
-
     # --- Calculate Scores for Each Year ---
     logger.info("========== CALCULATING HISTORICAL SCORES (Based on S1, S2, S3 Emission Weights) ==========")
 
@@ -338,6 +317,21 @@ def process_company(
 
     # Save the per-year scores for the company:
     save_company_score_details(comp, detailed_scores, logger=logger)
+
+    logger.info(f"========== BUILDING RECOMMENDATION SUMMARY for {comp} ==========")
+    company_results_folder = os.path.join("results", comp)
+    try:
+        # 1. Load all necessary JSON results just saved for this company
+        comp_results_data = compile_company_results(company_results_folder)
+
+        # 2. Build the recommendation summary
+        recommendation_summary = build_recommendation_for_company(comp_results_data)
+
+        # 3. Save the individual summary
+        save_individual_recommendation(comp, recommendation_summary, logger)
+
+    except Exception as e:
+        logger.error(f"[{comp}] Failed to build or save individual recommendation summary: {e}", exc_info=True)
 
     return df_wide, scenario_scores_df, weights_total
 

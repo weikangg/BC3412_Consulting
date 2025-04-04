@@ -1,0 +1,165 @@
+{
+    "most_important_metric": "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+    "importance_weight": 78.65226449243467,
+    "recommended_action": {},
+    "expected_emissions_2045": 638301.5700892499,
+    "emission_unit": "metric tons Co2e",
+    "historical_score_trend": {
+        "2005": 42,
+        "2016": 41,
+        "2017": 42,
+        "2018": 42,
+        "2019": 42,
+        "2020": 45,
+        "2021": 58,
+        "2022": 67,
+        "2023": 70
+    },
+    "phased_score_trend": {
+        "2005": 44,
+        "2016": 44,
+        "2017": 44,
+        "2018": 44,
+        "2019": 44,
+        "2020": 53,
+        "2021": 58,
+        "2022": 58,
+        "2023": 58,
+        "2024": 58,
+        "2025": 58,
+        "2026": 58,
+        "2027": 58,
+        "2028": 58,
+        "2029": 58,
+        "2030": 58,
+        "2031": 58,
+        "2032": 58,
+        "2033": 58,
+        "2034": 58,
+        "2035": 58,
+        "2036": 58,
+        "2037": 58,
+        "2038": 54,
+        "2039": 51,
+        "2040": 47,
+        "2041": 43,
+        "2042": 39,
+        "2043": 35,
+        "2044": 30,
+        "2045": 12
+    },
+    "phased_scenario_rules": {
+        "2024": {
+            "Sulfur Oxides (SOx)": "-19.46%"
+        },
+        "2025": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2026": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2027": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2028": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2029": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2030": {
+            "Sulfur Oxides (SOx)": "-100.00%"
+        },
+        "2031": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-1.79%",
+            "Support of SDGs (Number of Goals)": "-21.66%"
+        },
+        "2032": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-1.87%",
+            "Support of SDGs (Number of Goals)": "-22.57%"
+        },
+        "2033": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-1.95%",
+            "Support of SDGs (Number of Goals)": "-23.53%"
+        },
+        "2034": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.03%",
+            "Support of SDGs (Number of Goals)": "-24.55%"
+        },
+        "2035": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.12%",
+            "Support of SDGs (Number of Goals)": "-25.66%"
+        },
+        "2036": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.26%",
+            "Support of SDGs (Number of Goals)": "-27.36%"
+        },
+        "2037": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%"
+        },
+        "2038": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-5.07%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.19%"
+        },
+        "2039": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-5.49%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.37%"
+        },
+        "2040": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-5.99%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.59%"
+        },
+        "2041": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-6.53%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-2.82%"
+        },
+        "2042": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-7.22%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-3.11%"
+        },
+        "2043": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-8.19%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-3.53%"
+        },
+        "2044": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-9.86%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-4.25%"
+        },
+        "2045": {
+            "Sulfur Oxides (SOx)": "-100.00%",
+            "Average retail electric rate for industrial customers": "-2.42%",
+            "Support of SDGs (Number of Goals)": "-29.27%",
+            "Percentage of electric load served by smart grid technology": "-86.91%",
+            "Typical monthly electric bill for residential customers for 500 kWh of electricity delivered per month": "-37.51%"
+        }
+    }
+}

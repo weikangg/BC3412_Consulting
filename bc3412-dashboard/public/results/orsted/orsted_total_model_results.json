@@ -1,0 +1,44 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                          \n===============================================================================================\nDep. Variable:     orsted_SASB_Metrics_Total Emissions   No. Observations:                    9\nModel:                                             GLM   Df Residuals:                        6\nModel Family:                                    Gamma   Df Model:                            2\nLink Function:                                     Log   Scale:                        0.043549\nMethod:                                           IRLS   Log-Likelihood:                -149.80\nDate:                                 Fri, 04 Apr 2025   Deviance:                      0.27239\nTime:                                         18:24:13   Pearson chi2:                    0.261\nNo. Iterations:                                      9   Pseudo R-squ. (CS):              1.000\nCovariance Type:                             nonrobust                                         \n===================================================================================================================================================\n                                                                                      coef    std err          z      P>|z|      [0.025      0.975]\n---------------------------------------------------------------------------------------------------------------------------------------------------\nconst                                                                              16.9568      0.070    243.767      0.000      16.820      17.093\norsted_SASB_Metrics_GHG Emissions                                                   0.2226      0.098      2.277      0.023       0.031       0.414\norsted_SASB_Metrics_Percentage of electric load served by smart grid technology    -0.8202      0.098     -8.390      0.000      -1.012      -0.629\n===================================================================================================================================================",
+    "selected_predictors": [
+        "orsted_SASB_Metrics_GHG Emissions",
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology"
+    ],
+    "variable_importance_weights": {
+        "orsted_SASB_Metrics_GHG Emissions": 21.34773550756532,
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": 78.65226449243467
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 2370.0353401341736
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_GHG Emissions",
+            "VIF": 1.9750315284312934
+        },
+        {
+            "Variable": "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology",
+            "VIF": 1.9750315284312925
+        }
+    ],
+    "residuals": [
+        -167274.11916570365,
+        -167274.11916570365,
+        -167274.11916570365,
+        -167274.11916570365,
+        -167274.11916570365,
+        881042.4622207582,
+        -1846501.4895305214,
+        -189681.12624085136,
+        1989551.332607787
+    ],
+    "coefficients": {
+        "const": 16.956756928801074,
+        "orsted_SASB_Metrics_GHG Emissions": 0.22260840802907525,
+        "orsted_SASB_Metrics_Percentage of electric load served by smart grid technology": -0.8201645265999213
+    },
+    "log_likelihood": -149.80267338053886,
+    "aic": 305.6053467610777,
+    "bic": -12.910960846542551
+}

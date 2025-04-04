@@ -1,0 +1,25 @@
+Metric,2005,2016,2017,2018,2019,2020,2021,2022,2023,Units
+Scope 1 Emissions,not reported,not reported,not reported,21.26,20.34,19.11,17.39,18.5,19.61,million t-CO2
+Scope 2 Emissions,not reported,not reported,not reported,40,40,50,30,30,40,million t-CO2
+Scope 3 Emissions,not reported,not reported,not reported,17.6,14.3,11.53,10.71,10.23,8.3,million t-CO2
+GHG Emissions associated with power deliveries,not reported,not reported,not reported,not reported,not reported,not reported,24.15,25.27,24.72,million t-CO2
+"Nitrogen Oxides, excluding nitrous oxide",not reported,not reported,not reported,not reported,not reported,not reported,6000,"7,000",6000,t
+Sulfur Oxides (SOx),not reported,not reported,not reported,not reported,not reported,not reported,4000,"3,000",3000,t
+Particulate matter (PM 10),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t
+Lead (Pb),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t
+Mercury (Hg),not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,not reported,t
+Water withdrawn (Fresh water),not reported,not reported,not reported,not reported,not reported,not reported,5340,"5,650",6260,"1,000 m3"
+Water withdrawn (Seawater),not reported,not reported,not reported,not reported,not reported,not reported,5290000,"5,490,000",6260000,"1,000 m3"
+Water consumed (Fresh water),not reported,not reported,not reported,not reported,not reported,not reported,2680,"5,650",6260,"1,000 m3"
+Amount of Coal Combustion Residuals (CCR) generated,not reported,not reported,not reported,not reported,not reported,not reported,541,602,704,kt
+Average retail electric rate for residential customers,not reported,not reported,not reported,not reported,not reported,not reported,22.13,21.3,27.4,JPY/kWh
+Average retail electric rate for commercial customers,not reported,not reported,not reported,not reported,not reported,not reported,14.68,13.52,21.71,JPY/kWh (Total C&I)
+Average retail electric rate for industrial customers,not reported,not reported,not reported,not reported,not reported,not reported,14.68,13.52,21.71,JPY/kWh (Total C&I)
+Typical monthly electric bill for residential customers for 500 kWh,not reported,not reported,not reported,not reported,not reported,not reported,"13,577","14,640","18,959",JPY
+Typical monthly electric bill for residential customers for 1000kWh,not reported,not reported,not reported,not reported,not reported,not reported,"27,153","29,280","37,918",JPY
+Total recordable Incident Rate,not reported,not reported,not reported,not reported,not reported,not reported,0.09,0.09,0.08,%
+Workforce Fatality Frequency,not reported,not reported,not reported,not reported,not reported,not reported,0,1,0,
+Percentage of electric load served by smart grid technology,not reported,not reported,not reported,not reported,not reported,not reported,67,78,89,%
+System Average Interruption Duration Index (SAIDI),not reported,not reported,not reported,not reported,not reported,not reported,20,10,12,minutes
+System Average Interruption Frequency Index (SAIFI),not reported,not reported,not reported,not reported,not reported,not reported,0.15,0.15,0.14,number of times
+Customer Average Interruption Duration Index (CAIDI),not reported,not reported,not reported,not reported,not reported,not reported,134.9,66.5,83.9,minutes

@@ -1,0 +1,37 @@
+{
+    "model_summary": "                          Generalized Linear Model Regression Results                           \n================================================================================================\nDep. Variable:     ormat_SASB_Metrics_Scope 1 Emissions   No. Observations:                    9\nModel:                                              GLM   Df Residuals:                        7\nModel Family:                                     Gamma   Df Model:                            1\nLink Function:                                      Log   Scale:                         0.23151\nMethod:                                            IRLS   Log-Likelihood:                -137.24\nDate:                                  Fri, 04 Apr 2025   Deviance:                       1.8306\nTime:                                          18:24:11   Pearson chi2:                     1.62\nNo. Iterations:                                      13   Pseudo R-squ. (CS):             0.8865\nCovariance Type:                              nonrobust                                         \n=============================================================================================================================\n                                                                coef    std err          z      P>|z|      [0.025      0.975]\n-----------------------------------------------------------------------------------------------------------------------------\nconst                                                        14.7050      0.160     91.686      0.000      14.391      15.019\normat_Environment_Retail Electric Customers (Residential)     0.6591      0.160      4.109      0.000       0.345       0.973\n=============================================================================================================================",
+    "selected_predictors": [
+        "ormat_Environment_Retail Electric Customers (Residential)"
+    ],
+    "variable_importance_weights": {
+        "ormat_Environment_Retail Electric Customers (Residential)": 100.0
+    },
+    "vif": [
+        {
+            "Variable": "const",
+            "VIF": 103.49146502810272
+        },
+        {
+            "Variable": "ormat_Environment_Retail Electric Customers (Residential)",
+            "VIF": 1.0
+        }
+    ],
+    "residuals": [
+        292146.9420854943,
+        -854850.4268831261,
+        268944.6943474419,
+        -1285448.3516622004,
+        -368426.44301093323,
+        -1640224.2961104629,
+        697320.6693916591,
+        2334005.015078544,
+        1472592.004462432
+    ],
+    "coefficients": {
+        "const": 14.704977454260176,
+        "ormat_Environment_Retail Electric Customers (Residential)": 0.6590605887515849
+    },
+    "log_likelihood": -137.24285290489914,
+    "aic": 278.4857058097983,
+    "bic": -13.549922609198006
+}
